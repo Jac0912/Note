@@ -154,7 +154,38 @@ public class Main {
 }
 ```
 
+#### dp+滚动数组(一维dp)(AC)
 
+```java
+import java.util.Scanner;
+
+public class Main {
+	static int N,V;
+	static int[][]item;
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		N=input.nextInt();
+		V=input.nextInt();
+		item=new int [N+1][2];
+		int []dp=new int[V+1];
+		for(int i=1;i<=N;i++)
+		{
+			item[i][0]=input.nextInt();
+			item[i][1]=input.nextInt();
+		}
+		for(int i=1;i<=N;i++) {
+			for(int j=V;j>0;j--) {
+				if(j<item[i][0]) {
+					continue;
+				}
+				dp[j]=Integer.max(dp[j-item[i][0]]+item[i][1],dp[j]);
+			}
+		}
+		System.out.println(dp[V]);
+	}
+
+}
+```
 
 
 
@@ -472,5 +503,77 @@ class Solution {
 		return dp[n];
 	}
 }
+```
+
+### 96.不同的二叉搜索树
+
+```java
+class Solution {
+    public int numTrees(int n) {
+    	int []dp=new int[n+1];
+    	dp[0]=1;
+    	for(int i=1;i<=n;i++) {
+    		for(int j=1;j<=i;j++) {
+    			dp[i]+=dp[j-1]*dp[i-j];
+    		}
+    	}
+    	return dp[n];
+    }
+}
+```
+
+### 416.分割等和子集
+
+#### dfs+剪枝+回溯
+
+```java
+package ac;
+
+public class Main {
+    static boolean flag;
+	public static void main(String[] args) {
+		int []nums= {1,2,5};
+		System.out.println(canPartition(nums));
+		
+	}
+	public static boolean canPartition(int[] nums) {
+		boolean[] visit = new boolean[nums.length];
+		int tar = 0;
+		for (Integer i : nums) {
+			tar += i;
+		}
+		System.out.println(tar);
+		if (tar % 2 != 0) {
+			return false;
+		}
+
+		dfs( 0, nums,tar,visit);
+		if(flag) {
+			return true;
+		}
+		return false;
+	}
+
+	private static void dfs( int sum, int[] nums,int tar,boolean[]visit) {
+		
+		if (flag||sum>tar/2) {
+			return;
+		}
+		if (sum == tar / 2) {
+			flag = true;
+			return;
+		}
+
+			for (int j = 0; j < nums.length; j++) {
+				if (!visit[j]) {
+					visit[j] = true;
+					dfs( sum + nums[j], nums,tar,visit);
+					visit[j] = false;
+				}
+
+			}
+	}
+}
+
 ```
 
