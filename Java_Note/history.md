@@ -187,7 +187,8 @@ public class Main {
 }
 ```
 
-
+- 只能先遍历物品后遍历背包
+- 背包体积倒序遍历(防止物品拿取重复)
 
 
 
@@ -527,13 +528,16 @@ class Solution {
 #### dfs+剪枝+回溯
 
 ```java
+package ac;
+
 public class Main {
-    static boolean flag;
+	static boolean flag;
+
 	public static void main(String[] args) {
-		int []nums= {1,2,3,4,5,6,7};
+		int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
 		System.out.println(canPartition(nums));
-		
 	}
+
 	public static boolean canPartition(int[] nums) {
 		boolean[] visit = new boolean[nums.length];
 		int tar = 0;
@@ -545,16 +549,16 @@ public class Main {
 			return false;
 		}
 
-		dfs( 0, nums,tar,visit);
-		if(flag) {
+		dfs(0, 0, nums, tar, visit);
+		if (flag) {
 			return true;
 		}
 		return false;
 	}
 
-	private static void dfs( int sum, int[] nums,int tar,boolean[]visit) {
-		
-		if (flag||sum>tar/2) {
+	private static void dfs(int curr, int sum, int[] nums, int tar, boolean[] visit) {
+
+		if (flag || sum > tar / 2) {
 			return;
 		}
 		if (sum == tar / 2) {
@@ -562,16 +566,49 @@ public class Main {
 			return;
 		}
 
-			for (int j = 0; j < nums.length; j++) {
-				if (!visit[j]) {
-					visit[j] = true;
-					dfs( sum + nums[j], nums,tar,visit);
-					visit[j] = false;
-				}
-
+		for (int j = curr; j < nums.length; j++) {
+			if (!visit[j]) {
+				visit[j] = true;
+				dfs(curr + 1, sum + nums[j], nums, tar, visit);
+				visit[j] = false;
 			}
+		}
 	}
 }
 
+```
+
+#### dp
+
+类比01背包：
+
+- 每个物品只取一次
+- 背包体积为`tar/2`
+- 将第i个数看成体积、价值为`nums[i]`的物品
+
+```java
+class Solution {
+    public boolean canPartition(int[] nums) {
+    	int tar=0;
+    	for(Integer i:nums) {
+    		tar+=i;
+    	}
+    	if(tar%2!=0) {
+    		return false;
+    	}
+    	tar/=2;
+    	int []dp=new int[tar+1];
+    	for(int i=0;i<nums.length;i++) {
+    		for(int j=tar;j>=nums[i];j--) {
+                //保证当前体积能装下物品
+    			dp[j]=Integer.max(dp[j],dp[j-nums[i]]+nums[i]);
+    		}
+    	}
+    	if(dp[tar]==tar) {
+    		return true;
+    	}
+    	return false;
+    }
+}
 ```
 
