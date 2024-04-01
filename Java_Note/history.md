@@ -527,12 +527,10 @@ class Solution {
 #### dfs+剪枝+回溯
 
 ```java
-package ac;
-
 public class Main {
     static boolean flag;
 	public static void main(String[] args) {
-		int []nums= {1,2,5};
+		int []nums= {1,2,3,4,5,6,7};
 		System.out.println(canPartition(nums));
 		
 	}
