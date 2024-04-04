@@ -647,7 +647,13 @@ class Solution {
 
 - 正数区间`left`,负数区间`right`
 
-$left+right=sum\\left-right=target\\⇒ left=(target+sum)/2$
+$$
+\begin{align} 
+   &left+right=sum\\
+   &left-right=target\\
+⇒  &left=(target+sum)/2
+\end{align}
+$$
 
 - 若不能整除则无满足条件解
 - 求解从给定集合中拿取`left`的方法数
