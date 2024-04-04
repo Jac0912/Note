@@ -612,3 +612,80 @@ class Solution {
 }
 ```
 
+### 1049.最后一块石头的重量Ⅱ
+
+**尽可能分成重量近似的两堆石头**
+
+- 有一个`总重量/2`的背包
+- 所能拿到的最大重量(价值)
+- 类**01背包**
+
+```java
+class Solution {
+    public int lastStoneWeightII(int[] stones) {
+    	int len=stones.length;
+    	int size=0;
+    	for(int temp:stones) {
+    		size+=temp;
+    	}
+    	int []dp=new int[size/2+1];
+    	for(int i=0;i<len;i++) {
+    		for(int j=size/2;j>=stones[i];j--) {
+    			dp[j]=Integer.max(dp[j],dp[j-stones[i]]+stones[i]);
+    		}
+    	}
+    	
+    	return size-2*dp[size/2];
+    	
+    }
+}
+```
+
+### 494.目标和
+
+**01背包：装满背包的方法数**
+
+- 正数区间`left`,负数区间`right`
+
+$$
+left+right=sum\\
+left-right=target\\
+⇒\\
+left=(target+sum)/2
+$$
+
+- 若不能整除则无满足条件解
+- 求解从给定集合中拿取`left`的方法数
+
+- `dp[i]`含义：拿取`i`的方法数
+- `dp[0]`初始化为**1**
+
+```java
+class Solution {
+	public int findTargetSumWays(int[] nums, int target) {
+		int len = nums.length;
+		int sum = 0;
+		for (int temp : nums) {
+			sum += temp;
+		}
+
+		int left = (sum + target) / 2;
+		if ((sum + target) % 2 != 0 || left < 0) {
+            //有可能目标的正数<0(方法数为0)
+			return 0;
+		}
+
+		int[] dp = new int[left + 1];
+		dp[0] = 1;
+
+		for (int i = 0; i < len; i++) {
+			for (int j = left; j >= nums[i]; j--) {
+				dp[j] += dp[j - nums[i]];
+			}
+		}
+
+		return dp[left];
+	}
+}
+```
+
