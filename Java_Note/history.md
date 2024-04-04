@@ -690,3 +690,38 @@ class Solution {
 }
 ```
 
+### 474.一和零
+
+**01背包：装满背包最多有多少个物品**
+
+- m,n两个维度；结果`dp[m][n]`
+- 先遍历物品，再遍历背包(背包倒序遍历，防重复)
+
+```java
+class Solution {
+	public int findMaxForm(String[] strs, int m, int n) {
+		int[][] dp = new int[m + 1][n + 1];
+		for (String str : strs) {
+			int x = 0, y = 0;
+			for (char ch : str.toCharArray()) {
+				if (ch == '0') {
+					x++;
+				} else {
+					y++;
+				}
+			}
+
+			for (int i = m; i >= x; i--) {
+				for (int j = n; j >= y; j--) {
+            //m,n遍历顺序无要求，本质上都是遍历背包
+					dp[i][j] = Integer.max(dp[i - x][j - y] + 1, dp[i][j]);
+				}
+			}
+		}
+		return dp[m][n];
+	}
+}
+```
+
+### 518.零钱兑换Ⅱ
+
