@@ -725,3 +725,49 @@ class Solution {
 
 ### 518.零钱兑换Ⅱ
 
+求**组和**次数
+
+**!!**   `dp[0]=1`
+
+- 先物品后背包为组合数
+- 先背包后物品为排列数
+
+```java
+class Solution {
+    public int change(int amount, int[] coins) {
+    	int len=coins.length;
+    	int []dp=new int[amount+1];
+    	dp[0]=1;
+    	for(int i=0;i<len;i++) {
+    		for(int j=coins[i];j<=amount;j++) {
+    			dp[j]+=dp[j-coins[i]];
+    		}
+    	}
+    	return dp[amount];
+    }
+}
+```
+
+### 377.组合总和Ⅳ
+
+- 求排列数
+- 先遍历背包后遍历物品(**加判断条件**)
+
+```java
+class Solution {
+	public int combinationSum4(int[] nums, int target) {
+		int len = nums.length;
+		int[] dp = new int[target + 1];
+		dp[0] = 1;
+		for (int i = 0; i <= target; i++) {
+			for (int j = 0; j < len; j++) {
+				if (i >= nums[j]) {
+					dp[i] += dp[i - nums[j]];
+				}
+			}
+		}
+		return dp[target];
+	}
+}
+```
+
