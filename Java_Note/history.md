@@ -803,3 +803,27 @@ class Solution {
 }
 ```
 
+### 279.完全平方数
+
+- **完全背包：**求给定背包体积(**n**)装满所需最小物品数
+- **物品：**满足`i*i<=n`的`i`
+- 需进行判断，剔除不能满足条件的情况
+
+```java
+class Solution {
+    public int numSquares(int n) {
+    	int []dp=new int[n+1];
+    	Arrays.fill(dp,Integer.MAX_VALUE);
+    	dp[0]=0;
+    	for(int i=1;i*i<=n;i++) {
+    		for(int j=i*i;j<=n;j++) {
+    			if(dp[j-i*i]!=Integer.MAX_VALUE) {
+    				dp[j]=Integer.min(dp[j-i*i]+1,dp[j]);
+    			}
+    		}
+    	}
+    	return dp[n];
+    }
+}
+```
+
