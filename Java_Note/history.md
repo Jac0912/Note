@@ -771,3 +771,35 @@ class Solution {
 }
 ```
 
+### 322.零钱兑换
+
+**完全背包：**装指定价值所需最小物品数量
+
+- 遍历顺序可以交换(`dp[i]`的含义是背包容量为`i`时的最少元素数量)
+- 不管是排列、组合，不影响`dp`数组的含义
+- 初始化为`Integer.MAX_VALUE,dp[0]=0`
+
+```java
+class Solution {
+	public int coinChange(int[] coins, int amount) {
+		int len = coins.length;
+		int[] dp = new int[amount + 1];
+		Arrays.fill(dp, Integer.MAX_VALUE);
+		dp[0] = 0;
+		for (int i = 0; i < len; i++) {
+			for (int j = coins[i]; j <= amount; j++) {
+				if (dp[j - coins[i]] != Integer.MAX_VALUE) {
+              //只有前一个不为Integer.MAX_VALUE时,才有必要考虑
+              //为Integer.MAX_VALUE时,相当于此种方式不可行
+					dp[j] = Integer.min(dp[j - coins[i]] + 1, dp[j]);
+				}
+			}
+		}
+		if (dp[amount] == Integer.MAX_VALUE) {
+			return -1;
+		}
+		return dp[amount];
+	}
+}
+```
+

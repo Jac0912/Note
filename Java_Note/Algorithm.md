@@ -730,3 +730,10 @@ public class Test {
 
 
 3.求和开long
+
+| Integer.MAX_VALUE | Integer.MIN_VALUE | Integer.MAX_VALUE+1 | Math.abs(Integer.MIN_VALUE) |
+| :---------------: | :---------------: | :-----------------: | :-------------------------: |
+|    2147483647     |  **-2147483648**  |   **-2147483648**   |       **-2147483648**       |
+
+对`Integer.MIN_VALUE`取绝对值后数值大于`Integer`最大值，**结果仍为负数**
+
