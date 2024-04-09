@@ -525,6 +525,19 @@ isUpperCase(char ch);
 isWhitespace(char ch);
 ```
 
+## LocalDate
+
+```java
+LocalDate date = LocalDate.now(); // 获取当前日期
+LocalDate specificDate = LocalDate.of(2022, 3, 14); // 使用指定的年、月、日创建日期
+LocalDate parsedDate = LocalDate.parse("2022-03-14"); // 从字符串解析日期
+LocalDate modifiedDate = date.plusDays(5); // 加上指定的天数
+LocalDate previousMonth = date.minusMonths(1); // 减去一个月
+boolean isLeapYear = date.isLeapYear(); // 判断是否为闰年
+```
+
+
+
 ## 时间、空间复杂度
 
 ![image-20240218221307401](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240218221307401.png)
