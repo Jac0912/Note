@@ -41,6 +41,7 @@ paragraph = """这是一个段落。
 
 ```shell
 source activate    #激活虚拟环境
+deactivate         #退出虚拟环境
 pip list           #列出所有包的情况
 pip freeze > requirements.txt                                                              #Output installed packages in requirements format.
 pip install -r requirments.txt
