@@ -94,3 +94,10 @@ git push                                            #更新
 
 
 
+## 代理
+
+```shell
+$ git config --global --unset http.proxy
+#禁用代理
+```
+

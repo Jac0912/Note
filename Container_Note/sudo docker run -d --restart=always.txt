@@ -1,0 +1,8 @@
+sudo docker run -d --restart=always \
+--name nginx\
+-p 80:80 \
+-v /opt/docker/nginx/nginx.conf:/etc/nginx/nginx.conf \
+-v /opt/docker/nginx/conf.d:/etc/nginx/conf.d \
+-v /opt/docker/nginx/html:/usr/share/nginx/html \
+-v /opt/docker/nginx/logs:/var/log/nginx \
+nginx
