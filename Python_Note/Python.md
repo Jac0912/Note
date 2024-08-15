@@ -40,11 +40,19 @@ paragraph = """这是一个段落。
 ## venv
 
 ```shell
+python -m venv venv #创建虚拟环境
 source activate    #激活虚拟环境
 deactivate         #退出虚拟环境
 pip list           #列出所有包的情况
 pip freeze > requirements.txt                                                              #Output installed packages in requirements format.
-pip install -r requirments.txt
+pip install -r requirements.txt
                    #别人安装相同的包
+```
+
+## pip
+
+```shell
+#windows下更新pip
+python.exe -m pip install --upgrade pip
 ```
 
