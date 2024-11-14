@@ -563,14 +563,14 @@ $$
 对于嵌套块，层是分层嵌套的，可以通过嵌套列表的索引访问参数
 
 ```python
-#访问第n层的所有参数
-net[n].state_dict()
-
 #访问第n层参数(偏置)实例
 net[n].bias
 
 #访问第n层参数(偏置)实例的值
 net[n].bias.data
+
+#访问第n层的所有参数
+net[n].state_dict()
 
 #访问所有参数
 net.state_dict()
@@ -805,6 +805,8 @@ $2\times2$的池操作(步幅为2)：将维数减少4倍
 
 ### AlexNet
 
+首先提出特征本身是可以学习的，并且使用深层神经网络
+
 ![image-20240801193455086](image/image-20240801193455086.png)
 
 基于ImageNet数据集：100万个样本中训练模型，区分1000个不同类别的对象
@@ -845,6 +847,8 @@ $2\times2$的池操作(步幅为2)：将维数减少4倍
 
 NiN在每个像素位置应用一个全连接层，将权重连接到每个空间位置，可视为$1\times1$卷积层，或在每个像素位置上独立作用的全连接层。(将空间维度中的每个像素视为单个样本，将通道维度视为不同特征)
 
+使**输出通道数**等于**标签数量**
+
 ![image-20240802101335885](image/image-20240802101335885.png)
 
 NiN块由一个普通卷积层开始，接两个$1\times1$的卷积层(充当带有ReLU激活函数的逐像素全连接层)
@@ -860,7 +864,7 @@ nn.AdaptiveAvgPool2d((1, 1))
 
 ### GoogLeNet
 
-含并行连接的网络
+含并行连接的网络，解决什么样大小的卷积核最合适(不同大小的卷积核组合更有利)
 
 **Inception块：**基本的卷积块
 
@@ -869,6 +873,8 @@ nn.AdaptiveAvgPool2d((1, 1))
 Inception块由四条并行路径组成，都使用合适的填充使输入与输出的高和宽一致，每条线路的输出在通道的维度上连接，构成Inception块的输出
 
 ![image-20240802163257176](image/image-20240802163257176.png)
+
+最后同NiN一样，将每个通道宽高变为1，再扁平化用全连接层连接
 
 Inception块的通道数之比是在大量实验上得来的
 
@@ -1458,7 +1464,7 @@ $\mathbf{b}_q \in \mathbb{R}^{1 \times q}$：偏置
 $$
 \mathbf{c} =  q(\mathbf{h}_1, \ldots, \mathbf{h}_T)
 $$
-使用**嵌入层**来获得输入序列中每个词元的特征向量
+使用**嵌入层**来获得输入序列中每个词元的特征向量，对任意输入词元的索引$i$，嵌入层获取权重矩阵的第$i$行来返回其特征向量
 
 ```python
 #嵌入层
@@ -1719,6 +1725,9 @@ torchvision.transforms.RandomHorizontalFlip()
 #将图像随机上下翻转
 torchvision.transforms.RandomVerticalFlip()
 
+#将图像缩放到pix像素的正方形
+torchvision.transforms.Resize(pix)
+
 #将图像随机裁剪，宽高都缩放到200像素
 #scale:原始图像面积10%~100%的区域
 #ratio:对原始区域的宽高比从0.5~2间取随机值
@@ -1844,6 +1853,208 @@ $$
 假设$c$张特征图是CNN向前传播的中间输出，由于每张特征图有$hw$个空间位置，那么相同的空间位置有$c$个单元。特征图对相同位置的$c$个单元的感受野相同：表征了同一感受野内的输入图像信息，可以将特征图在同一空间位置$c$个单元变换为使用此空间位置生成的$a$个锚框类别、偏移量
 
 不同层的特征图拥有不同大小的感受野，用于检测不同大小的目标，利用深层神经网络在多个层次上对图像进行分层表示，实现多尺度目标检测
+
+
+
+### 单发多框检测(SSD)
+
+![image-20240815215630722](image/image-20240815215630722.png)
+
+设目标类别$q$个，锚框有$q+1$类(0类是背景)，特征图高$h$，宽$w$。为降低模型复杂度，使用卷积层的通道来输出类别预测
+
+类别预测层使用保持输入高、宽的卷积层，使输出和输入在特征图宽高上的空间坐标一一对应，对输入、输出同一空间坐标（$x$、$y$）：输出特征图上（$x$、$y$）坐标的通道里包含了以输入特征图（$x$、$y$）坐标为中心生成的所有锚框的类别预测。因此输出通道数为$a(q+1)$，索引为$i(q+1) + j$（$0 \leq j \leq q$）的通道为索引为$i$的锚框有关类别索引为$j$的预测。
+
+模型由五个模块组成，每个块既用于生成锚框，又用于预测锚框的类别、偏移量
+
+- 第一个模块：基本网络块
+
+- 第二~四个模块：高宽减半块
+- 第五个模块：最大汇聚池
+
+损失函数：使用$L_1$范数损失，掩码变量时负类锚框、填充锚框不参与损失计算，将锚框和偏移量的损失相加
+
+
+
+### 区域卷积神经网络(R-CNN)系列
+
+#### R-CNN
+
+从输入图像中选取若干个**提议区域**，并标注类别、边界框，用卷积神经网络对每个提议区域进行向前传播来提取特征，然后用提议区的特征来预测类别、边界框
+
+![image-20240817222946733](image/image-20240817222946733.png)
+
+1. 对图像使用**选择性搜索**来选取高质量提议区(多尺度下选取)
+2. 用预训练的卷积神经网络，在输出层前截断。将提议区变形为网络需要的输入尺寸，通过向前传播抽取提议区域的特征
+3. 将所有提议区的特征、类别作为样本，训练多个支持向量机对目标进行分类(每个支持向量机负责一个类别)
+4. 将所有提议区的特征、边界框作为样本，训练线性回归模型来进行预测真实边界框
+
+
+
+#### Fast R-CNN
+
+R-CNN每个提议区域的卷积神经网络向前传播时独立的，没有共享计算，但区域有重叠，独立特征抽取会导致重复抽取
+
+Fast R-CNN在整张图像上执行卷积神经网络的向前传播
+
+![image-20240817234218818](image/image-20240817234218818.png)
+
+1. 卷积神经网络输入是一整张图像，输出形状为$1 \times c \times h_1  \times w_1$
+
+2. 选择性搜索生成$n$个不同形状的提议区域，其在神经网络的输出上标出不同形状的兴趣区域，感兴趣区域进一步抽取形状相同的特征(指定高度$h_2$，宽度$w_2$，便于连接后的输出)
+
+   引入**兴趣区域汇聚层**：将神经网络的输出和提议区域作为输入，输出连接后的各个提议区域抽取的特征(形状为$n \times c \times h_2 \times w_2$)
+
+3. 通过全连接层将输出转换为$n\times q$($q$为类别数量)的输出和$n\times 4$的输出，预测类别时使用softmax回归
+
+与一般汇聚层不同，兴趣区域汇聚层对每个区域的输出形状直接指定
+
+
+
+#### Faster R-CNN
+
+为精确检测，Fast R-CNN在选择性搜索中生成大量提议区域。Faster R-CNN将选择性搜索替换为**区域提议网络**，减少提议区域的生成数量，并保证检测精度
+
+![image-20240818002914513](image/image-20240818002914513.png)
+
+1. 使用填充为1的$3\times 3$的卷积层变换卷积神经网络的输出，输出通道数为$c$。卷积神经网络为图像抽取的特征图中的每个单元均得到长度为$c$的新特征
+2. 以特征图的每个像素中心生成多个不同大小的宽高比的锚框并标注
+3. 使用锚框中心单元长度为$c$的特征，分别预测锚框的二元类别(目标/背景)和边界框
+4. 用非极大值抑制，输出的预测边界框是兴趣区域汇聚层所需的提议区域
+
+区域提议网络与整个模型一起训练，作为端到端的结果，可学习如何生成高质量的提议区域
+
+
+
+#### Mask R-CNN
+
+如果训练集标注了目标在图像上的像素级位置，能通过其进一步提到精度
+
+![image-20240818011242759](image/image-20240818011242759.png)
+
+基于Faster R-CNN，将兴趣区域汇聚层替换为**兴趣区域对齐层**，使用**双线性插值**保留特征图上的空间信息，使其适用于像素级预测。兴趣区域对齐层的输出包含所有与兴趣区域的形状相同的特征图。不仅用于预测每个兴趣区域的类别和边界框，还额外通过全卷积网络预测像素级位置
+
+
+
+### 语义分割和数据集
+
+![image-20240818110329396](image/image-20240818110329396.png)
+
+- **语义分割**：将图像分割成不同语义类别的区域，其理解每个像素的内容(标注与预测都是像素级的)
+- **图像分割**：将图像分为若干区域，利用像素间的相关性，训练时不需要像素的标签信息，预测时也无法保证分割出的区域具有期望的语义
+- **实例分割(同时检测并分割)：**识别图像中各个目标实例的像素级区域，不仅区分语义，还区分不同的目标实例
+
+由于语义分割的输入图像和标签在像素上一一对应，输入图像随机裁剪为固定尺寸而不是缩放
+
+
+
+### 转置卷积
+
+如果输入与输出图像的空间维度相同，以像素级分类的语义分割会很方便，**转置卷积**用于逆转采样导致的空间尺寸减小
+
+![image-20240818115841305](image/image-20240818115841305.png)
+
+$n_h \times n_w$的输入张量和一个$k_h \times k_w$的卷积核，以步幅为1滑动卷积核窗口，行$n_w$次，列$n_h$次，共产生$n_h n_w$个中间结果，每个中间结果形状为$(n_h + k_h - 1) \times (n_w + k_w - 1)$，初始化为0。输入张量每个元素都乘以卷积核，最后相加中间结果
+
+```python
+#torch实现
+#in_channels:输入图像通道数
+#out_channel:输出通道数(卷积核数)
+#kernel_size:卷积核大小(单个整数或表示高和宽的元组)
+#stride:步长(单个整数或表示高和宽的元组)
+#padding:填充(单个整数或表示高和宽的元组)
+#bias:是否包含偏置顶
+tconv = nn.ConvTranspose2d(in_channels, out_channel, kernel_size, stride, padding, bias)
+```
+
+转置卷积中填充被应用到输出，在输出中删除行列
+
+步幅被指定为中间结果，而不是输入，步幅为2时将增加中间张量的高和权重：
+
+![image-20240818120913015](image/image-20240818120913015.png)
+
+输入有$c_i$个通道，每个输入通道分配一个$k_h\times k_w$的卷积核张量；多输出通道时，每个输出通道有一个$c_i\times k_h\times k_w$的卷积核
+
+转置卷积可通过矩阵乘法实现，输入向量$\mathbf{x}$和权重矩阵$\mathbf{W}$，前向传播函数通过$\mathbf{y}=\mathbf{W}\mathbf{x}$实现，反向传播遵循链式法则和$\nabla_{\mathbf{x}}\mathbf{y}=\mathbf{W}^\top$，反向传播函数可以通过将其输入与$\mathbf{W}^\top$相乘实现，因此，转置卷积层能够交换卷积层的正向传播函数和反向传播函数：它的正向传播和反向传播函数将输入向量分别与$\mathbf{W}^\top$和$\mathbf{W}$相乘
+
+
+
+### 全卷积网络(FCN)
+
+采用卷积神经网络实现图像像素到像素类别的变换，将中间层特征图的宽高变换回输入图像的尺寸，输出类别预测与输入图像在像素级别上一一对应：通道维的输出即该位置对应像素的类别预测
+
+![image-20240818170704877](image/image-20240818170704877.png)
+
+使用卷积神经网络抽取图像特征，然后通过$1\times1$卷积层将通道数变换为类别个数，最后通过转置卷积层将特征图宽高变换为输入图像的尺寸
+
+如果步幅为$s$，填充为$s/2$（假设$s/2$是整数）且卷积核的高和宽为$2s$，转置卷积核会将输入的高和宽分别放大$s$倍
+
+**双线性插值**是常用的**上采样**(将图像放大)方法，也常用于初始化转置卷积层
+
+1.  将输出图像的坐标$(x,y)$映射到输入图像的坐标$(x',y')$上，可通过尺寸比进行映射
+2. 在输入图像上找到离坐标$(x',y')$最近的4个像素
+3. 输出图像在坐标$(x,y)$上的像素依据输入图像上这4个像素及其与$(x',y')$的相对距离来计算
+
+全卷积网络用双线性插值的上采样初始化转置卷积层，$1\times1$卷积层用Xavier初始化参数
+
+
+
+### 风格迁移
+
+两张图像：一张**内容图像**，一张**风格图像**
+
+使用神经网络修改内容图像，使风格上接近风格图像
+
+![image-20240818194001459](image/image-20240818194001459.png)
+
+合成图像时风格迁移中唯一需要更新的变量，用预训练的卷积神经网络抽取图像特征，其中模型参数在训练中无需更新，网络逐层抽取图像特征，取某些层的输出作为内容特征或风格特征
+
+通过向前传播(实线)计算风格迁移的损失函数，通过反向传播(虚线)迭代模型参数，即不断合成图像，损失函数：
+
+1. **内容损失**使合成图像与内容图像在内容特征上接近，通过平方误差函数衡量差异
+
+2. **风格损失**使合成图像与风格图像在风格特征上接近，也通过平方误差衡量差异，假设输出样本数为1，通道数为$c$，高为$h$，宽为$w$，将输出转换为矩阵$\mathbf{x}$($c$行和$hw$列)，可看作$c$个长度为$hw$的向量$\mathbf{x}_1, \ldots, \mathbf{x}_c$组合而成，向量$\mathbf{x}_i$代表了通道$i$上的风格特征
+
+   这些向量的**格拉姆矩阵**$\mathbf{X}\mathbf{X}^\top \in \mathbb{R}^{c \times c}$中，$i$行$j$列的元素$x_{ij}$即向量$\mathbf{x}_i$和$\mathbf{x}_j$的内积，表达了通道$i$和通道$j$上风格特征的相关性。为不受矩阵由于$hw$的值较大而出现较大的值，除以矩阵中元素个数($chw$)
+
+3. **全变分损失**减少合成图像中的噪点，合成图像中有大量高频噪点(特别亮或特别暗的颗粒像素)，$x_{i, j}$表示坐标$(i, j)$处的像素值，降低全变分损失：
+   $$
+   \sum_{i, j} \left|x_{i, j} - x_{i+1, j}\right| + \left|x_{i, j} - x_{i, j+1}\right|
+   $$
+   来使相邻的像素相近
+
+损失函数是三者的加权求和
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2126,16 +2337,124 @@ trainer = torch.optim.RMSprop
 - $\mathbf{s}_t$：存储梯度二阶导数的泄露平均值
 - $\Delta\mathbf{x}_t$：存储模型本身参数变化二阶导数的泄露平均值
 
+泄露更新：
+$$
+\begin{aligned}
+    \mathbf{s}_t & = \rho \mathbf{s}_{t-1} + (1 - \rho) \mathbf{g}_t^2.
+\end{aligned}
+$$
+使用重新缩放的梯度$\mathbf{g}_t'$执行更新(与AdaGrad有别)：
+$$
+\begin{aligned}
+    \mathbf{x}_t  & = \mathbf{x}_{t-1} - \mathbf{g}_t'. \\
+\end{aligned}
+$$
+调整后的梯度$\mathbf{g}_t'$：
+
+$$
+\begin{aligned}
+    \mathbf{g}_t' & = \frac{\sqrt{\Delta\mathbf{x}_{t-1} + \epsilon}}{\sqrt{{\mathbf{s}_t + \epsilon}}} \odot \mathbf{g}_t, \\
+\end{aligned}
+$$
+$\Delta \mathbf{x}_{t-1}$：重新缩放梯度的平方$\mathbf{g}_t'$的泄漏平均值
+
+$\epsilon$：保持数字稳定性
+
+$\Delta \mathbf{x}_{0}$初始化为$0$，在每个步骤中使用$\mathbf{g}_t'$更新：
+
+$$
+\begin{aligned}
+    \Delta \mathbf{x}_t & = \rho \Delta\mathbf{x}_{t-1} + (1 - \rho) {\mathbf{g}_t'}^2,
+\end{aligned}
+$$
+
+```python
+#torch中实现
+trainer = torch.optim.Adadelta
+```
 
 
 
+### Adam算法
+
+将之前优化算法的优点集中，有时因$\mathbf{s}_t$的二次矩估计值爆炸而无法收敛(通过Yogi热补丁解决)
+
+使用指数加权移动平均值来估算梯度的动量、二次矩，使用状态变量：
+$$
+\begin{aligned}
+    \mathbf{v}_t & \leftarrow \beta_1 \mathbf{v}_{t-1} + (1 - \beta_1) \mathbf{g}_t, \\
+    \mathbf{s}_t & \leftarrow \beta_2 \mathbf{s}_{t-1} + (1 - \beta_2) \mathbf{g}_t^2.
+\end{aligned}
+$$
+$\beta_1$和$\beta_2$通常设置为$\beta_1 = 0.9$和$\beta_2 = 0.999$(方差估计移动远慢于动量估计移动)
+
+防止初始化为$\mathbf{v}_0 = \mathbf{s}_0 = 0$初始误差大，使用$\sum_{i=0}^t \beta^i = \frac{1 - \beta^t}{1 - \beta}$解决。标准化状态变量：
+$$
+\hat{\mathbf{v}}_t = \frac{\mathbf{v}_t}{1 - \beta_1^t} \text{ and } \hat{\mathbf{s}}_t = \frac{\mathbf{s}_t}{1 - \beta_2^t}
+$$
+重新缩放梯度：
+$$
+\mathbf{g}_t' = \frac{\eta \hat{\mathbf{v}}_t}{\sqrt{\hat{\mathbf{s}}_t} + \epsilon}
+$$
+通常$\epsilon = 10^{-6}$，保证数值稳定性和逼真度之间的平衡
+
+更新：
+$$
+\mathbf{x}_t \leftarrow \mathbf{x}_{t-1} - \mathbf{g}_t'
+$$
+
+```python
+#torch中实现
+trainer = torch.optim.Adam
+```
+
+**Yogi热补丁：**
+$$
+\mathbf{s}_t \leftarrow \mathbf{s}_{t-1} + (1 - \beta_2) \left(\mathbf{g}_t^2 - \mathbf{s}_{t-1}\right)
+$$
+当$\mathbf{g}_t^2$具有值很大的变量或更新很稀疏时，$\mathbf{s}_t$可能会太快地“忘记”过去的值，一种解决(Yogi更新)：
+$$
+\mathbf{s}_t \leftarrow \mathbf{s}_{t-1} + (1 - \beta_2) \mathbf{g}_t^2 \odot \mathop{\mathrm{sgn}}(\mathbf{g}_t^2 - \mathbf{s}_{t-1})
+$$
 
 
 
+### 学习率调度器
+
+- 学习率大小：太大，优化发散；太小，训练时间长，或只能得到次优解
+- 衰减速率：学习率持续过高，会始终在最小值附近弹跳
+- 初始化(**预热**)：参数初始化以及最初演变方式
+
+常用策略：多项式衰减、分段常数表
+
+**单因子调度器：**由乘法衰减替代多项式衰减$\eta_{t+1} \leftarrow \eta_t \cdot \alpha$[$\alpha \in (0, 1)$]，为防止学习率衰减到合理下界之下，通常采用$\eta_{t+1} \leftarrow \mathop{\mathrm{max}}(\eta_{\mathrm{min}}, \eta_t \cdot \alpha)$
 
 
 
+**多因子调度器：**使学习率为一组分段常量，并不时的按给定参数对学习率做乘法衰减 
 
+~~~python
+#torch实现
+#trainer:训练器对象
+#milestones:当迭代次数达到其中里程碑时，调整学习率
+#gamma:达到里程碑时，学习率乘gamma(学习率调整因子)
+from torch.optim import lr_scheduler
+scheduler = lr_scheduler.MultiStepLR(trainer, milestones=[15, 30], gamma)
+~~~
+
+
+
+**余弦调度器：**不想一开始就太大的降低学习率，可能希望最终用非常小的学习率
+
+函数形式：
+$$
+\eta_t = \eta_T + \frac{\eta_0 - \eta_T}{2} \left(1 + \cos(\pi t/T)\right)
+$$
+学习率的值在$t \in [0, T]$之间，$\eta_0$是初始学习率，$\eta_T$是当$T$时的目标学习率。对于$t > T$，只需将值固定到$\eta_T$而不再增加
+
+
+
+**预热：**使用预热期，在此期间学习率将增加至初始最大值，然后冷却直到优化过程结束
 
 
 
@@ -2201,9 +2520,81 @@ X.permute(*dims)
 #dim:指定维度
 torch.repeat_interleave(x, repeats, dim)
 
+#将x的每个维度分别重复a,b,c……次
+x.repeat(a,b,c……)
+
 #在x的dim维度插入新维度
 x.unsqueeze(dim)
+torch.unsqueeze(x, dim)
 #移除x的dim维度
 x.squeeze(dim)
+
+#将模型net分布到指定GPU上
+#device_ids:指定要使用到的GPU的ID列表
+#to:将DataParallel对象移动到指定GPU设备上
+net = nn.DataParallel(net, device_ids=devices).to(devices[0])
+
+#将文件夹下图片加载到pytorch中
+#默认path下中每个子文件夹代表一个类别,自动分配标签
+#对图像应用transform转化
+torchvision.datasets.ImageFolder(path, transform)
+
+#获取x在dim维度的大小
+x.size(dim)
+
+#双线性插值
+#poolde:特征图
+#modle='bilinear':采用双线性插值模式
+#align_corners=False:不将角点对齐，使插值
+F.interpolate(poolde, size=(height, width), mode='bilinear', align_corners=False)
+
+```
+
+
+
+streamlit 调试：
+
+![image-20240831155622098](image/image-20240831155622098.png)
+
+![image-20240908104121798](image/image-20240908104121798.png)
+
+可选择颜色：
+
+```
+aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
 ```
 
