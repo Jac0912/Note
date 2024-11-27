@@ -56,8 +56,31 @@ $ ./operate_file
 
 ```shell
 sudo useradd -m -s /usr/bin/bash <username>   #-m 创建用户主目录;  -s 设定shell
+adduser <名称>   #创建新用户
+deluser <名称>   #删除用户
 passwd <username>                             #设置登录密码
 sudo usermod -G sudo <username>               #加入sudo组,提供sudo权限
 sudo usermod -G docker <username>             #加入docker组,提供docker权限
+```
+
+
+
+```shell
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java  #阿里云中java的位置
+CREATE USER 'Jac0912'@'%' IDENTIFIED BY '012284';    #创建可以通过网络访问的用户
+GRANT ALL PRIVILEGES ON *.* TO 'Jac0912'@'%' WITH GRANT OPTION;     #赋予所有权利
+GRANT ALL PRIVILEGES ON <库名称>.* TO 'Jac0912'@'%';   #<库>.<表>，赋予操作某一数据库所有表的权利
+
+ALTER USER 'traffic'@'%' IDENTIFIED WITH mysql_native_password BY 'fucking';
+FLUSH PRIVILEGES
+
+#交通
+traffic
+fucking
+
+启动暂停tomcat
+cd /opt/tomcat/bin
+sudo sh startup.sh
+sudo sh shutdown.sh
 ```
 
