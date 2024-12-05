@@ -105,3 +105,26 @@ $ git config --global --unset http.proxy
 #禁用代理
 ```
 
+## 国内访问（无VPN）
+
+1. 修改hosts文件
+
+   - Windows：`C:\Windows\System32\drivers\etc`
+   - Linux：`/etc/hosts`
+
+2. 将以下内容加入`hosts`中
+
+   ```shell
+   #github
+   140.82.113.3 github.com
+   185.199.108.153 assets-cdn.github.com
+   199.232.69.194 github.global.ssl.fastly.net
+   ```
+
+3. 更新dns缓存（`cmd`中）
+
+   ```shell
+   ipconfig /flushdns
+   ```
+
+   
