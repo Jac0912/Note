@@ -92,7 +92,11 @@ git pull                                            #拉取：获取+合并
 git push                                            #更新
 ```
 
+- 文件版本的历史不同
 
+```shell
+git pull origin main --allow-unrelated-histories
+```
 
 ## 代理
 
