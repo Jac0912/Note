@@ -67,16 +67,24 @@ sudo usermod -G docker <username>             #加入docker组,提供docker权�
 
 ```shell
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java  #阿里云中java的位置
+mysql -u root -p #登陆sql
+CREATE DATABASE <name>; #创建数据库
 CREATE USER 'Jac0912'@'%' IDENTIFIED BY '012284';    #创建可以通过网络访问的用户
 GRANT ALL PRIVILEGES ON *.* TO 'Jac0912'@'%' WITH GRANT OPTION;     #赋予所有权利
 GRANT ALL PRIVILEGES ON <库名称>.* TO 'Jac0912'@'%';   #<库>.<表>，赋予操作某一数据库所有表的权利
 
+#针对低版本sql修改认证
 ALTER USER 'traffic'@'%' IDENTIFIED WITH mysql_native_password BY 'fucking';
-FLUSH PRIVILEGES
+FLUSH PRIVILEGES；
 
 #交通
 traffic
 fucking
+
+#一哥
+yiGe     #账号名
+yiGeee    #密码
+tsadmin     #库名
 
 启动暂停tomcat
 cd /opt/tomcat/bin
