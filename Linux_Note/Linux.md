@@ -72,6 +72,12 @@ CREATE DATABASE <name>; #创建数据库
 CREATE USER 'Jac0912'@'%' IDENTIFIED BY '012284';    #创建可以通过网络访问的用户
 GRANT ALL PRIVILEGES ON *.* TO 'Jac0912'@'%' WITH GRANT OPTION;     #赋予所有权利
 GRANT ALL PRIVILEGES ON <库名称>.* TO 'Jac0912'@'%';   #<库>.<表>，赋予操作某一数据库所有表的权利
+SELECT user, host FROM mysql.user; #查询用户
+ cat /etc/mysql/mysql.conf.d/mysqld.cnf #配置文件所在位置
+ sudo systemctl restart mysql #重启sql服务
+nmap -p 3306 47.109.141.56 #测试端口
+http://localhost:8080/tsAdmin/org/login
+
 
 #针对低版本sql修改认证
 ALTER USER 'traffic'@'%' IDENTIFIED WITH mysql_native_password BY 'fucking';

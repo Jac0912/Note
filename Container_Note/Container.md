@@ -147,6 +147,27 @@ Docker镜像分层储存，上层需要修改文件时，通过CoW策略复制�
 
 ## Docker命令
 
+### 安装
+
+```shell
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+ #安装Docker：
+ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  #加入用户组：
+  sudo usermod -aG docker <用户名>
+```
+
 ### 拉取容器镜像
 
 ```shell
@@ -330,3 +351,56 @@ $ docker push registry.<region>.aliyuncs.com/<namespace>/npu
 
 
 注：`镜像名后:TAG`默认TAG为`latest`,可省略`:TAG`
+
+## ECS
+
+修改docker.service文件
+
+```
+vim /usr/lib/systemd/system/docker.service
+```
+
+需要修改的部分：
+
+```
+ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+```
+
+修改后的部分：
+
+```
+ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H unix://var/run/docker.sock
+```
+
+配置生效
+
+> systemctl daemon-reload
+
+重新启动Docker服务
+
+> systemctl stop docker
+>
+> systemctl start docker
+
+## 开启2375端口
+
+```
+firewall-cmd --zone=public --add-port=2375/tcp --permanent
+firewall-cmd --reload
+```
+
+sudo systemctl start docker
+
+docker exec -it a45500f9135c /bin/bash #进入容器
+
+docker run -d -p 8081:8080 tsadmin:1.0
+
+http://47.109.141.56:8081/tsAdmin-1.0-SNAPSHOT/org/login
+
+
+
+mvn install:install-file -Dfile=D:/A_Jac0912/Java_projects/tsAdmin/src/main/webapp/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar \
+    -DgroupId=com.aliyun \
+    -DartifactId=aliyun-java-sdk-dysmsapi \
+    -Dversion=1.0.0 \
+    -Dpackaging=jar
