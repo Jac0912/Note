@@ -408,3 +408,9 @@ mvn install:install-file -Dfile=D:/A_Jac0912/Java_projects/tsAdmin/src/main/weba
 
 
 205.185.118.246
+
+
+
+sudo apt install clamav
+sudo freshclam  # 更新病毒库
+sudo clamscan -r /  # 扫描整个系统
