@@ -399,11 +399,12 @@ http://47.109.141.56:8081/tsAdmin-1.0-SNAPSHOT/org/login
 
 
 
-mvn install:install-file -Dfile=D:/A_Jac0912/Java_projects/tsAdmin/src/main/webapp/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar \
-    -DgroupId=com.aliyun \
-    -DartifactId=aliyun-java-sdk-dysmsapi \
-    -Dversion=1.0.0 \
-    -Dpackaging=jar
+dockerd \
+    --tlsverify \
+    --tlscacert=ca.pem \
+    --tlscert=server-cert.pem \
+    --tlskey=server-key.pem \
+    -H=0.0.0.0:2376
 
 
 
@@ -414,3 +415,7 @@ mvn install:install-file -Dfile=D:/A_Jac0912/Java_projects/tsAdmin/src/main/weba
 sudo apt install clamav
 sudo freshclam  # 更新病毒库
 sudo clamscan -r /  # 扫描整个系统
+
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_CERT_PATH="/root"
+export DOCKER_HOST="tcp://127.0.0.1:2376"

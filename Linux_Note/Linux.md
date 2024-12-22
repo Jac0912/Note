@@ -50,6 +50,12 @@ $ groups                          #查看当前用户所属组
 
 $ ./operate_file
 #Linux下执行c语言编译好的执行文件
+
+#Linux查看当前进程
+$ ps aux
+$ ps aux --sort=-%mem
+
+
 ```
 
 ## 创建配置普通用户
@@ -66,6 +72,8 @@ sudo usermod -G docker <username>             #加入docker组,提供docker权�
 
 
 ```shell
+sudo systemctl start mysql  #启动MySQL
+
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java  #阿里云中java的位置
 mysql -u root -p #登陆sql
 CREATE DATABASE <name>; #创建数据库
