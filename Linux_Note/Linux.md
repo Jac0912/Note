@@ -55,7 +55,8 @@ $ ./operate_file
 $ ps aux
 $ ps aux --sort=-%mem
 
-
+#将环境变量持久化
+$ vim ~./bashrc
 ```
 
 ## 创建配置普通用户
