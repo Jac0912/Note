@@ -10,7 +10,7 @@ x=torch.arange(end)
 x.shape
 
 #当张量中只含一个元素时，提取该元素
-x,item()
+x.item()
 
 #张量中元素的总数，即形状的所有元素乘积
 x.numel()
@@ -1604,6 +1604,7 @@ $$
 a(\mathbf q, \mathbf k) = \mathbf{q}^\top \mathbf{k}  /\sqrt{d}
 $$
 从小批量角度考虑，对$n$个查询和$m$个键－值对计算注意力，其中查询和键的长度为$d$，值的长度为$v$，查询$\mathbf Q\in\mathbb R^{n\times d}$、键$\mathbf K\in\mathbb R^{m\times d}$、值$\mathbf V\in\mathbb R^{m\times v}$的缩放点积注意力：
+
 $$
 \mathrm{softmax}\left(\frac{\mathbf Q \mathbf K^\top }{\sqrt{d}}\right) \mathbf V \in \mathbb{R}^{n\times v}
 $$

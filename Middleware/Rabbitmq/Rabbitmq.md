@@ -4,6 +4,8 @@ service rabbitmq-server start # 启动
 service rabbitmq-server stop # 停止 
 service rabbitmq-server restart # 重启
 
+
+
 #拉取镜像 
 docker pull rabbitmq:management 
 # 运行容器 

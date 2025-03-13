@@ -277,3 +277,10 @@ ps aux | grep docker  #获取docker进程
 sudo systemctl disable docker  #关闭开机自启
 docker logs <容器id或容器名>  #查看容器日志
 ```
+
+## 持久化存储
+```shell
+docker run -v <宿主主机路径>:<容器路径> <容器id或容器名>  #进行数据卷挂载，若不指定宿主主机路径，则由docker来创建文件并管理
+```
+
+docker run -p 8080:8080 -v /var/www/html/images/:/usr/src/photo/ 5cd02430a62d

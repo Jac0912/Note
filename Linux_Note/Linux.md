@@ -39,6 +39,12 @@ $ ps aux
 $ ps aux --sort=-%mem
 
 $ vim ~./bashrc  #将环境变量持久化
+
+df -h  #显示外存占用情况
+sudo du -sh <文件夹名>  #显示文件夹占用外存
+
+free -h  #内存使用情况
+htop  #动态显示内存
 ```
 ## 创建配置普通用户
 ```shell
