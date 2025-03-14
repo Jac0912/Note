@@ -1,5 +1,8 @@
 redis数据库为键值数据库，默认有16个数据库，且开始使用0号数据库
 ```sql
+redis-cli  --进入redis客户端
+FLUSHALL  --清理所有键的缓存
+
 select <序号>  --切换数据库
 set <key> <value>  --设置键值对
 get <key>  --取key所对应的value

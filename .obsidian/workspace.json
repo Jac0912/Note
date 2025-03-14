@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_Note/Linux.md",
+                "file": "Database/PostgreSQL/PostgreSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "PostgreSQL"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Markdown"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +195,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "55f58b480f104c47",
+  "active": "494206f3003742f9",
   "lastOpenFiles": [
+    "Linux_Note/Linux.md",
+    "Middleware/Markdown/Markdown.md",
+    "Database/Redis/Redis.md",
     "Database/PostgreSQL/PostgreSQL.md",
     "Database/Mysql/Mysql.md",
     "未命名.md",
@@ -205,11 +207,8 @@
     "Database/PostgreSQL",
     "Database",
     "Algorithm/Practice.md",
-    "Middleware/Markdown/Markdown.md",
-    "Linux_Note/Linux.md",
     "Middleware/Container_Note/Container.md",
     "Algorithm/Algorithm_on_Python.md",
-    "Database/Redis/Redis.md",
     "Algorithm/Algorithm_on_Java.md",
     "Middleware/Nginx/Nginx.md",
     "Middleware/Rabbitmq/Rabbitmq.md",
