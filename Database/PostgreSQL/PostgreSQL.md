@@ -1,4 +1,5 @@
 ```sql
+sudo apt install postgresql postgresql-contrib  --安装
 sudo -i -u postgres  --以postgres身份进入新shell环境（-i: 模拟登录，获得行的shell环境）
 psql  --进入postgresql命令行客户端工具
 

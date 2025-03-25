@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Redis/Redis.md",
+                "file": "Linux_Note/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis"
+              "title": "Linux"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "Markdown"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,17 +196,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "494206f3003742f9",
+  "active": "55f58b480f104c47",
   "lastOpenFiles": [
-    "Linux_Note/Linux.md",
-    "Middleware/Markdown/Markdown.md",
     "Database/Redis/Redis.md",
+    "Middleware/Markdown/Markdown.md",
     "Database/PostgreSQL/PostgreSQL.md",
+    "Linux_Note/Linux.md",
+    "RL_Note/RL.md.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006204459249.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006180642429.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006171810634.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006171413765.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006170358506.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006170250550.png.baiduyun.uploading.cfg",
+    "RL_Note/image/image-20241006140011054.png.baiduyun.uploading.cfg",
+    "Python_Note/Python.md.baiduyun.uploading.cfg",
+    "Python_Note/Pyplot.md.baiduyun.uploading.cfg",
     "Database/Mysql/Mysql.md",
     "未命名.md",
-    "Database/PostgreSQL/未命名",
-    "Database/PostgreSQL",
-    "Database",
     "Algorithm/Practice.md",
     "Middleware/Container_Note/Container.md",
     "Algorithm/Algorithm_on_Python.md",
@@ -220,19 +228,12 @@
     "Middleware/Lombok/Lombok.md",
     "Database/JPA/JPA.md",
     "Algorithm/Algorithm_Note.md",
-    "Database/Redis",
     "[.md",
     "Middleware/Crawler_Note/Crawler_Note.md",
     "Middleware/Tomcat/Tomcat.md",
-    "Middleware/Tomcat",
     "Course_Note/编译原理_Note/编译原理.md",
-    "Middleware/Rabbitmq/未命名",
-    "Middleware/Rabbitmq",
-    "Middleware/Nginx",
     "Middleware/Git_Note/Git.md",
-    "Database/Mysql",
     "Database/MybatisPlus/MybatisPlus.md",
-    "Database/MybatisPlus",
     "temp.md",
     "科研/RDO/image/Pasted image 20250116175211.png",
     "Pasted image 20250116175110.png",

@@ -1,3 +1,10 @@
+## setup
+```shell
+wsl --list  #查看当前安装的wsl
+wsl --unregister <版本>  #卸载相关版本
+sudo apt-get update  #更新软件包
+```
+
 ## shell
 ```shell
 $ echo "It is a test" > myfile  #显示结果定向到文件并覆盖文件内容，若文件不存在则创建文件
@@ -66,3 +73,8 @@ sudo apt install clamav
 sudo freshclam  # 更新病毒库
 sudo clamscan -r /  # 扫描整个系统
 ```
+
+
+## boom
+1. apt无法使用，可以正常ping通，但是无法安装软件
+`sudo vim  /etc/resolv.conf `，将nameserver换为谷歌DNS：`8.8.8.8`
