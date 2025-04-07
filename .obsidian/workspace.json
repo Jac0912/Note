@@ -179,8 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be6d024338b13897",
+  "active": "ffc7cf3c79f1b8e1",
   "lastOpenFiles": [
+    "Course_Note/操作系统_Note/image/Pasted image 20250407175540.png",
+    "Course_Note/操作系统_Note/image",
     "Course_Note/操作系统_Note/操作系统.md",
     "Middleware/Git_Note/Git.md",
     "Database/Redis/Redis.md",
@@ -202,7 +204,6 @@
     "RL_Note/image/image-20241006170358506.png.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006170250550.png.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006140011054.png.baiduyun.uploading.cfg",
-    "Python_Note/Python.md.baiduyun.uploading.cfg",
     "Database/Mysql/Mysql.md",
     "未命名.md",
     "Middleware/Nginx/Nginx.md",
@@ -219,7 +220,6 @@
     "Middleware/Crawler_Note/Crawler_Note.md",
     "Middleware/Tomcat/Tomcat.md",
     "Course_Note/编译原理_Note/编译原理.md",
-    "Database/MybatisPlus/MybatisPlus.md",
     "科研/RDO/image/Pasted image 20250116175211.png",
     "Pasted image 20250116175110.png"
   ]
