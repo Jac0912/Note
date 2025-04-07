@@ -23,8 +23,8 @@
 |             $\mid$             |             \mid             |    $11\quad11$    |      \quad      |
 |            $\cdot$             |            \cdot             |  $111\qquad111$   |  111\qquad111   |
 |           $\bigodot$           |           \bigodot           |      $\eta$       |      \eta       |
-|          $\bigotimes$          |          \bigotimes          |        $$         |                 |
-|             $\leq$             |             \leq             |        $$         |                 |
+|          $\bigotimes$          |          \bigotimes          |       $\xi$       |       \xi       |
+|             $\leq$             |             \leq             |  $\partial_{x}$   |  \partial_{x}   |
 |             $\geq$             |             \geq             |        $$         |                 |
 |           $\approx$            |           \approx            |        $$         |                 |
 |             $\lim$             |             \lim             |        $$         |                 |

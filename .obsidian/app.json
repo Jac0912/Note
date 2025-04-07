@@ -8,5 +8,7 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "vimMode": false,
+  "useMarkdownLinks": true
 }
