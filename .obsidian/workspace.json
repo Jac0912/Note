@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Algorithm_on_Python.md",
+                "file": "Course_Note/操作系统_Note/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Algorithm_on_Python 的反向链接列表"
+              "title": "操作系统 的反向链接列表"
             }
           },
           {
@@ -160,8 +160,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,9 +180,9 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Database/Mysql/Mysql.md",
-    "Course_Note/操作系统_Note/操作系统.md",
     "Linux_Note/Linux.md",
+    "Course_Note/操作系统_Note/操作系统.md",
+    "Database/Mysql/Mysql.md",
     "Database/PostgreSQL/PostgreSQL.md",
     "Database/Redis/Redis.md",
     "Linux_Note/linux命令英文缩写.md",
