@@ -452,7 +452,7 @@ $$
 def gcd(a, b):
     return gcd(b, a % b) if b else a
 
-#AIP
+#API
 math.gcd(a,d)
 ```
 
