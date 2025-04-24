@@ -12,6 +12,7 @@ git rm 文件名                         #删未提交的文件(暂存区+当前
 git commit -m '版本名'                #提交
 git log --oneline --graph --all      #显示提交日志
 git show 版本号                       #修改变化
+git config --global core.autocrlf false 
 ```
 - `.gitignore`文件内的文件名为被忽略文件
 - `git commit -a -m '版本名'`已追踪的文件不需`git add`

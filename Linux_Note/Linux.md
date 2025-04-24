@@ -3,6 +3,7 @@
 wsl --list  #查看当前安装的wsl
 wsl --unregister <版本>  #卸载相关版本
 sudo apt-get update  #更新软件包
+sudo  passwd root  #更改root密码
 ```
 
 ## shell
@@ -52,6 +53,8 @@ sudo du -sh <文件夹名>  #显示文件夹占用外存
 
 free -h  #内存使用情况
 htop  #动态显示内存
+
+sudo systemctl list-units  #查看存在的服务
 ```
 ## 创建配置普通用户
 ```shell

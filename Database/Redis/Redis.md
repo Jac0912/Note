@@ -80,3 +80,9 @@ bgsave  --开子进程保存
 bgrewriteaof  --进行重写日志操作，自动合并可精简的命令(也可通过配置文件设置定时重写)
 
 ```
+
+设置密码
+`/etc/redis/redis.conf`
+```sql
+requirepass
+```

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a04ffe083b64cbbf",
+            "id": "6f26d0ec3b45a9e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/操作系统_Note/操作系统.md",
+                "file": "Middleware/Git_Note/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "操作系统"
+              "title": "Git"
             }
           }
         ]
@@ -53,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/操作系统_Note/操作系统.md",
+                "file": "Python_Note/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操作系统 的大纲"
+              "title": "Python 的大纲"
             }
           },
           {
@@ -180,25 +180,30 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Linux_Note/Linux.md",
+    "Python_Note/Python.md",
+    "Course_Note/数据库_Note/数据库.md",
+    "Course_Note/数据库_Note",
+    "Course_Note/软件工程_Note/软工.md",
+    "Middleware/Git_Note/Git.md",
+    "Middleware/Markdown/Markdown.md",
+    "Course_Note/计算机组成原理_Note/计组.md",
     "Course_Note/操作系统_Note/操作系统.md",
-    "Database/Mysql/Mysql.md",
-    "Database/PostgreSQL/PostgreSQL.md",
     "Database/Redis/Redis.md",
+    "Database/PostgreSQL/PostgreSQL.md",
+    "Database/JPA/JPA.md",
+    "Algorithm/Algorithm_on_Python.md",
+    "Algorithm/history.md",
+    "Algorithm/Practice.md",
+    "Linux_Note/Linux.md",
+    "Middleware/Container_Note/Container.md",
+    "Database/Mysql/Mysql.md",
     "Linux_Note/linux命令英文缩写.md",
     "Course_Note/操作系统_Note/image/Pasted image 20250407175853.png",
     "Course_Note/操作系统_Note/image/Pasted image 20250407175540.png",
-    "Algorithm/Practice.md",
-    "Algorithm/history.md",
-    "Algorithm/Algorithm_on_Python.md",
     "Course_Note/操作系统_Note/image",
-    "Middleware/Git_Note/Git.md",
     "Course_Note/未命名.md",
     "Course_Note/操作系统_Note",
-    "Middleware/Container_Note/Container.md",
     "Algorithm/Algorithm_on_Java.md",
-    "Python_Note/Python.md",
-    "Middleware/Markdown/Markdown.md",
     "RL_Note/RL.md.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006204459249.png.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006180642429.png.baiduyun.uploading.cfg",
@@ -206,7 +211,6 @@
     "RL_Note/image/image-20241006171413765.png.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006170358506.png.baiduyun.uploading.cfg",
     "RL_Note/image/image-20241006170250550.png.baiduyun.uploading.cfg",
-    "RL_Note/image/image-20241006140011054.png.baiduyun.uploading.cfg",
     "未命名.md",
     "Middleware/Nginx/Nginx.md",
     "Middleware/Rabbitmq/Rabbitmq.md",
@@ -215,12 +219,8 @@
     "Flow_Note/image/image-20240420001422589.png",
     "ML_Note/ML.md",
     "Middleware/Lombok/Lombok.md",
-    "Database/JPA/JPA.md",
     "Algorithm/Algorithm_Note.md",
     "[.md",
-    "Middleware/Crawler_Note/Crawler_Note.md",
-    "Middleware/Tomcat/Tomcat.md",
-    "Course_Note/编译原理_Note/编译原理.md",
     "科研/RDO/image/Pasted image 20250116175211.png",
     "Pasted image 20250116175110.png"
   ]
