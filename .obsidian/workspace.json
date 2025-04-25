@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/Git_Note/Git.md",
+                "file": "Course_Note/数据库_Note/数据库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "数据库"
             }
           }
         ]
@@ -53,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python_Note/Python.md",
+                "file": "Course_Note/数据库_Note/数据库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python 的大纲"
+              "title": "数据库 的大纲"
             }
           },
           {
@@ -180,11 +180,11 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
+    "Middleware/Git_Note/Git.md",
     "Python_Note/Python.md",
     "Course_Note/数据库_Note/数据库.md",
     "Course_Note/数据库_Note",
     "Course_Note/软件工程_Note/软工.md",
-    "Middleware/Git_Note/Git.md",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/计算机组成原理_Note/计组.md",
     "Course_Note/操作系统_Note/操作系统.md",
