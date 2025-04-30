@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/数据库_Note/数据库.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -178,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f26d0ec3b45a9e3",
+  "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
     "ML_Note/ML.md",
     "Course_Note/数据库_Note/数据库.md",
