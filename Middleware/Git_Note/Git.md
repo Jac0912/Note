@@ -1,10 +1,10 @@
-## 本地仓库
-### 创建本地仓库
+## 0.1. 本地仓库
+### 0.1.1. 创建本地仓库
 ```shell
 git init        #任意文件夹
 git status      #状态
 ```
-### 添加、提交
+### 0.1.2. 添加、提交
 ```shell
 git add 文件名                        #追踪文件    （add .）追踪所有文件
 git rm --cached 文件名                #取消跟踪
@@ -16,7 +16,7 @@ git config --global core.autocrlf false
 ```
 - `.gitignore`文件内的文件名为被忽略文件
 - `git commit -a -m '版本名'`已追踪的文件不需`git add`
-### 回滚
+### 0.1.3. 回滚
 ```shell
 git reset --hard 版本号                #使工作空间返回
 git reset HEAD 文件名                  #取消文件暂存(重复执行:依次取消历史提交!!)
@@ -25,7 +25,7 @@ git restore 文件名                     #从暂存区恢复文件
 git restore --staged 文件名            #将提交区HEAD指向的版本恢复到暂存区
 git reflog                            #显示所有历史日志
 ```
-### 分支
+### 0.1.4. 分支
 ```shell
 git branch                             #查看当前存在分支（*为所在分支）
 git branch 分支名                       #创建新分支
@@ -40,8 +40,8 @@ git cherry-pick 版本号                  #将其它修改拿到当前分支（
 ```
 - 解决冲突后再合并
 - 创建分支就是创建了一个指向当前对象的指针
-## 远程仓库
-### push
+## 0.2. 远程仓库
+### 0.2.1. push
 ```shell
 git remote add 远程仓库名称 地址（HTTP）             #添加远程仓库
 git remote                          			  #查看远程仓库名称
@@ -53,11 +53,11 @@ git push -f                                       #强制推送并抹去上次�
 git push --set-upstream 远程仓库名称 master:master  #绑定
 git push 远程仓库名称                               #同步分支
 ```
-### clone
+### 0.2.2. clone
 ```shell
 git clone 地址（HTTP）                              #下载远程仓库
 ```
-### 冲突
+### 0.2.3. 冲突
 - 他人在本机提交之前push了新内容（本机与远程仓库不一致）
 ```shell 
 git fetch 远程仓库名称                                #同步最新远程仓库
@@ -74,12 +74,12 @@ git push                                            #更新
 ```shell
 git pull origin main --allow-unrelated-histories
 ```
-## 代理
+## 0.3. 代理
 ```shell
 $ git config --global --unset http.proxy
 #禁用代理
 ```
-## 国内访问（无VPN）
+## 0.4. 国内访问（无VPN）
 1. 修改hosts文件
    - Windows：`C:\Windows\System32\drivers\etc`
    - Linux：`/etc/hosts`
