@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8210f1ec090da9fc",
+        "id": "9a2ae61a71caa3c5",
         "type": "tabs",
         "children": [
           {
-            "id": "030efad8f9efef77",
+            "id": "932e060525cbb920",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Course_Note/数据库_Note/数据库.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -154,10 +154,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "030efad8f9efef77",
+  "active": "932e060525cbb920",
   "lastOpenFiles": [
-    "Course_Note/Math_Note/微积分.md",
     "Course_Note/数据库_Note/数据库.md",
+    "Course_Note/Math_Note/微积分.md",
     "Course_Note/数据库_Note/image/Pasted image 20250426113057.png"
   ]
 }
