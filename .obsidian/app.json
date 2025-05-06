@@ -11,5 +11,6 @@
   "spellcheck": false,
   "vimMode": false,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "readableLineLength": true
 }
