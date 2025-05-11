@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/数据库_Note/数据库.md",
+                "file": "Course_Note/交通工程学/交通工程学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据库"
+              "title": "交通工程学"
             }
           }
         ]
@@ -156,7 +156,12 @@
   },
   "active": "932e060525cbb920",
   "lastOpenFiles": [
+    "Course_Note/交通工程学/image/Pasted image 20250510214459.png",
+    "Course_Note/交通工程学/image/Pasted image 20250510155122.png",
+    "Course_Note/交通工程学/image",
     "Course_Note/数据库_Note/数据库.md",
+    "Course_Note/交通工程学/交通工程学.md",
+    "Course_Note/交通工程学",
     "Course_Note/Math_Note/微积分.md",
     "Course_Note/数据库_Note/image/Pasted image 20250426113057.png"
   ]
