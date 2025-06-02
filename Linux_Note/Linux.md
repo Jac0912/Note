@@ -1,4 +1,4 @@
-## setup
+## 0.1. setup
 ```shell
 wsl --list  #查看当前安装的wsl
 wsl --unregister <版本>  #卸载相关版本
@@ -6,7 +6,7 @@ sudo apt-get update  #更新软件包
 sudo  passwd root  #更改root密码
 ```
 
-## shell
+## 0.2. shell
 ```shell
 $ echo "It is a test" > myfile  #显示结果定向到文件并覆盖文件内容，若文件不存在则创建文件
 $ echo "It is a test" >> myfile  #显示结果定向到文件末尾，若文件不存在则创建文件
@@ -56,7 +56,13 @@ htop  #动态显示内存
 
 sudo systemctl list-units  #查看存在的服务
 ```
-## 创建配置普通用户
+
+## 0.3. win shell
+```shell
+# 测试端口连接
+Test-NetConnection 1.95.183.0 -Port 3306
+```
+## 0.4. 创建配置普通用户
 ```shell
 sudo useradd -m -s /usr/bin/bash <username>  #-m 创建用户主目录;  -s 设定shell
 adduser <名称>  #创建新用户
@@ -65,12 +71,12 @@ passwd <username>  #设置登录密码
 sudo usermod -G sudo <username>  #加入sudo组,提供sudo权限
 sudo usermod -G docker <username>  #加入docker组,提供docker权限
 ```
-## 配置ssh
+## 0.5. 配置ssh
 ```shell
 ~/.ssh/authorized_keys  #服务器存放本地公钥
 sudo systemctl status redis  #redis状态
 ```
-## 扫描病毒
+## 0.6. 扫描病毒
 ```shell
 sudo apt install clamav
 sudo freshclam  # 更新病毒库
@@ -78,6 +84,6 @@ sudo clamscan -r /  # 扫描整个系统
 ```
 
 
-## boom
+## 0.7. boom
 1. apt无法使用，可以正常ping通，但是无法安装软件
 `sudo vim  /etc/resolv.conf `，将nameserver换为谷歌DNS：`8.8.8.8`

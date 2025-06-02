@@ -1,4 +1,4 @@
-# 常用命令
+# 1. 常用命令
 ```shell
 sudo systemctl start mysql  #启动sql
 sudo systemctl restart mysql  #重启sql
