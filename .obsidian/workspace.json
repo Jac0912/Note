@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/操作系统_Note/操作系统.md",
+                "file": "Linux_Note/Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "操作系统"
+              "title": "Linux"
             }
           }
         ]
@@ -53,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/操作系统_Note/操作系统.md",
+                "file": "Linux_Note/Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操作系统 的大纲"
+              "title": "Linux 的大纲"
             }
           },
           {
@@ -180,8 +180,10 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Middleware/Container_Note/Container.md",
+    "Linux_Note/linux命令英文缩写.md",
+    "Linux_Note/Linux.md",
     "Course_Note/操作系统_Note/操作系统.md",
+    "Middleware/Container_Note/Container.md",
     "Course_Note/计网/计网.md",
     "Course_Note/操作系统_Note/image/Pasted image 20250603165619.png",
     "Course_Note/操作系统_Note/image/Pasted image 20250603165208.png",
@@ -192,7 +194,6 @@
     "Course_Note/计网/image/Pasted image 20250601211828.png",
     "Course_Note/计网/image/Pasted image 20250601210640.png",
     "Database/Redis/Redis.md",
-    "Linux_Note/Linux.md",
     "Course_Note/计网/image/Pasted image 20250601103625.png",
     "Course_Note/计网/image/Pasted image 20250601102718.png",
     "Course_Note/计网/image/Pasted image 20250601102628.png",
@@ -215,7 +216,6 @@
     "Database/JPA/JPA.md",
     "Algorithm/history.md",
     "Algorithm/Practice.md",
-    "Linux_Note/linux命令英文缩写.md",
     "Course_Note/操作系统_Note/image",
     "Course_Note/未命名.md",
     "Course_Note/操作系统_Note",

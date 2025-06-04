@@ -1,4 +1,4 @@
-```txt
+```shell
 ls：list(列出目录内容)
 cd：Change Directory（改变目录）
 su:switch user 切换用户
@@ -73,7 +73,7 @@ MySQL = My是最初作者女儿的名字，SQL = Structured Query Language
 PHP = Personal Home Page Tools = PHP Hypertext Preprocessor
 PS = Prompt String
 Perl = "Pratical Extraction and Report Language" = "Pathologically Eclectic Rubbish Lister"
-Python 得名于电视剧Monty Python's Flying Circus
+Python 得名于电视剧Monty Python\'s Flying Circus
 Tcl = Tool Command Language
 Tk = ToolKit
 VT = Video Terminal
@@ -140,7 +140,7 @@ ls = list
 lsof = LiSt Open Files
 m4 = Macro processor Version 4
 man = MANual pages
-mawk = Mike Brennan's AWK
+mawk = Mike Brennan\'s AWK
 mc = Midnight Commander
 mkfs = MaKe FileSystem
 mknod = MaKe NODe
@@ -148,7 +148,7 @@ motd = Message of The Day
 mozilla = MOsaic GodZILLa
 mtab = Mount TABle
 mv = MoVe
-nano = Nano's ANOther editor
+nano = Nano\'s ANOther editor
 nawk = New AWK
 nl = Number of Lines
 nm = names
@@ -157,7 +157,7 @@ nroff = New ROFF
 od = Octal Dump
 passwd = PASSWorD
 pg = pager
-pico = PIne's message COmposition editor
+pico = PIne\'s message COmposition editor
 pine = "Program for Internet News & Email" = "Pine is not Elm"
 ping = 拟声 又 = Packet InterNet Grouper
 pirntcap = PRINTer CAPability
@@ -197,11 +197,11 @@ tr = traslate
 troff = Typesetter new ROFF
 tsort = Topological SORT
 tty = TeleTypewriter
-twm = Tom's Window Manager
+twm = Tom\'s Window Manager
 tz = TimeZone
 udev = Userspace DEV
-ulimit = User's LIMIT
-umask = User's MASK
+ulimit = User\'s LIMIT
+umask = User\'s MASK
 uniq = UNIQue
 vi = VIsual = Very Inconvenient
 vim = Vi IMproved
