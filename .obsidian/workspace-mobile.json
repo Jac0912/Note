@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/交通工程学/交通工程学.md",
+                "file": "Course_Note/操作系统_Note/操作系统.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "交通工程学"
+              "title": "操作系统"
             }
           }
         ]
@@ -156,6 +156,7 @@
   },
   "active": "a692a6e5b9ad36f9",
   "lastOpenFiles": [
+    "Course_Note/软件工程_Note/软工.md",
     "Course_Note/交通工程学/交通工程学.md",
     "Course_Note/交通工程学/image/Pasted image 20250511105317.png",
     "Course_Note/交通工程学/image/Pasted image 20250510214459.png",
