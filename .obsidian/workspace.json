@@ -67,13 +67,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/操作系统_Note/操作系统.md",
+                "file": "Course_Note/计网/计网.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操作系统 的大纲"
+              "title": "计网 的大纲"
             }
           },
           {
@@ -192,19 +192,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98168847ef1ff236",
+  "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Course_Note/计网/image/Pasted image 20250613205624.png",
-    "Course_Note/计网/image/Pasted image 20250613205134.png",
-    "Course_Note/计网/image/Pasted image 20250613205015.png",
-    "Course_Note/计网/image/Pasted image 20250613171504.png",
-    "Course_Note/计网/image/Pasted image 20250613171352.png",
-    "Course_Note/计网/image/Pasted image 20250613170155.png",
-    "Course_Note/计网/image/Pasted image 20250613170003.png",
-    "Course_Note/计网/image/Pasted image 20250613165935.png",
-    "Course_Note/计网/image/Pasted image 20250613150227.png",
-    "Course_Note/计网/image/Pasted image 20250613145222.png",
-    "Course_Note/计网/image/Pasted image 20250613144939.png",
+    "Course_Note/计网/image/Pasted image 20250614112406.png",
+    "Course_Note/计网/image/Pasted image 20250614112123.png",
+    "Course_Note/计网/image/Pasted image 20250614111558.png",
+    "Course_Note/计网/image/Pasted image 20250614110706.png",
+    "Course_Note/计网/image/Pasted image 20250614110633.png",
+    "Course_Note/计网/image/Pasted image 20250614110423.png",
+    "Course_Note/计网/image/Pasted image 20250614105845.png",
+    "Course_Note/计网/image/Pasted image 20250614105240.png",
+    "Course_Note/计网/image/Pasted image 20250614104029.png",
+    "Course_Note/计网/image/Pasted image 20250614103032.png",
+    "Course_Note/计网/image/Pasted image 20250614095500.png",
     "Linux_Note/Linux.md",
     "Course_Note/计网/计网.md",
     "Course_Note/操作系统_Note/操作系统.md",
