@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/计网/计网.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Course_Note/操作系统_Note/操作系统.md",
+            "file": "Course_Note/计网/计网.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
