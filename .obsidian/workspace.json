@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d59bd3f667467f8",
+        "id": "5e9341f63776f003",
         "type": "tabs",
         "children": [
           {
-            "id": "98168847ef1ff236",
+            "id": "653b1105bee0c22f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/计网/计网.md",
+                "file": "Python_Note/UV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计网"
-            }
-          },
-          {
-            "id": "c96ff2e4608e2212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Middleware/Markdown/Markdown.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "UV"
             }
           }
         ]
@@ -67,13 +53,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/计网/计网.md",
+                "file": "Python_Note/UV.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计网 的大纲"
+              "title": "UV 的大纲"
             }
           },
           {
@@ -194,51 +180,51 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Course_Note/计网/image/Pasted image 20250617220646.png",
-    "Middleware/Markdown/Markdown.md",
-    "Course_Note/计算机组成原理_Note/计组.md",
-    "Course_Note/计网/计网.md",
-    "Course_Note/计网/image/Pasted image 20250614175452.png",
-    "Course_Note/计网/image/Pasted image 20250614160613.png",
-    "Course_Note/计网/image/Pasted image 20250614155557.png",
-    "Course_Note/计网/image/Pasted image 20250614153825.png",
-    "Course_Note/计网/image/Pasted image 20250614153215.png",
-    "Course_Note/计网/image/Pasted image 20250614151547.png",
-    "Course_Note/计网/image/Pasted image 20250614151430.png",
-    "Course_Note/计网/image/Pasted image 20250614150805.png",
-    "Course_Note/计网/image/Pasted image 20250614145330.png",
-    "Course_Note/计网/image/Pasted image 20250614145129.png",
-    "Linux_Note/Linux.md",
-    "Course_Note/操作系统_Note/操作系统.md",
-    "Linux_Note/linux命令英文缩写.md",
-    "Middleware/Container_Note/Container.md",
-    "Database/Redis/Redis.md",
-    "Course_Note/计网/image",
-    "Course_Note/计网",
-    "Middleware/Git_Note/Git.md",
-    "Database/Mysql/Mysql.md",
-    "Database/PostgreSQL/PostgreSQL.md",
-    "Python_Note/Python.md",
-    "Course_Note/交通工程学/交通工程学.md",
-    "Course_Note/交通工程学/image",
-    "Course_Note/交通工程学",
-    "Algorithm/Algorithm_on_Python.md",
-    "Course_Note/数据库_Note/数据库.md",
+    "C_Note/C++参考手册-C++98_C++03_C++11_C++14_C++17_C++20.chm",
+    "RL_Note/image/image-20241006204459249.png",
+    "RL_Note/image/image-20241006180642429.png",
+    "RL_Note/image/image-20241006171810634.png",
+    "RL_Note/image/image-20241006170358506.png",
+    "RL_Note/image/image-20241006170250550.png",
+    "RL_Note/image/image-20241006171413765.png",
+    "RL_Note/image/image-20241006140011054.png",
+    "RL_Note/RL.md",
+    "RL_Note/image",
+    "RL_Note",
+    "Python_Note/image/image-20240704181910972.png",
+    "Python_Note/image/image-20240704181833098.png",
+    "Python_Note/UV.md",
+    "Python_Note/Pyplot.md",
+    "Python_Note/image",
+    "Python_Note",
+    "ML_Note/image/image-20240818110329396.png",
+    "ML_Note/targ.md",
     "ML_Note/ML.md",
-    "Course_Note/数据库_Note/image",
-    "Course_Note/数据库_Note",
-    "Course_Note/软件工程_Note/软工.md",
-    "Database/JPA/JPA.md",
-    "Algorithm/history.md",
-    "Algorithm/Practice.md",
-    "Course_Note/操作系统_Note/image",
-    "Course_Note/未命名.md",
-    "Course_Note/操作系统_Note",
-    "Algorithm/Algorithm_on_Java.md",
-    "RL_Note/RL.md.baiduyun.uploading.cfg",
-    "RL_Note/image/image-20241006204459249.png.baiduyun.uploading.cfg",
-    "Middleware/Nginx/Nginx.md",
+    "ML_Note/image",
+    "ML_Note",
+    "Middleware/Sanic_Note/Sanic_Note.md",
+    "Middleware/Tomcat/Tomcat.md",
+    "Middleware/Sanic_Note/image",
+    "Middleware/XPath_Note/XPath_Note.md",
     "Middleware/Rabbitmq/Rabbitmq.md",
-    "Middleware/Lombok/Lombok.md"
+    "Middleware/Crawler_Note/image",
+    "Middleware/Nginx/Nginx.md",
+    "Middleware/Git_Note/Git.md",
+    "Middleware/Crawler_Note/Crawler_Note.md",
+    "Middleware/Lombok/Lombok.md",
+    "Middleware/Markdown/Markdown.md",
+    "Middleware/Container_Note/sudo docker run -d --restart=always.txt",
+    "Middleware/Container_Note/Container.md",
+    "Middleware/Sanic_Note",
+    "Linux_Note/linux命令英文缩写.md",
+    "Linux_Note/Gurobipy.md",
+    "Linux_Note/Linux.md",
+    "Java_Note/数据结构/树.md",
+    "Java_Note/数据结构/队列.md",
+    "Java_Note/数据结构/查找.md",
+    "Java_Note/数据结构/排序.md",
+    "Java_Note/数据结构/堆.md",
+    "Java_Note/数据结构/图.md",
+    "Java_Note/Spring MVC/Spring MVC.md"
   ]
 }

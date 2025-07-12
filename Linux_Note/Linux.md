@@ -42,7 +42,7 @@ $ cp -r sour/ dest/  #将文件夹内容递归复制
 $ mv file.txt /path/to/destination/new.txt  #移动并重命名文件为new.txt
 $ mv dir /path/to/destination/  #移动文件夹
 
-$ tar -tf foo.tar.gz
+$ tar -czf foo.tar.gz file1 file2
 #-c：创建一个新的归档文件（压缩文件）。
 #-x：从归档文件中提取文件。
 #-f：指定归档文件的名称，可以是新创建的或已存在的。
@@ -56,6 +56,9 @@ $ tar -tf foo.tar.gz
 #--list：列出归档文件中包含的文件。
 #--strip-components：在提取文件时去除前面的路径组件。
 #-C：指定提取文件的目标目录。
+
+#解压缩
+tar -xvf archive.tar
 
 $ su <username>  #切换用户
 $ mkdir -p <文件路径>  # -p:如果任意一级父目录不存在,则创建
