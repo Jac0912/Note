@@ -11,4 +11,5 @@ uv add <库名>  #添加库
 uv remove <库名>  #移除库
 uv tree  #依赖树
 uv sync  #自动读取pyproject.toml文件搭建环境
+
 ```
