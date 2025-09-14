@@ -4,24 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "5e9341f63776f003",
+        "id": "7aa79fadc34afc68",
         "type": "tabs",
         "children": [
           {
-            "id": "653b1105bee0c22f",
+            "id": "5c67f7a2b7f7badd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "database/量子编译.base",
+                "viewName": "表格"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "量子编译"
+            }
+          },
+          {
+            "id": "34696da26a6cc00a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "3cec6b38e5b7be32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python_Note/UV.md",
+                "file": "setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UV"
+              "title": "setup"
+            }
+          },
+          {
+            "id": "fef70bcdfceec152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "科研/量子线路编译/learn/learn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "learn"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,13 +93,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python_Note/UV.md",
+                "file": "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UV 的大纲"
+              "title": "CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit 的大纲"
             }
           },
           {
@@ -80,7 +120,7 @@
             }
           },
           {
-            "id": "be51fbb7eecc6334",
+            "id": "94caf3029d42f4c7",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -94,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5086555480957
+    "width": 203.50469207763672
   },
   "right": {
     "id": "4522295b1b24b93d",
@@ -110,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course_Note/交通工程学/交通工程学.md",
+                "file": "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "交通工程学 的反向链接列表"
+              "title": "CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit 的反向链接列表"
             }
           },
           {
@@ -129,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Algorithm_on_Python.md",
+                "file": "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Algorithm_on_Python 的出链列表"
+              "title": "CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit 的出链列表"
             }
           },
           {
@@ -144,7 +184,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -170,6 +212,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -179,53 +222,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be51fbb7eecc6334",
+  "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "C_Note/C++参考手册-C++98_C++03_C++11_C++14_C++17_C++20.chm",
-    "RL_Note/image/image-20241006204459249.png",
-    "RL_Note/image/image-20241006180642429.png",
-    "RL_Note/image/image-20241006171810634.png",
-    "RL_Note/image/image-20241006170358506.png",
-    "RL_Note/image/image-20241006170250550.png",
-    "RL_Note/image/image-20241006171413765.png",
-    "RL_Note/image/image-20241006140011054.png",
-    "RL_Note/RL.md",
-    "RL_Note/image",
-    "RL_Note",
-    "Python_Note/image/image-20240704181910972.png",
-    "Python_Note/image/image-20240704181833098.png",
-    "Python_Note/UV.md",
-    "Python_Note/Pyplot.md",
-    "Python_Note/image",
-    "Python_Note",
-    "ML_Note/image/image-20240818110329396.png",
-    "ML_Note/targ.md",
-    "ML_Note/ML.md",
-    "ML_Note/image",
-    "ML_Note",
-    "Middleware/Sanic_Note/Sanic_Note.md",
-    "Middleware/Tomcat/Tomcat.md",
-    "Middleware/Sanic_Note/image",
-    "Middleware/XPath_Note/XPath_Note.md",
-    "Middleware/Rabbitmq/Rabbitmq.md",
-    "Middleware/Crawler_Note/image",
-    "Middleware/Nginx/Nginx.md",
-    "Middleware/Git_Note/Git.md",
-    "Middleware/Crawler_Note/Crawler_Note.md",
-    "Middleware/Lombok/Lombok.md",
-    "Middleware/Markdown/Markdown.md",
-    "Middleware/Container_Note/sudo docker run -d --restart=always.txt",
-    "Middleware/Container_Note/Container.md",
-    "Middleware/Sanic_Note",
-    "Linux_Note/linux命令英文缩写.md",
-    "Linux_Note/Gurobipy.md",
-    "Linux_Note/Linux.md",
-    "Java_Note/数据结构/树.md",
-    "Java_Note/数据结构/队列.md",
-    "Java_Note/数据结构/查找.md",
-    "Java_Note/数据结构/排序.md",
-    "Java_Note/数据结构/堆.md",
-    "Java_Note/数据结构/图.md",
-    "Java_Note/Spring MVC/Spring MVC.md"
+    "database/量子编译.base",
+    "科研/量子线路编译/review/review.md",
+    "科研/量子线路编译/work/Formulation.md",
+    "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Exploiting the Regular Structure of Modern Quantum Architectures for Compiling and Optimizing Programs with Permutable Operators.md",
+    "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/image/Pasted image 20250902105743.png",
+    "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
+    "科研/量子线路编译/learn/learn.md",
+    "科研/量子线路编译/learn/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
+    "setup.md",
+    "snippets/table.css",
+    "snippets",
+    "科研/量子线路编译/work",
+    "科研/量子线路编译/learn",
+    "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Scalable Optimal Layout Synthesis for NISQ Quantum Processors.md",
+    "科研/量子线路编译/report/~$1.pptx",
+    "科研/量子线路编译/report/ppt3070.tmp",
+    "科研/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
+    "科研/量子线路编译/report/pptF68A.tmp",
+    "科研/量子线路编译/report/pptDC45.tmp",
+    "temp.md",
+    "科研/量子线路编译/report/ppt1986.tmp",
+    "Untitled.md",
+    "fsd.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "科研/Beamforming/课题.md",
+    "remember/Linux.md",
+    "poem.md",
+    "未命名.canvas",
+    "科研/量子线路编译/未命名.md",
+    "2025-08-01.md",
+    "科研/量子线路编译/image/Pasted image 20250727225316.png",
+    "科研/量子线路编译/review/image/Pasted image 20250727225316.png",
+    "科研/量子线路编译/review/image/Pasted image 20250727000122.png",
+    "科研/量子线路编译/review/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
+    "科研/量子线路编译/image/Pasted image 20250727000122.png",
+    "科研/EPS pool/learn.md",
+    "Movie/Movie.md",
+    "科研/EPS pool/work.md",
+    "key.md",
+    "科研/EPS pool/Exp Data.md",
+    "科研/EPS pool/image/Pasted image 20250628163158.png",
+    "科研/EPS pool/history.md",
+    "科研/EPS pool/Experiment.md",
+    "科研/EPS pool/image/Pasted image 20250526114100.png",
+    "科研/EPS pool/image/Pasted image 20250526095736.png"
   ]
 }

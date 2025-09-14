@@ -112,6 +112,14 @@ PATH=...  #键盘命令搜索路径
 SHELL=..  #用户初始shell路径
 TERM=vt100  #所用终端类型
 PS1=$  #shell主提示符
+env  #展示所有环境变量
+
+#删除环境变量
+vim ~/.bashrc
+source ~/.bashrc
+
+unset <env>  #禁用某个环境变量（临时）
+
 ```
 
 # 4. 变量

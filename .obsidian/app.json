@@ -2,7 +2,7 @@
   "promptDelete": false,
   "attachmentFolderPath": "./image",
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A3",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
@@ -13,5 +13,5 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "readableLineLength": true,
-  "showLineNumber": false
+  "focusNewTab": true
 }
