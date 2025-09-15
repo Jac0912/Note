@@ -1,0 +1,10 @@
+{
+    "id": "duplicate-line",
+    "name": "Duplicate line",
+    "version": "1.0.0",
+	"minAppVersion": "0.15.0",
+    "description": "Duplicate line or selection",
+    "author": "Marcin Sztolcman",
+    "authorUrl": "https://urzenia.net",
+	"isDesktopOnly": false
+}
