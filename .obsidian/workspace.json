@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "56f12fb2ec287660",
+        "id": "b053d30609532826",
         "type": "tabs",
         "children": [
           {
-            "id": "e79bbf47cf1d3770",
+            "id": "9a9ba1296aa065d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toefl/word.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "word"
+            }
+          },
+          {
+            "id": "d7095b58c1cb3192",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "Toefl"
+            }
+          },
+          {
+            "id": "87ea80de11388b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Middleware/Markdown/Markdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markdown"
             }
           }
         ]
@@ -53,13 +81,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/Toefl.md",
+                "file": "Toefl/word.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Toefl 的大纲"
+              "title": "word 的大纲"
             }
           },
           {
@@ -94,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.50469207763672
+    "width": 221.50152206420898
   },
   "right": {
     "id": "4522295b1b24b93d",
@@ -183,7 +211,26 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
+    "Toefl/资料/bilibili/清北托福慕课_听力讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/清北托福慕课_写作讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/清北托福慕课_阅读讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/清北托福慕课_口语讲义 2024-25.pdf",
+    "Toefl/资料/bilibili",
+    "Toefl/资料/New folder",
     "Toefl/Toefl.md",
+    "Toefl/image/Pasted image 20250928210811.png",
+    "Toefl/image/Pasted image 20250927210417.png",
+    "Toefl/image/Pasted image 20250927210132.png",
+    "Toefl/资料/【DAY3课后讲义】口语体验课.pdf",
+    "Toefl/image/Pasted image 20250927162203.png",
+    "Toefl/image/Pasted image 20250927161056.png",
+    "Toefl/word.md",
+    "Middleware/Markdown/Markdown.md",
+    "Toefl/image/Pasted image 20250922180220.png",
+    "Toefl/image/Pasted image 20250922180145.png",
+    "Toefl/image/Pasted image 20250922180106.png",
+    "Toefl/image/Pasted image 20250917214144.png",
+    "Toefl/image",
     "database/量子编译.base",
     "科研/量子线路编译/review/review.md",
     "科研/量子线路编译/work/Formulation.md",
@@ -191,20 +238,12 @@
     "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/image/Pasted image 20250902105743.png",
     "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
     "科研/量子线路编译/learn/learn.md",
-    "科研/量子线路编译/learn/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
     "setup.md",
     "snippets/table.css",
     "snippets",
-    "科研/量子线路编译/work",
-    "科研/量子线路编译/learn",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Scalable Optimal Layout Synthesis for NISQ Quantum Processors.md",
-    "科研/量子线路编译/report/~$1.pptx",
-    "科研/量子线路编译/report/ppt3070.tmp",
     "科研/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
-    "科研/量子线路编译/report/pptF68A.tmp",
-    "科研/量子线路编译/report/pptDC45.tmp",
     "temp.md",
-    "科研/量子线路编译/report/ppt1986.tmp",
     "Untitled.md",
     "fsd.md",
     "Untitled 2.md",
@@ -215,20 +254,9 @@
     "未命名.canvas",
     "科研/量子线路编译/未命名.md",
     "2025-08-01.md",
-    "科研/量子线路编译/image/Pasted image 20250727225316.png",
-    "科研/量子线路编译/review/image/Pasted image 20250727225316.png",
-    "科研/量子线路编译/review/image/Pasted image 20250727000122.png",
-    "科研/量子线路编译/review/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
-    "科研/量子线路编译/image/Pasted image 20250727000122.png",
     "科研/EPS pool/learn.md",
     "Movie/Movie.md",
     "科研/EPS pool/work.md",
-    "key.md",
-    "科研/EPS pool/Exp Data.md",
-    "科研/EPS pool/image/Pasted image 20250628163158.png",
-    "科研/EPS pool/history.md",
-    "科研/EPS pool/Experiment.md",
-    "科研/EPS pool/image/Pasted image 20250526114100.png",
-    "科研/EPS pool/image/Pasted image 20250526095736.png"
+    "key.md"
   ]
 }

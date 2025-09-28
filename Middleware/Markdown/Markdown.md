@@ -11,28 +11,28 @@
 |        $\lVert, \rVert$        |        \lVert, \rVert        |   $\because$   |   \because   |
 |        $\big( x \big)$         |        \big( x \big)         |  $\therefore$  |  \therefore  |
 |        $\Big( x \Big)$         |        \Big( x \Big)         |   $\forall$    |   \forall    |
-|       $\bigg( x \bigg)$        |       \bigg( x \bigg)        |     $\neq$     |     \neq     |
-|       $\Bigg( x \Bigg)$        |       \Bigg( x \Bigg)        |    $\dots$     |    \dots     |
-|         $\frac{a}{b}$          |         \frac{a}{b}          |   $123\,123$   |   123\,123   |
-|         $\sqrt{a + b}$         |         \sqrt{a + b}         | $123\quad123$  | 123\quad123  |
-|     $\sum_{i = 0}^{n} x^2$     |     \sum_{i = 0}^{n} x^2     |    $\alpha$    |    \alpha    |
-| $\prod_{i = 0}^{n}\frac{1}{x}$ | \prod_{i = 0}^{n}\frac{1}{x} |    $\beta$     |    \beta     |
-|             $\pm$              |             \pm              |    $\gamma$    |    \gamma    |
-|             $\mp$              |             \mp              |     $\rho$     |     \rho     |
-|            $\times$            |            \times            |     $\ohm$     |     \ohm     |
-|             $\div$             |             \div             |    $11\:11$    |     \ :      |
-|             $\mid$             |             \mid             |  $11\quad11$   |    \quad     |
-|            $\cdot$             |            \cdot             | $111\qquad111$ | 111\qquad111 |
-|           $\bigodot$           |           \bigodot           |     $\eta$     |     \eta     |
-|          $\bigotimes$          |          \bigotimes          |     $\xi$      |     \xi      |
-|             $\leq$             |             \leq             | $\partial_{x}$ | \partial_{x} |
-|             $\geq$             |             \geq             |       $$       |              |
-|           $\approx$            |           \approx            |       $$       |              |
-|             $\lim$             |             \lim             |       $$       |              |
-|         $\rightarrow$          |         \rightarrow          |       $$       |              |
-|            $\infty$            |            \infty            |       $$       |              |
-|         $\rightarrow$          |         \rightarrow          |       $$       |              |
-|         $\Rightarrow$          |         \Rightarrow          |                |              |
+|       $\bigg( x \bigg)$        |       \bigg( x \bigg)        |   $\exists$    |   \exists    |
+|       $\Bigg( x \Bigg)$        |       \Bigg( x \Bigg)        |     $\neq$     |     \neq     |
+|         $\frac{a}{b}$          |         \frac{a}{b}          |    $\dots$     |    \dots     |
+|         $\sqrt{a + b}$         |         \sqrt{a + b}         |   $123\,123$   |   123\,123   |
+|     $\sum_{i = 0}^{n} x^2$     |     \sum_{i = 0}^{n} x^2     | $123\quad123$  | 123\quad123  |
+| $\prod_{i = 0}^{n}\frac{1}{x}$ | \prod_{i = 0}^{n}\frac{1}{x} |    $\alpha$    |    \alpha    |
+|             $\pm$              |             \pm              |    $\beta$     |    \beta     |
+|             $\mp$              |             \mp              |    $\gamma$    |    \gamma    |
+|            $\times$            |            \times            |     $\rho$     |     \rho     |
+|             $\div$             |             \div             |     $\ohm$     |     \ohm     |
+|             $\mid$             |             \mid             |    $11\:11$    |     \ :      |
+|            $\cdot$             |            \cdot             |  $11\quad11$   |    \quad     |
+|           $\bigodot$           |           \bigodot           | $111\qquad111$ | 111\qquad111 |
+|          $\bigotimes$          |          \bigotimes          |     $\eta$     |     \eta     |
+|             $\leq$             |             \leq             |     $\xi$      |     \xi      |
+|             $\geq$             |             \geq             | $\partial_{x}$ | \partial_{x} |
+|           $\approx$            |           \approx            |  $\mathbb G$   |  \mathbb G   |
+|             $\lim$             |             \lim             |  $\mathbf G$   |  \mathbf G   |
+|         $\rightarrow$          |         \rightarrow          |  $\mathit G$   |  \mathit G   |
+|            $\infty$            |            \infty            |  $\mathrm G$   |  \mathrm G   |
+|         $\rightarrow$          |         \rightarrow          |  $\mathcal G$  |  \mathcal G  |
+|         $\Rightarrow$          |         \Rightarrow          |  $\mathscr G$  |  \mathscr G  |
 |       $\Leftrightarrow$        |       \Leftrightarrow        |                |              |
 1.
 $$
