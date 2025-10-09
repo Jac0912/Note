@@ -10,7 +10,7 @@
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
   "ChineseNumberSpace": true,
-  "EnglishNumberSpace": true,
+  "EnglishNumberSpace": false,
   "ChineseNoSpace": true,
   "QuoteSpace": true,
   "PunctuationSpace": false,

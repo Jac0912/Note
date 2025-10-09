@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "d7095b58c1cb3192",
+            "id": "212d71a7fd1244ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,20 +36,57 @@
             }
           },
           {
-            "id": "87ea80de11388b6c",
+            "id": "374714927050371a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/Markdown/Markdown.md",
+                "file": "Toefl/口语.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "口语"
+            }
+          },
+          {
+            "id": "88aedf5c1d6f0c31",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Toefl/资料/bilibili/口语讲义 2024-25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "口语讲义 2024-25"
+            }
+          },
+          {
+            "id": "273bdfea3db90f50",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Toefl/资料/bilibili/听力讲义 2024-25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "听力讲义 2024-25"
+            }
+          },
+          {
+            "id": "386484b60f3205c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Toefl/资料/bilibili/阅读讲义 2024-25.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "阅读讲义 2024-25"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -211,36 +248,37 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/资料/bilibili/清北托福慕课_听力讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/清北托福慕课_写作讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/清北托福慕课_阅读讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/清北托福慕课_口语讲义 2024-25.pdf",
-    "Toefl/资料/bilibili",
-    "Toefl/资料/New folder",
     "Toefl/Toefl.md",
+    "Toefl/word.md",
+    "Toefl/口语.md",
+    "Toefl/资料/bilibili/口语讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/听力讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/阅读讲义 2024-25.pdf",
+    "Toefl/口语",
+    "Toefl/image/Pasted image 20251007193902.png",
+    "Middleware/Markdown/Markdown.md",
+    "Course_Note/马克思主义/马克思主义.md",
+    "Toefl/资料/bilibili/写作讲义 2024-25.pdf",
+    "Toefl/资料/bcz/托福独立口语高分范文.pdf",
+    "Toefl/资料/bcz/听力常用笔记符号 & 简写.pdf",
+    "Toefl/资料/bcz/常见逻辑表达—句子简化题.pdf",
+    "Toefl/资料/bcz/【DAY3课后讲义】口语体验课.pdf",
+    "Toefl/资料/bcz/【DAY2课后讲义】听力体验课.pdf",
     "Toefl/image/Pasted image 20250928210811.png",
     "Toefl/image/Pasted image 20250927210417.png",
     "Toefl/image/Pasted image 20250927210132.png",
-    "Toefl/资料/【DAY3课后讲义】口语体验课.pdf",
     "Toefl/image/Pasted image 20250927162203.png",
     "Toefl/image/Pasted image 20250927161056.png",
-    "Toefl/word.md",
-    "Middleware/Markdown/Markdown.md",
     "Toefl/image/Pasted image 20250922180220.png",
     "Toefl/image/Pasted image 20250922180145.png",
     "Toefl/image/Pasted image 20250922180106.png",
     "Toefl/image/Pasted image 20250917214144.png",
-    "Toefl/image",
-    "database/量子编译.base",
     "科研/量子线路编译/review/review.md",
     "科研/量子线路编译/work/Formulation.md",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Exploiting the Regular Structure of Modern Quantum Architectures for Compiling and Optimizing Programs with Permutable Operators.md",
-    "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/image/Pasted image 20250902105743.png",
     "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
     "科研/量子线路编译/learn/learn.md",
     "setup.md",
-    "snippets/table.css",
-    "snippets",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Scalable Optimal Layout Synthesis for NISQ Quantum Processors.md",
     "科研/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
     "temp.md",
@@ -255,8 +293,6 @@
     "科研/量子线路编译/未命名.md",
     "2025-08-01.md",
     "科研/EPS pool/learn.md",
-    "Movie/Movie.md",
-    "科研/EPS pool/work.md",
-    "key.md"
+    "Movie/Movie.md"
   ]
 }

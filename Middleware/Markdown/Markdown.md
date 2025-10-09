@@ -28,11 +28,13 @@
 |             $\leq$             |             \leq             |     $\xi$      |     \xi      |
 |             $\geq$             |             \geq             | $\partial_{x}$ | \partial_{x} |
 |           $\approx$            |           \approx            |  $\mathbb G$   |  \mathbb G   |
-|             $\lim$             |             \lim             |  $\mathbf G$   |  \mathbf G   |
-|         $\rightarrow$          |         \rightarrow          |  $\mathit G$   |  \mathit G   |
-|            $\infty$            |            \infty            |  $\mathrm G$   |  \mathrm G   |
+|             $\sim$             |             \sim             |  $\mathbf G$   |  \mathbf G   |
+|            $\equiv$            |            \equiv            |  $\mathit G$   |  \mathit G   |
+|             $\lim$             |             \lim             |  $\mathrm G$   |  \mathrm G   |
 |         $\rightarrow$          |         \rightarrow          |  $\mathcal G$  |  \mathcal G  |
-|         $\Rightarrow$          |         \Rightarrow          |  $\mathscr G$  |  \mathscr G  |
+|            $\infty$            |            \infty            |  $\mathscr G$  |  \mathscr G  |
+|         $\rightarrow$          |         \rightarrow          |                |              |
+|         $\Rightarrow$          |         \Rightarrow          |                |              |
 |       $\Leftrightarrow$        |       \Leftrightarrow        |                |              |
 1.
 $$
