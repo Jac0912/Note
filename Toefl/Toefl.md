@@ -8,7 +8,7 @@ Q 10：2 分
 - 读的时候对信息进行处理（找到主要信息、逻辑）
 
 做题 key：
-- 插入句子题要看好指示代词的指代正确（不因插入句子打断），先理论后例证
+- 插入句子题要看好指示代词的指代正确（不因插入句子打断），先理论后例证，先总后分
 - 注意比较级、最高级
 BCF
 
@@ -44,12 +44,12 @@ task 1：80~110
 6. 结论
 
 ```text
-I perfer to .../ I believe that ...
-- reason1
-	- detail
-- reason2
-	- detail
-In contrast, 
+Well, in my opinion, I perfer to .../ I believe that ...
+- For example, 
+	- Last summer vacation, ... , which literally ...
+- Also,
+	- ... for the reason that
+In contrast, ... can't offer the benefits mentioned above for ...
 ```
 
 task 2：120~145

@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "4c7cb7f8a8afd2f3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Toefl/资料/bcz/托福学科词汇.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "托福学科词汇"
+            }
+          },
+          {
             "id": "212d71a7fd1244ba",
             "type": "leaf",
             "state": {
@@ -86,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/word.md",
+                "file": "Toefl/资料/bcz/托福学科词汇.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "word 的大纲"
+              "title": "托福学科词汇 的大纲"
             }
           },
           {
@@ -248,12 +260,12 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/Toefl.md",
     "Toefl/word.md",
+    "Toefl/Toefl.md",
     "Toefl/口语.md",
     "Toefl/资料/bilibili/口语讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/听力讲义 2024-25.pdf",
     "Toefl/资料/bilibili/阅读讲义 2024-25.pdf",
+    "Toefl/资料/bilibili/听力讲义 2024-25.pdf",
     "Toefl/口语",
     "Toefl/image/Pasted image 20251007193902.png",
     "Middleware/Markdown/Markdown.md",
