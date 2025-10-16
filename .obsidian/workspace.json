@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a9ba1296aa065d4",
+            "id": "ed20d83fcfaf85b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,18 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "word"
-            }
-          },
-          {
-            "id": "4c7cb7f8a8afd2f3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Toefl/资料/bcz/托福学科词汇.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "托福学科词汇"
             }
           },
           {
@@ -59,6 +47,18 @@
               },
               "icon": "lucide-file",
               "title": "口语"
+            }
+          },
+          {
+            "id": "e7ecf0768fff6f9f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Toefl/资料/bcz/subject term.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "subject term"
             }
           },
           {
@@ -97,8 +97,7 @@
               "title": "阅读讲义 2024-25"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/资料/bcz/托福学科词汇.pdf",
+                "file": "Toefl/资料/bcz/subject term.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "托福学科词汇 的大纲"
+              "title": "subject term 的大纲"
             }
           },
           {
@@ -260,22 +259,22 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/word.md",
     "Toefl/Toefl.md",
     "Toefl/口语.md",
-    "Toefl/资料/bilibili/口语讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/阅读讲义 2024-25.pdf",
-    "Toefl/资料/bilibili/听力讲义 2024-25.pdf",
+    "Toefl/资料/bcz/subject term.pdf",
+    "Toefl/word.md",
+    "Toefl/资料/bilibili/writing.pdf",
+    "未命名.base",
+    "Toefl/资料/bilibili/speaking.pdf",
+    "Toefl/资料/bilibili/reading.pdf",
+    "Toefl/资料/bilibili/listening.pdf",
     "Toefl/口语",
     "Toefl/image/Pasted image 20251007193902.png",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/马克思主义/马克思主义.md",
-    "Toefl/资料/bilibili/写作讲义 2024-25.pdf",
     "Toefl/资料/bcz/托福独立口语高分范文.pdf",
     "Toefl/资料/bcz/听力常用笔记符号 & 简写.pdf",
     "Toefl/资料/bcz/常见逻辑表达—句子简化题.pdf",
-    "Toefl/资料/bcz/【DAY3课后讲义】口语体验课.pdf",
-    "Toefl/资料/bcz/【DAY2课后讲义】听力体验课.pdf",
     "Toefl/image/Pasted image 20250928210811.png",
     "Toefl/image/Pasted image 20250927210417.png",
     "Toefl/image/Pasted image 20250927210132.png",

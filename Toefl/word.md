@@ -88,12 +88,24 @@
 |     |     grounding      |     基础、搁浅      |                     |                 |
 |     |        foul        |     难闻的、弄脏     |                     |                 |
 |     |      adverse       |      不利的       |                     |                 |
-|     |    notoriously     |  众所周知的、声名狼藉的   |                     |                 |
+|     |                    |                |                     |                 |
+|  5  |    notoriously     |  众所周知的、声名狼藉的   |                     |                 |
 |     |       stunt        |     阻碍生长的      |                     |                 |
 |     |        mist        |   雾、使...蒙上雾气   |                     |                 |
 |     |       amass        |       聚集       |                     |                 |
 |     |       shoot        |       嫩芽       |                     |                 |
 |     |      compost       |       堆肥       |                     |                 |
+|     |      fanciful      |    想象的、稀奇的     |                     |                 |
+|     |      mutually      |      相互的       |                     |                 |
+|     |     spread out     |      分散开来      |                     |                 |
+|     |     implicitly     |      含蓄的       |                     |                 |
+|     |     deprecate      |     反对、轻视      |                     |                 |
+|     |     inventory      |     清单、库存      |                     |                 |
+|     |     implement      |     执行、工具      |                     |                 |
+|     |      marooned      |   陷于孤立无援困境的    |                     |                 |
+|     |        feat        |     壮举、技艺      |                     |                 |
+|     |     undisputed     |     无可争辩的      |                     |                 |
+|     |   paleontologist   |     古生物学者      |                     |                 |
 |     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
@@ -177,17 +189,21 @@
 |     |                    |                |        wavy         |      波浪形的       |
 |     |                    |                |     ethnography     |       人种学       |
 |     |                    |                |       ethical       |       道德的       |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
+|     |                    |                |        shed         |      去除、落叶      |
+|     |                    |                |      consensus      |      一致看法       |
+|     |                    |                |       footage       |      一组镜头       |
+|     |                    |                |         dub         |       配音        |
+|     |                    |                |        gist         |      主旨、大意      |
+|     |                    |                | set sb. apart from  |  使某人从某些方面脱颖而出   |
+|     |                    |                |  earth-shattering   |      惊天动地的      |
+|     |                    |                |     conveyance      |     运送、运输工具     |
+|     |                    |                |         zip         |     迅速移动、拉链     |
+|     |                    |                |  fabric of society  |      社会结构       |
+|     |                    |                |       gadget        |      小玩意儿       |
+|     |                    |                |     metabolize      |     使发生新陈代谢     |
+|     |                    |                |       ethanol       |       酒精        |
+|     |                    |                |        yeast        |       酵母        |
+|     |                    |                |       endorse       |       赞同        |
 |     |                    |                |                     |                 |
 
 # 3. 形近
@@ -198,3 +214,7 @@
 | principal | 重要的 |     |     |     |
 |           |     |     |     |     |
 |           |     |     |     |     |
+
+
+
+
