@@ -106,6 +106,24 @@
 |     |        feat        |     壮举、技艺      |                     |                 |
 |     |     undisputed     |     无可争辩的      |                     |                 |
 |     |   paleontologist   |     古生物学者      |                     |                 |
+|     |       algae        |       水藻       |                     |                 |
+|     |     zoologist      |      动物学家      |                     |                 |
+|     |     virtually      |     事实上、几乎     |                     |                 |
+|     |                    |                |                     |                 |
+|  6  |      harness       |      控制利用      |                     |                 |
+|     |       piston       |       活塞       |                     |                 |
+|     |       embody       |       体现       |                     |                 |
+|     |     millennium     |      一千年       |                     |                 |
+|     |       rival        |   敌手、与...相匹敌   |                     |                 |
+|     |     well-to-do     |      富裕的       |                     |                 |
+|     |       bellow       |     惨叫、风箱      |                     |                 |
+|     |      virtual       |       几乎       |                     |                 |
+|     |   printing press   |      印刷机       |                     |                 |
+|     |      turnpike      |     收费高速公路     |                     |                 |
+|     |       spring       | 突然出现（过：sprang） |                     |                 |
+|     |       meter        | 计量仪、米、（诗歌的）韵律  |                     |                 |
+|     |     apprentice     |       学徒       |                     |                 |
+|     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
@@ -205,15 +223,23 @@
 |     |                    |                |        yeast        |       酵母        |
 |     |                    |                |       endorse       |       赞同        |
 |     |                    |                |                     |                 |
+| 40  |                    |                |       eatery        |     饭馆、饮食店      |
+|     |                    |                |    hypothetical     |      基于假设的      |
+|     |                    |                |      protocol       |       协议        |
+|     |                    |                |        muted        |  （颜色或光线）柔和的、静音  |
+|     |                    |                |       dawn on       |    开始明白、意识到     |
 
 # 3. 形近
 
-| 词         | 意   |     | 词   | 意   |
-| --------- | --- | --- | --- | --- |
-| principle | 原则  |     |     |     |
-| principal | 重要的 |     |     |     |
-|           |     |     |     |     |
-|           |     |     |     |     |
+| 词            | 意   |     | 词   | 意   |
+| ------------ | --- | --- | --- | --- |
+| principle    | 原则  |     |     |     |
+| principal    | 重要的 |     |     |     |
+|              |     |     |     |     |
+| apprentice   | 学徒  |     |     |     |
+| appreciate   | 欣赏  |     |     |     |
+| apprehension | 理解  |     |     |     |
+|              |     |     |     |     |
 
 
 
