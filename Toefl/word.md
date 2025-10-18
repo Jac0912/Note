@@ -123,9 +123,15 @@
 |     |       spring       | 突然出现（过：sprang） |                     |                 |
 |     |       meter        | 计量仪、米、（诗歌的）韵律  |                     |                 |
 |     |     apprentice     |       学徒       |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
-|     |                    |                |                     |                 |
+|     |       parish       |       教区       |                     |                 |
+|     |       course       |     航线、课程      |                     |                 |
+|     |      outcrop       |   露出地面的岩层、露头   |                     |                 |
+|     |       coach        |    教练、长途客车     |                     |                 |
+|     |    meticulously    |     一丝不苟的      |                     |                 |
+|     |       faunal       |     动物区系的      |                     |                 |
+|     |       floral       |      植物群的      |                     |                 |
+|     |      temporal      |      时间的       |                     |                 |
+|     |      stratum       |    地址层、社会阶层    |                     |                 |
 |     |                    |                |                     |                 |
 | 36  |                    |                |       isotope       |       同位素       |
 |     |                    |                |       proton        |       质子        |
@@ -228,18 +234,45 @@
 |     |                    |                |      protocol       |       协议        |
 |     |                    |                |        muted        |  （颜色或光线）柔和的、静音  |
 |     |                    |                |       dawn on       |    开始明白、意识到     |
+|     |                    |                |       vessel        |     船、血管、容器     |
+|     |                    |                |        deter        |       防止        |
+|     |                    |                |       trawler       |     拖网捕鱼的人      |
+|     |                    |                |       toughen       |     变坚韧（加大）     |
+|     |                    |                |      reference      |     提及、推荐信      |
+|     |                    |                |      hothouse       |      温床、温室      |
+|     |                    |                |        stake        |     股份（参与）      |
+|     |                    |                |      cellular       |       细胞的       |
+|     |                    |                |       glucose       |       葡萄糖       |
+|     |                    |                |      sequester      |      隔绝、没收      |
+|     |                    |                |      droppings      |      鸟兽粪便       |
+|     |                    |                |        peat         |       泥煤        |
+|     |                    |                |         bog         |       泥塘        |
+|     |                    |                |       remains       |     剩余物、遗体      |
+|     |                    |                |        toll         |       通行费       |
+|     |                    |                |       revenue       |      收入、税收      |
+|     |                    |                |        wary         |      小心翼翼的      |
+|     |                    |                |      back road      |      次要道路       |
+|     |                    |                |    astronomical     |    天文的、天文数字的    |
+|     |                    |                |        hike         |     远足、大幅提高     |
+|     |                    |                |        bond         |      联系、债卷      |
+|     |                    |                |     congestion      |       塞车        |
+|     |                    |                |                     |                 |
+| 41  |                    |                |        dorm         |       宿舍        |
 
 # 3. 形近
 
-| 词            | 意   |     | 词   | 意   |
-| ------------ | --- | --- | --- | --- |
-| principle    | 原则  |     |     |     |
-| principal    | 重要的 |     |     |     |
-|              |     |     |     |     |
-| apprentice   | 学徒  |     |     |     |
-| appreciate   | 欣赏  |     |     |     |
-| apprehension | 理解  |     |     |     |
-|              |     |     |     |     |
+| 词            | 意     |     | 词   | 意   |
+| ------------ | ----- | --- | --- | --- |
+| principle    | 原则    |     |     |     |
+| principal    | 重要的   |     |     |     |
+|              |       |     |     |     |
+| apprentice   | 学徒    |     |     |     |
+| appreciate   | 欣赏    |     |     |     |
+| apprehension | 理解    |     |     |     |
+|              |       |     |     |     |
+| resemble     | 像     |     |     |     |
+| assemble     | 集合、组装 |     |     |     |
+|              |       |     |     |     |
 
 
 

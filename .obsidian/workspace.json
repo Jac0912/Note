@@ -62,39 +62,15 @@
             }
           },
           {
-            "id": "88aedf5c1d6f0c31",
+            "id": "2ccac03b2ee78294",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Toefl/资料/bilibili/口语讲义 2024-25.pdf"
+                "file": "Toefl/资料/bilibili/listening.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "口语讲义 2024-25"
-            }
-          },
-          {
-            "id": "273bdfea3db90f50",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Toefl/资料/bilibili/听力讲义 2024-25.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "听力讲义 2024-25"
-            }
-          },
-          {
-            "id": "386484b60f3205c7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Toefl/资料/bilibili/阅读讲义 2024-25.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "阅读讲义 2024-25"
+              "title": "listening"
             }
           }
         ]
@@ -260,20 +236,20 @@
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
     "Toefl/Toefl.md",
-    "Toefl/口语.md",
+    "Toefl/资料/bilibili/listening.pdf",
     "Toefl/资料/bcz/subject term.pdf",
     "Toefl/word.md",
+    "Toefl/资料/bcz/listen-note.pdf",
+    "Toefl/口语.md",
     "Toefl/资料/bilibili/writing.pdf",
     "未命名.base",
     "Toefl/资料/bilibili/speaking.pdf",
     "Toefl/资料/bilibili/reading.pdf",
-    "Toefl/资料/bilibili/listening.pdf",
     "Toefl/口语",
     "Toefl/image/Pasted image 20251007193902.png",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/马克思主义/马克思主义.md",
     "Toefl/资料/bcz/托福独立口语高分范文.pdf",
-    "Toefl/资料/bcz/听力常用笔记符号 & 简写.pdf",
     "Toefl/资料/bcz/常见逻辑表达—句子简化题.pdf",
     "Toefl/image/Pasted image 20250928210811.png",
     "Toefl/image/Pasted image 20250927210417.png",
