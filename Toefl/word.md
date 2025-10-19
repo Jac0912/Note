@@ -258,6 +258,20 @@
 |     |                    |                |     congestion      |       塞车        |
 |     |                    |                |                     |                 |
 | 41  |                    |                |        dorm         |       宿舍        |
+|     |                    |                |       culvert       |      涵洞、阴沟      |
+|     |                    |                |        tidal        |       潮汐的       |
+|     |                    |                |     far-between     |     稀有的、隔离的     |
+|     |                    |                |        seep         |       渗漏        |
+|     |                    |                |       stomate       |       气孔        |
+|     |                    |                |     brainchild      |     脑力劳动的产物     |
+|     |                    |                |       patron        |     资助者、庇护人     |
+|     |                    |                |   entrepreneurial   |    富有企业家精神的     |
+|     |                    |                |      infantile      |       婴儿的       |
+|     |                    |                |       amnesia       |       健忘症       |
+|     |                    |                |       scanty        |       少量的       |
+|     |                    |                |       sibling       |      兄弟姐妹       |
+|     |                    |                |        sheer        |   纯粹的（强调）、陡峭的   |
+|     |                    |                |   passage of time   |      时间的流逝      |
 
 # 3. 形近
 
