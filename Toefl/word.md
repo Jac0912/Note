@@ -21,7 +21,7 @@
 | TPO |        read        |    explain     |      listening      |     explain     |
 | :-: | :----------------: | :------------: | :-----------------: | :-------------: |
 |  1  |   meteoric water   |    雨水（自然降水）    |                     |                 |
-|     |   precipitation    |       降水       |                     |                 |
+|     |   precipitation    |     降水、沉淀      |                     |                 |
 |     |       gravel       |       沙硕       |                     |                 |
 |     |       laden        |      装满的       |                     |                 |
 |     |    percolating     |       渗透       |                     |                 |
@@ -132,6 +132,37 @@
 |     |       floral       |      植物群的      |                     |                 |
 |     |      temporal      |      时间的       |                     |                 |
 |     |      stratum       |    地址层、社会阶层    |                     |                 |
+|     |                    |                |                     |                 |
+|  7  |   oceanographic    |      海洋学的      |                     |                 |
+|     |       cruise       |    巡游、乘船游览     |                     |                 |
+|     |      granule       |       颗粒       |                     |                 |
+|     |       gypsum       |       石膏       |                     |                 |
+|     |        silt        |       泥沙       |                     |                 |
+|     |       crust        |     地壳、面包皮     |                     |                 |
+|     |     scores of      |     许多、大量      |                     |                 |
+|     |    plastically     |      可塑的       |                     |                 |
+|     |       deluge       |       洪水       |                     |                 |
+|     |      faulting      |      断层作用      |                     |                 |
+|     |      cascaded      |      瀑布般的      |                     |                 |
+|     |     monolithic     |      整体的       |                     |                 |
+|     |      garrison      |       驻军       |                     |                 |
+|     |   psychological    |      心理的       |                     |                 |
+|     |      station       |     车站、驻扎      |                     |                 |
+|     |     obsession      |       痴迷       |                     |                 |
+|     |      conquest      |       征服       |                     |                 |
+|     |       stark        |  明显的、荒凉的、完全的   |                     |                 |
+|     |       legion       |    （古罗马）军团     |                     |                 |
+|     |     imperative     |      重要的       |                     |                 |
+|     |      engender      |       产生       |                     |                 |
+|     |     predispose     |      倾向于       |                     |                 |
+|     |     derivative     |    非独创的、派生物    |                     |                 |
+|     |      division      |     部门、分开      |                     |                 |
+|     |      disdain       |       轻视       |                     |                 |
+|     |       esteem       |       尊敬       |                     |                 |
+|     |     metallurgy     |      冶金学       |                     |                 |
+|     |                    |                |                     |                 |
+|     |                    |                |                     |                 |
+|     |                    |                |                     |                 |
 |     |                    |                |                     |                 |
 | 36  |                    |                |       isotope       |       同位素       |
 |     |                    |                |       proton        |       质子        |
@@ -272,6 +303,18 @@
 |     |                    |                |       sibling       |      兄弟姐妹       |
 |     |                    |                |        sheer        |   纯粹的（强调）、陡峭的   |
 |     |                    |                |   passage of time   |      时间的流逝      |
+|     |                    |                |       toddler       |      学步儿童       |
+|     |                    |                |       charged       |  引起强烈感情的、充电（过）  |
+|     |                    |                |      hold back      |      阻止、保留      |
+|     |                    |                |        motor        |    肌肉运动的、发动机    |
+|     |                    |                |       enroll        |      登记、注册      |
+|     |                    |                |       pre-med       |      医学预科       |
+|     |                    |                |       fresco        |       湿壁画       |
+|     |                    |                |        mason        |     泥瓦匠、石工      |
+|     |                    |                |    alphabetical     |      按字母顺序      |
+|     |                    |                |      let alone      |      更不用说       |
+|     |                    |                |                     |                 |
+| 42  |                    |                |                     |                 |
 
 # 3. 形近
 
