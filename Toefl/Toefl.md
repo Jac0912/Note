@@ -81,3 +81,6 @@ task 4：120~145
 - 观点（反对、支持）
 
 ![|475](image/Pasted%20image%2020250928210811.png)
+
+![](image/Pasted%20image%2020251023212707.png)
+

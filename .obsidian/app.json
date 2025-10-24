@@ -12,6 +12,6 @@
   "vimMode": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "readableLineLength": false,
+  "readableLineLength": true,
   "focusNewTab": true
 }
