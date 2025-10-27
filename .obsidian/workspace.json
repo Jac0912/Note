@@ -61,8 +61,7 @@
               "title": "listening"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,13 +93,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/sentence.md",
+                "file": "Toefl/Toefl.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "sentence 的大纲"
+              "title": "Toefl 的大纲"
             }
           },
           {
@@ -224,8 +223,8 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/Toefl.md",
     "Toefl/sentence.md",
+    "Toefl/Toefl.md",
     "Toefl/image/Pasted image 20251023212707.png",
     "Toefl/word.md",
     "Toefl/口语.md",
