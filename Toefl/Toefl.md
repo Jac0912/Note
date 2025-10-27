@@ -108,10 +108,14 @@ task 4：120~145
 2. 词形变化（名词-动词-形容词-副词）
 3. 句型改变（主动-被动，定从-分词，there be - it is）
 ```text
+64基础词：
 In the lecture, the professor casts doubt on the reading passage’s idea that 阅读材料态度. The professor asserts that 听⼒材料态度.
-Firstly, the passage claims that 阅读理由1+细节1. By contrast, the professor asserts that 听⼒理由1+细节1.
-Secondly, the author of the passage points out that 阅读理由2+细节2. However, the lecture notes that 听⼒理由2+细节2.
-Lastly, the reading states that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
+
+Firstly, the passage claims that 阅读理由1+细节1. However, the professor disputes this theory, stating that 听⼒理由1+细节1.
+
+Secondly, the author of the passage points out that 阅读理由2+细节2. Nonetheless, the professor counters this by pointing out that 听⼒理由2+细节2.
+
+Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
 ```
 
 结构：总-分-分-分
@@ -153,4 +157,6 @@ To conclude, ...
 	2. 花钱（用税收去干什么）：不同意
 		- 过渡使用：Overuse
 		- 基建升级扩展：Infrastructure Upgrades and Expansion
+
+
 

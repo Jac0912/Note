@@ -11,6 +11,14 @@ Though it's a long shot.
 ## 3.1. 简单句
 1. Moden technology has rapidly changed our way of life.
 2. Online education is gradually becoming an efficient way of learning.
+3. Good time management can effectively improve learning efficiency.
+4. Robot may completely replace certain jobs in the future.
+5. Reading classic literature is beneficial for broadening our horizons.
+6. The rapid development of cities has led to increased environmental pollution.
+7. Young people should actively participate in volunteer activities.
+8. Cultural diversity makes our society more colorful and enriching.
+9. Traveling not only helps people relax but also expands their knowledge.
+10. 
 
 
 ## 3.2. 句型
@@ -54,6 +62,11 @@ Though it's a long shot.
 	- It is universally accepted that + 句子
 		- It is universally accepted that reading is one of the most effective ways to acquire knowledge.
 		- It is universally accepted that protecting the environment is everyone's responsibility.
+	- A growing number of people tend to believe that + 句子
+		- A growing number of people tend to believe that working from can improve work efficiency.
+		- A growing number of people tend to believe that healthy eating is more important than fast food.
+	- Some people argue that + 句子 + , whereas others hold the opposite opinion and + ...
+		- Some people argue that technological advancements have made life easier, whereas others hold the opposite opinion and believe that people have become more dependent on electronic devices.
 5. 假设、条件
 	- If it were not for + 名词/代词 + , + 句子
 		- If it were not for internet, accessing information **would** become much more difficult.
