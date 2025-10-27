@@ -9,6 +9,8 @@ Though it's a long shot.
 
 # 3. 写作
 ## 3.1. 简单句
+1. Moden technology has rapidly changed our way of life.
+2. Online education is gradually becoming an efficient way of learning.
 
 
 ## 3.2. 句型
@@ -49,6 +51,9 @@ Though it's a long shot.
 	- It is reasonable to assume that + 句子
 		- It is reasonable to assume that artificial intelligence will transform many industries in the future.
 		- It is reasonable to assume that more jobs will be taken over by robots in coming years.
+	- It is universally accepted that + 句子
+		- It is universally accepted that reading is one of the most effective ways to acquire knowledge.
+		- It is universally accepted that protecting the environment is everyone's responsibility.
 5. 假设、条件
 	- If it were not for + 名词/代词 + , + 句子
 		- If it were not for internet, accessing information **would** become much more difficult.
@@ -60,3 +65,20 @@ Though it's a long shot.
 		- Should global warming continue to worsen, costal cities will face severe flooding.
 		- Should people reduce their use of plastic, environmental pollution will decrease.
 
+## 3.3. 词组
+
+|                                         |              |
+| --------------------------------------- | ------------ |
+| align with                              | 一致           |
+| redirect                                | 重新使用         |
+| fresh produce                           | 农产品          |
+| incorporate ... into ...                | 融入、融进        |
+| peak hours                              | 高峰期          |
+| better / perfect                        | v. 改善、使...更好 |
+| burden                                  | v. 负担        |
+| structured access to                    | 体系的去         |
+| let alone / not to mention + n./doing   | 更别说          |
+| there is no correlation between A and B | A 与 B 没联系    |
+| be attributed to                        | 归因于          |
+| negate                                  | v. 使...消极    |
+|                                         |              |
