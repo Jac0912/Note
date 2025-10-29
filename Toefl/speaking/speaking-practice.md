@@ -1,5 +1,5 @@
-# 1. 独立口语
-## 1.1. 教育学习
+# 1. task1
+
 **TPO35**
 Do you agree or disagree with the following statement? A university's academic reputation is the most important thing a student should consider in deciding which university to attend. Use examples and details to support your opinion.
 Well, in my opinion, I believe that **a** university's reputation is the first thing that a freshman should consider.
@@ -17,3 +17,8 @@ Also, the story shows how people with very different personalities can work toge
 I believe that television has a positive influence on society simply because it's **one of** the easiest way**s** to learn.
 For example, **during** last summer vacation, my parents acquired some knowledge of home fire safety from watching television. After that, they **stared** checking the ~~state~~ condition of electric**al** appliances **more** frequently, which ~~is important to~~  **helped them become more**  aware of ~~the~~ potential danger**s**. Also (In addition), watching television ~~could help~~ **allows** them **to** get the latest news of the world for the reason that it's convenien~~ce~~**t** to get information from the Universal channel.
 In contrast, people can't get the benefits above without watching television.
+
+**tpo49-task2**
+Some teachers think that it is important for students to sit in assigned seats, that is, to sit in the same place every day in class. Other teachers think that students should be allowed to choose where they will sit, and they allow them to sit in different seats on different days. Which do you think is better? Explain why.
+minimize time wastage -> it's will consume less time for students to take a seat. -> teacher will have more time to teaching / student can use the saved time to do practice exercises
+expand social circle -> meet different classmates in each class / make friends with different personality -> broaden their horizon about different subjects and have more diverse ideas of problem solving 

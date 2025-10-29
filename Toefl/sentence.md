@@ -51,7 +51,7 @@ Though it's a long shot.
 		- Unlike in the past, more people today choose to start their own businesses rather than seek stable jobs.
 4. 表达观点、支持论点
 	- There is ample evidence to suggest that + 句子
-		- There is ample evidence to suggest that regular exercise improves mental healty.
+		- There is ample evidence to suggest that regular exercise improves mental healthy.
 		- There is ample evidence to suggest that insufficient sleep negatively affects work performance.
 	- It is widely acknowledged that + 句子
 		- It is widely acknowledged that education is the foundation of a nation's development.
@@ -78,20 +78,27 @@ Though it's a long shot.
 		- Should global warming continue to worsen, costal cities will face severe flooding.
 		- Should people reduce their use of plastic, environmental pollution will decrease.
 
-## 3.3. 词组
+## 3.3. word group
 
-|                                         |              |
-| --------------------------------------- | ------------ |
-| align with                              | 一致           |
-| redirect                                | 重新使用         |
-| fresh produce                           | 农产品          |
-| incorporate ... into ...                | 融入、融进        |
-| peak hours                              | 高峰期          |
-| better / perfect                        | v. 改善、使...更好 |
-| burden                                  | v. 负担        |
-| structured access to                    | 体系的去         |
-| let alone / not to mention + n./doing   | 更别说          |
-| there is no correlation between A and B | A 与 B 没联系    |
-| be attributed to                        | 归因于          |
-| negate                                  | v. 使...消极    |
-|                                         |              |
+|                                                      |              |
+| ---------------------------------------------------- | ------------ |
+| align with                                           | 一致           |
+| redirect                                             | 重新使用         |
+| fresh produce                                        | 农产品          |
+| incorporate ... into ...                             | 融入、融进        |
+| peak hours                                           | 高峰期          |
+| better / perfect                                     | v. 改善、使...更好 |
+| burden                                               | v. 负担        |
+| structured access to                                 | 体系的去         |
+| let alone / not to mention + n./doing                | 更别说          |
+| there is no correlation between A and B              | A 与 B 没联系    |
+| be attributed to                                     | 归因于          |
+| negate                                               | v. 使...消极    |
+| have an in-depth understanding of ...                | 对...深入理解     |
+| interact closely with                                | 亲密与...打交道    |
+| internships, mentorships, and career opportunities   |              |
+| have an aversion to ...                              | 厌恶...        |
+| classroom instruction                                | 课堂教学         |
+| make the best use of ...                             | 最大化利用        |
+| optional / compulsory courses                        | 选/必修课        |
+| not everyone has equal access to these opportunities |              |

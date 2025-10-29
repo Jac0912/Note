@@ -1,9 +1,9 @@
 
 ![|500](image/Pasted%20image%2020250927210417.png)
-# 1. 综合写作
+# 1. integrated writing
 1. 3 min 阅读：先读总论点和分论点，有时间再读细节，记笔记
 2. 2min 听力：记笔记
-3. 20m 写作：阅读再次出现，写 150-225 词
+3. 20m 写作：阅读再次出现，写 150/200 词
 
 阅读：
 首段：找出文章主旨（主题 + 态度）
@@ -51,7 +51,7 @@ Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+�
 
 ![|475](image/Pasted%20image%2020251023212707.png)
 
-# 2. 学术讨论写作
+# 2. academic writing
 - 对比类题型（二选一，利弊） 90%
 - 开放类题型（Which, What）
 10min
@@ -59,12 +59,15 @@ Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+�
 构思=30s
 Question: 30s，找到问题即可
 Discussion: 30s，找到理由
+words: 100/150
 
+例证法：
 1. 表态 + 回应同学观点（可无）
 2. 新的论点
 3. 解释：自问自答（why, what 有什么、能干什么、有什么影响）2-3 句话
 4. 举例：（名人案例、官方数据、编造个例 5w + h: who, what, when, where, why, how）
 5. 总结：重申态度 + 总结论点（可无）
+
 ```text
 In my opinion, ...
 This viewpoint aligns with xxx's argument that ...
@@ -74,6 +77,17 @@ For example, my cousin Jack ...
 To conclude, ...
 ```
 
+让步法（1. 直接反驳、2. 解决方案）：
+1. 表态 + 回应同学观点（可无）
+2. 让步（总结对方你要抨击的点） + 反驳
+3. 总结
+
+```text
+While xxx mentioned that 总结要反驳的点, he didn't consider that ...
+To conclude, ...
+```
+
+回答理由：
 1. 政府类
 	1. 收钱（征税，罚款）：同意（可以不去看不同意的同学）
 		- 投入到治理上：Healthcare Investment
@@ -82,7 +96,13 @@ To conclude, ...
 	2. 花钱（用税收去干什么）：不同意
 		- 过渡使用：Overuse
 		- 基建升级扩展：Infrastructure Upgrades and Expansion
-
+2. 高频理由
+	1. 钱：成本、经济发展、福利
+	2. 效率：工作效率、学习效率、时间-质量
+	3. 关系：人际关系、沟通交流、亲情友情
+	4. 科技：AI、自动化、机器、网络、社交媒体
+	5. 健康：身心健康、情绪健康、环境、安全
+	6. 平等：公平公正、客观、没有偏见、歧视、自由
 
 
 
