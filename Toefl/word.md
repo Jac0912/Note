@@ -483,6 +483,7 @@
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |   neat    | 巧妙的、整齐的 |
+|      |         | invasive  |   侵入的   |
 
 # 4. 形近
 

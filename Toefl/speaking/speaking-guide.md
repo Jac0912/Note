@@ -20,10 +20,10 @@ Personally, I think ...
 	- You know, ...
 - More importantly, it's also a good way to...
 	- ... for the reason that ...
-So that's why ...    //(尽量不要加入)
+So that's why ... can offer more benefits to ...   //(尽量不要加入)
 ```
 
-万能理由：
+万能理由（顺承逻辑、对比逻辑）：
 1. 效率/时间管理（efficiency/time management）
 	- Productive and effective（高效的）
 	- Time-saving/consuming（省时的/耗时的）
@@ -50,7 +50,7 @@ So that's why ...    //(尽量不要加入)
 	- Boost self-confidence（增强自信心）
 	- Adapt to changing circumstances（适应环境变化）
 	- Overcome personal limitations（突破个人局限）
-5. 健康与安全（health/safety）
+5. 健康与安全（health/safety）对比
 	- Promote overall well-being（促进整体健康）
 	- Reduce anxiety and burnout（减少焦虑与倦怠）
 	- Stay in shape（保持身材）
@@ -72,6 +72,7 @@ So that's why ...    //(尽量不要加入)
 	- Achieve sustainable growth / maintain long-term benefits（实现可持续发展）
 	- Keep ecological balance（维持生态平衡）
 	- Moral obligation, require collective efforts（道德责任，要求集体努力）
+如果 ... ，会导致。所以 ...
 
 task 2：120~145
 1. 阅读：什么做出了改变，分点

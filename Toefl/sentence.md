@@ -2,14 +2,14 @@
 We need therefore to know how much the climate can vary of its own accord in order to interpret with confidence the extent to which recent changes are natural as opposed to being the result of human activities.
 
 
-# 2. 俚语
+# 2. argot
 Though it's a long shot.
 尽管希望渺茫。
 
 
-# 3. 写作
-## 3.1. 简单句
-1. Moden technology has rapidly changed our way of life.
+# 3. writing
+## 3.1. simple sentence
+1. Modern technology has rapidly changed our way of life.
 2. Online education is gradually becoming an efficient way of learning.
 3. Good time management can effectively improve learning efficiency.
 4. Robot may completely replace certain jobs in the future.
@@ -18,10 +18,32 @@ Though it's a long shot.
 7. Young people should actively participate in volunteer activities.
 8. Cultural diversity makes our society more colorful and enriching.
 9. Traveling not only helps people relax but also expands their knowledge.
-10. 
+10. Remote work allows people to arrange their working hours flexibly.
+11. Exercise can significantly improve both physical and mental health.
+12. Many companies value employees' creativity and teamwork skills.
+13. The Internet provides people with a convenient way to access information.
+14. Good communication skills are essential in the workplace.
+15. Proper competition can motivate people to keep improving.
+16. The **demand** for innovation skills is rapidly **increasing** in modern society.
+17. Social media is profoundly **influencing** how young people **interact**.
+18. **Over-reliance** on technology may reduce people's ability to think independently.
+19. Participating in **extracurricular** activities can help students **develop comprehensively**.
+20. Leadership skills play a crucial role in career development.
+21. Raising the minimum wage may have complex effects on the economy.
+22. Online shopping is changing people's **consumption habits**.
+23. Artificial intelligence is gradually entering **various industries**.
+24. Art education can effectively **foster** students' creativity.
+25. Small businesses play a significant role in **driving** economic growth.
+26. Excessive homework may **negatively** affect students' creativity and interest.
+27. Staying away from electronic devices helps improve sleep quality.
+28. **Environmental conservation** is crucial for **the future of humanity**.
+29. Teamwork can enhance work efficiency and encourage innovation.
+30. Improving public **transportation** can reduce **urban traffic congestion**.
+31. The rapidly developing artificial intelligence technology is **transforming** the way industries operate.
+32. Due to the intensification of urbanization, people's awareness of the natural environment is increasing.
 
 
-## 3.2. 句型
+## 3.2. sentence pattern
 1. 必要性
 	- It is essential / critical / crucial that + 主语 + (should) +动词原形
 		- It is essential that the government should take measures to reduce air pollution.
@@ -30,7 +52,7 @@ Though it's a long shot.
 		- There is no denying that technological advancements have changed our way of life.
 		- There is no denying that social media has made communication more convenient.
 	- It is of paramount importance that + 句子
-		- It is of paramount importance that young people learn how to mannage their time.
+		- It is of paramount importance that young people learn how to manage their time.
 		- It is of paramount importance that businesses maintain their capacity for innovation.
 2. 原因、结果
 	- One of the primary reasons why + 句子 + is that + 句子
@@ -102,3 +124,14 @@ Though it's a long shot.
 | make the best use of ...                             | 最大化利用        |
 | optional / compulsory courses                        | 选/必修课        |
 | not everyone has equal access to these opportunities |              |
+
+# 4. synonym replacement
+
+
+| meaning | simple             | advanced                                                                    |
+| ------- | ------------------ | --------------------------------------------------------------------------- |
+| 多样的     | different          | varied / diverse                                                            |
+| 重大的     | significant        | considerable / substantial / remarkable / meaningful / momentous / profound |
+| 重要的     | important          | essential                                                                   |
+| 提高      | improve / increase | advance / enhance / encourage / facilitate                                  |
+| 改变      | change             | transform                                                                   |
