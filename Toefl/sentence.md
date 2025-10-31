@@ -60,8 +60,17 @@ Though it's a long shot.
 49. Scientists are striving to develop more efficient energy storage technologies to address energy crisis.
 50. Through continuous self-improvement, individuals can achieve greater **fulfillment** in their careers.
 
+## 3.2. complex sentence
+-  时间：when, before, until, as soon as
+- 原因：since
+- 条件：if, as long as
+- 让步：although
+- 目的：so that
+- 结果：so ... that
+- 关系词：who, that, which, when, where
 
-## 3.2. sentence pattern
+
+## 3.3. sentence pattern
 1. 必要性
 	- It is essential / critical / crucial that + 主语 + (should) +动词原形
 		- It is essential that the government should take measures to reduce air pollution.
@@ -118,7 +127,7 @@ Though it's a long shot.
 		- Should global warming continue to worsen, costal cities will face severe flooding.
 		- Should people reduce their use of plastic, environmental pollution will decrease.
 
-## 3.3. word group
+## 3.4. word group
 
 |                                                      |              |
 | ---------------------------------------------------- | ------------ |
@@ -142,6 +151,11 @@ Though it's a long shot.
 | make the best use of ...                             | 最大化利用        |
 | optional / compulsory courses                        | 选/必修课        |
 | not everyone has equal access to these opportunities |              |
+| have/gain a deeper insight into                      | 对...有更深的见解   |
+| instructional time                                   | 授课时间         |
+| self-esteem                                          | 自尊           |
+| allocate resources                                   |              |
+| integrate ... into ...                               | 将...融入       |
 
 # 4. synonym replacement
 
@@ -151,5 +165,7 @@ Though it's a long shot.
 | 多样的     | different          | varied / diverse                                                            |
 | 重大的     | significant        | considerable / substantial / remarkable / meaningful / momentous / profound |
 | 重要的     | important          | essential                                                                   |
-| 提高      | improve / increase | advance / enhance / encourage / facilitate                                  |
+| 提高      | improve / increase | advance / enhance / encourage / facilitate / spark                          |
 | 改变      | change             | transform / reshape                                                         |
+| 减少      | reduce             | alleviate                                                                   |
+|         |                    |                                                                             |

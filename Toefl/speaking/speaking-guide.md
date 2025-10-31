@@ -25,6 +25,7 @@ So that's why ... can offer more benefits to ...   //(尽量不要加入)
 
 万能理由（顺承逻辑、对比逻辑）：
 1. 效率/时间管理（efficiency/time management）
+	life is often filled with ..., ... / xxx can ...
 	- Productive and effective（高效的）
 	- Time-saving/consuming（省时的/耗时的）
 	- Optimize daily routines（优化日常安排）
@@ -32,12 +33,14 @@ So that's why ... can offer more benefits to ...   //(尽量不要加入)
 	- Achieve goals in a timely manner（及时达成目标）
 	- Enhance work-life balance（提升工作与生活平衡）
 2. 经济成本（cost-effectiveness）
+	if ... , cost of ... will be 2 or 3 times higher than ... / With the money saved by ..., I can ...
 	- Budget-friendly option（经济实惠的选择）
 	- Affordable and reasonable price（价格合理）
 	- Out of my budget/budget is tight（超出预算，预算紧张）
 	- Economical in the long run（长期更经济）
 	- Avoid financial strain（避免财务焦虑）
 3. 社交价值（social interaction/relationship building）
+	At first, it might be challenging to ..., but over time, I ... / These experiences will not only ... but also ...
 	- Expand social circle（扩大交友圈）
 	- Build a supportive network（建立支持性人际网）
 	- Strengthen interpersonal connections/family bonding（加强人际联系/家庭联系）
@@ -45,6 +48,7 @@ So that's why ... can offer more benefits to ...   //(尽量不要加入)
 	- Resolve conflicts（解决冲突）
 	- Foster a sense of belonging（培养归属感）
 4. 个人成长（personal growth/skill development）
+	if ..., they'll ... / This situation forces ...
 	- Cultivate problem-solving abilities（培养解决问题的能力）
 	- Expand knowledgebase（扩展知识储备）
 	- Boost self-confidence（增强自信心）
@@ -59,6 +63,7 @@ So that's why ... can offer more benefits to ...   //(尽量不要加入)
 	- Conform to social norms/follow social rules（遵从社会规范）
 	- Invade privacy（侵犯隐私）
 6. 情感满足（emotional satisfaction）
+	While some of my friends ..., I feel that ... / So ...
 	- Experience inner peace（体验内心平静）
 	- Fresh my mind/get away from boring work（大脑放松）
 	- Create joyful memories（创造快乐回忆）

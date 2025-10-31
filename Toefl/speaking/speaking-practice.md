@@ -23,4 +23,7 @@ Some teachers think that it is important for students to sit in assigned seats, 
 adapt to changing circumstances ->  make friends with diverse personalities -> collaborate with different students to solve difficult math problems
 expand social circle -> meet different classmates in each day  -> broaden their horizon about different subjects and have more diverse ideas of problem solving
 
-
+**tpo10-task2**
+Do you agree or disagree with the following statement? Use details and examples to explain your answer. All children should be required to learn a second language in school.
+expand social circle -> make friends with abroad students -> broaden their horizon of the word
+cultivate problem-solving abilities -> meet many difficulties, like pronunciation, grammar or words -> develop the skills to solve problems by searching learning resources
