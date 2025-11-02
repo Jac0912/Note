@@ -12,6 +12,7 @@ Q 10：2 分
 BCF
 1. however 用在句首，表示将提出与前文相反的信息/意见  
 2. in fact 既可以用来引出相反信息（即起到转折作用，与however相同），也可以**总结**相反信息（这个可以理解成不是转折，而是延申/总结，类似于furthermore /in conclusion）
+3. 插入题：a - the（前文提到后用 the）
 
 # 1. 听力
 ![|475](image/Pasted%20image%2020250917214144.png)

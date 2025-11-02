@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "89ee5fba1f2e4c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toefl/reading/reading-guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "reading-guide"
+            }
+          },
+          {
             "id": "d7f7f0223d840f0e",
             "type": "leaf",
             "state": {
@@ -77,8 +91,7 @@
               "title": "word"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/sentence.md",
+                "file": "Toefl/writing/writing-guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "sentence 的大纲"
+              "title": "writing-guide 的大纲"
             }
           },
           {
@@ -240,13 +253,13 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/writing/writing-guide.md",
-    "Toefl/sentence.md",
-    "Toefl/speaking/speaking-guide.md",
-    "Toefl/speaking/speaking-practice.md",
-    "Toefl/word.md",
-    "Toefl/toefl-base.base",
     "Toefl/reading/reading-guide.md",
+    "Toefl/sentence.md",
+    "Toefl/speaking/speaking-practice.md",
+    "Toefl/speaking/speaking-guide.md",
+    "Toefl/word.md",
+    "Toefl/writing/writing-guide.md",
+    "Toefl/toefl-base.base",
     "Toefl/writing",
     "Toefl/reading",
     "Toefl/speaking",

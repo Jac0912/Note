@@ -79,10 +79,35 @@ So that's why ... can offer more benefits to ...   //(尽量不要加入)
 	- Moral obligation, require collective efforts（道德责任，要求集体努力）
 如果 ... ，会导致。所以 ...
 
-task 2：120~145
-1. 阅读：什么做出了改变，分点
-2. 听力：记录趋势
-3. 审题
+# 2. task 2：
+120~145
+1. 阅读：变化 + 原因（2 个）
+2. 听力：态度 + 原因
+听力**逻辑**比较重要
+阅读原因不说（可以用来补足听力逻辑），听力是重点
+三句话：总结 + 举例 + 结果
+```text
+The university has decided to ... (15s)
+或
+1. XXX, the author of the student letter, is against the university’s plan to ...
+2. XXX, the author of the student letter, suggests that the university should ...
+The man/woman in the conversation agrees with/ is against this idea. 
+One reason he/she gives is that (5s) ... (20s, 三句话)
+Another reason is that ... (20s, 三句话)
+
+Task 3
+The reading passage explains a definition of＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿, which
+means that＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿.
+In the lecture, the professor gives one / two examples to reinforce/illustrate the theory.
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿.
+Task 4
+In the lecture, the professor talks about (two)＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+＿. One is＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿; the other is＿＿＿＿＿＿＿＿＿
+＿＿＿＿＿＿＿＿＿＿＿.
+Then the professor gives two examples to further illustrate them. The first one is＿＿＿＿
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿. The second one is＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+＿＿＿＿＿.
+```
 
 task 3：120~145
 1. 阅读：了解学术概念

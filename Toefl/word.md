@@ -261,6 +261,11 @@
 |                    marshal                     |    集结、元帅    |           |         |
 |                   promissory                   |   约定的、允诺的   |           |         |
 |                   stem from                    |     源于      |           |         |
+|                    surmise                     |     猜测      |           |         |
+|                  preposterous                  |     荒谬的     |           |         |
+|                  planetarium                   |     天文馆     |           |         |
+|                   establish                    |    建立、证实    |           |         |
+|                    sibling                     |    兄弟姐妹     |           |         |
 ## 2.11. tpo-11
 
 |    read     |   explain    | listening | explain |
@@ -471,12 +476,35 @@
 |      |         |    appease     |       平息       |
 |      |         |  beneficiary   |      收益者       |
 |      |         |    paradox     |      矛盾的       |
-|      |         |   piping hot   |     事务滚烫的      |
-## 2.20. tpo-
+|      |         |   piping hot   |     食物滚烫的      |
+
+## 2.20. tpo-43
+
+| read | explain |   listening   |  explain  |
+| :--: | :-----: | :-----------: | :-------: |
+|      |         |  field trip   |   实地考察    |
+|      |         |  last-minute  | 紧急关头的、临时的 |
+|      |         |    uncanny    |  神秘的、离奇的  |
+|      |         |     knack     |   诀窍、本领   |
+|      |         |  pedagogical  |    教育学    |
+|      |         |   contrived   |  认为的、做作的  |
+|      |         |   tap into    | 开发、利用、进入  |
+|      |         | nick of time  |   千钧一发    |
+|      |         | straighten up |   清理、好转   |
+|      |         |  oscillation  |    震荡     |
+|      |         |   crackling   |    爆裂声    |
+|      |         |    chirpy     |    快活的    |
+## 2.21. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |           |         |
+## 2.22. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+
 # 3. 机经
 ## 3.1. [listen-1](https://toefl.kmf.com/exam/listen/176169917966349429/b23uhj/d23ukj)
 

@@ -10,6 +10,7 @@
 第二段：阅读第一个理由（对态度 why） + 细节（对前面理由 why）
 第三段：阅读第二个理由 + 细节
 第四段：阅读第三个理由 + 细节
+**tips**: 记数字（70 降调、短音；17 升调、长音）
 
 听力：直接抨击、解决方案
 首段：主题一样，态度相反（不重要）
@@ -43,9 +44,6 @@ Additionally, the author of the passage points out that 阅读理由2+细节2. N
 Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
 ```
 
-结构：总-分-分-分
-每段的内容需要既有听力也有写作内容，来自听力的内容要多且准确（听力是拿分关键），要表明听力与阅读的关系（However...）
-- 观点（反对、支持）
 
 ![|475](image/Pasted%20image%2020250928210811.png)
 
