@@ -95,11 +95,7 @@ The man/woman in the conversation agrees with/ is against this idea.
 One reason he/she gives is that (5s) ... (20s, 三句话)
 Another reason is that ... (20s, 三句话)
 
-Task 3
-The reading passage explains a definition of＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿, which
-means that＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿.
-In the lecture, the professor gives one / two examples to reinforce/illustrate the theory.
-＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿.
+
 Task 4
 In the lecture, the professor talks about (two)＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 ＿. One is＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿; the other is＿＿＿＿＿＿＿＿＿
@@ -109,10 +105,18 @@ Then the professor gives two examples to further illustrate them. The first one 
 ＿＿＿＿＿.
 ```
 
-task 3：120~145
-1. 阅读：了解学术概念
-2. 听力：对比、因果逻辑
-3. 审题
+# 3. task 3
+120~145
+1. 阅读：了解学术概念、不抄标题（找定义）
+2. 听力：对比、因果逻辑（一个例子：实验对象、实验过程、实验结果）
+3. 多记实词（N + V）、多记数字
+4. 准备：划分结构（五句）、想清楚开头、标记主语/连词
+```text
+The reading passage explains a definition of ..., 
+which means that ... (15s)
+In the lecture, the professor gives one example to reinforce the theory.
+... (40s, 五句话)
+```
 
 task 4：120~145
 1. 听对比、因果细节

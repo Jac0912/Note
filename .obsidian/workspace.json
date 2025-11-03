@@ -91,7 +91,8 @@
               "title": "word"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/writing/writing-guide.md",
+                "file": "Toefl/speaking/speaking-guide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "writing-guide 的大纲"
+              "title": "speaking-guide 的大纲"
             }
           },
           {
@@ -253,12 +254,12 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/reading/reading-guide.md",
-    "Toefl/sentence.md",
     "Toefl/speaking/speaking-practice.md",
     "Toefl/speaking/speaking-guide.md",
-    "Toefl/word.md",
     "Toefl/writing/writing-guide.md",
+    "Toefl/reading/reading-guide.md",
+    "Toefl/sentence.md",
+    "Toefl/word.md",
     "Toefl/toefl-base.base",
     "Toefl/writing",
     "Toefl/reading",
