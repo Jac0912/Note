@@ -17,6 +17,7 @@
 第二段：抨击点 + 细节（最直接、强烈的反驳点，过程不重要（类比案例等））
 第三段：抨击点 + 细节
 第四段：抨击点 + 细节
+**tips**: 如果听不懂（1. 找替换词 -> 模糊化处理 2. **提供解释**）、专有词（1. 看屏幕 2.看原文）
 
 笔记（每个点都是一一对应的）：
 
@@ -35,7 +36,9 @@
 3. 句型改变（主动-被动，定从-分词，there be - it is）
 ```text
 64基础词：
-In the lecture, the professor casts doubt on the reading passage’s idea that 阅读材料态度. The professor asserts that 听⼒材料态度.
+In the lecture, the professor casts doubt on the reading passage’s idea that 阅读材料态度. The professor asserts that 听⼒材料态度
+[each of these methods has significant drawbacks that ...] /
+[there is compelling evidence to support the claim that ...].
 
 Firstly, the passage claims that 阅读理由1+细节1. However, the professor disputes this theory, stating that 听⼒理由1+细节1.
 
@@ -107,7 +110,7 @@ To conclude, ...
 
 
 每一句思考：
-- 三单
+- 三单、人称代词单复数
 - 复数
 - 被动语态的过去分词
 - an / a
@@ -123,3 +126,13 @@ In the lecture, the professor casts doubt on the reading passage's idea that the
 Firstly, the passage claims that a committee asserted that Peary's claim was genuine after it conducted  thorough research. However, the professor disputes this theory, stating that most of the committee members were friends of Peary, and had provided him with financial assistance. Without doubt, it is impossible for the committee to make an objective assessment about Peary's record. Moreover, the committee spent only two days on this investigation, which was not enough to examine all the details.
 Additionally, the author of the passage points out that Tom Avery has proved that it is not unbelievable for Peary to finish the trip in 37 days. Nonetheless, the professor counters this by pointing out that because Tom Avery got food supply from an airplane, which made his bag much lighter. What is more, the weather was far better when Tom Avery was undertaking his journey than Peary's expedition.  
 Lastly, the lecturer challenges the reading passage's claim that the position of the sun in Peary's photo could confirm that Peary actually reached the North Pole. On the contrary, the professor contends that though we can use technology to analyze the shadows in the photo to compute if it was taken at the North Pole, it is difficult to precisely distinguish the shadows from a blurry picture because a long time has passed.
+
+In the lecture, the professor casts doubt on the reading passage's idea that the European silver coin, which was found in the state of Maine, is a historical fake. The professor asserts that the Norse had contact with Native Americans 1000 years ago.
+Firstly, the passage claims that because of the great distance between the Maine site and Norse settlements, the silver coin must have no link with the settlements. However, the professor disputes this theory, stating that not only was the coin found there, but many other objects were also discovered in Maine. The Native Americans may have traveled to Norse settlements and brought these items back to Maine.
+Additionally, the author of the passage points out that no other coins have been found at Norse settlements. Nevertheless, the professor counters this by pointing out that because the Norse did not have fixed settlements, they might have packed up the silver coins when they returned to Europe.
+Finally, the lecturer challenges the reading passage's claim that the silver coins could not have been used as currency in North America during that period. On the contrary, the professor contends that since North Americans were fond of unusual items, the silver coins could be used to make necklaces or jewelry. Moreover, because of the beauty of the silver coins, North Americans surely paid more attention to them. 
+- Europe / currency / Maine 不加冠词
+- 对过去猜测，用现在完成时
+- during that period
+- not only ... , but also ...（两句语法地位相同，not only 在句首倒装）
+- because：句首、because of 用“，”

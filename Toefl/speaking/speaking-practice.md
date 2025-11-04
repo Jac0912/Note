@@ -27,3 +27,4 @@ expand social circle -> meet different classmates in each day  -> broaden their 
 Do you agree or disagree with the following statement? Use details and examples to explain your answer. All children should be required to learn a second language in school.
 expand social circle -> make friends with international students -> broaden their horizons of the word
 cultivate problem-solving abilities -> meet many difficulties, like pronunciation, grammar or words -> develop the skills to solve problems by searching learning resources
+

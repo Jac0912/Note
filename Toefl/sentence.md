@@ -61,71 +61,115 @@ Though it's a long shot.
 50. Through continuous self-improvement, individuals can achieve greater **fulfillment** in their careers.
 
 ## 3.2. complex sentence
--  时间：when, before, until, as soon as
-- 原因：since
-- 条件：if, as long as
-- 让步：although
-- 目的：so that
-- 结果：so ... that
-- 关系词：who, that, which, when, where
+1. 时间：when, before, until, as soon as
+	- The rain has stopped when I got home.
+	- You should prepare your answers before the interview.
+	- They will keep working until the project is completed.
+	- As soon as she heard the good news, she called her family.
+2. 原因：since
+	- Since more and more people use smartphones, social media has become increasingly popular.
+	- Since you have decided to study abroad, you should start applying for a visa.
+3. 条件：if, as long as, unless
+	- If the government takes measures to reduce air pollution, air quality will improve.
+	- As long as you follow the rules, you can use all the school facilities.
+4. 让步：although
+	- Although the weather was cold, he decided to go jogging outside.
+	- Although this university's tuition is expensive, many students are still willing to apply.
+5. 目的：so that
+	- The company invested in new technology so that it could improve production efficiency.
+	- The city built more park so that **residents** could have more **recreational** spaces.
+6. 结果：so ... that
+	- The movie was so amazing that the audience didn't want to leave.
+	- His speech was so powerful that everyone applauded his.
+7. 关系词：who, that, which, when, where
+	- The professor who helped me with my research is very knowledgeable.
+	- I like people who can inspire others to work hard.
+	- He bought a new car which has excellent fuel efficiency.
+	- I still remember the day when I first went to Paris.
+	- This is a beautiful town where I lived as a child.
+	- The company offers great job benefits, which attracts many **job seekers**.
+
+
 
 
 ## 3.3. sentence pattern
-1. 必要性
-	- It is essential / critical / crucial that + 主语 + (should) +动词原形
-		- It is essential that the government should take measures to reduce air pollution.
-		- It is essential that students should develop teamwork ability.
-	- There is no denying that + 句子
-		- There is no denying that technological advancements have changed our way of life.
-		- There is no denying that social media has made communication more convenient.
-	- It is of paramount importance that + 句子
-		- It is of paramount importance that young people learn how to manage their time.
-		- It is of paramount importance that businesses maintain their capacity for innovation.
-2. 原因、结果
-	- One of the primary reasons why + 句子 + is that + 句子
-		- One of the primary reasons why online shopping is becoming more popular is that it is highly convenient.
-		- One of the primary reasons why many companies allow remote work is that it can increase productivity.
-	- This is largely due to the fact that + 句子
-		- This is largely due to the fact that e-books are cheaper and more convenient.
-		- This is largely due to the fact that online shopping has expanded.
-3. 让步、对比
-	- Admittedly, + 句子 + , but + 句子
-		- Admittedly, work experience is important, but education should not be ignored.
-		- Admittedly, private cars bring convenience, but  they also contribute to environmental pollution.
-	- While it is true that + 句子 + , it does not necessarily mean that + 句子
-		- While it is true that online courses offer more flexibility, it does not necessarily mean that they are more effective than traditional classrooms.
-		- While it is true that great wealth provides a comfortable life, it does not necessarily mean that it brings happiness.
-	- Unlike + 名词/代词 + , + 句子
-		- Unlike traditional classrooms, online learning allows students to manage their own schedules.
-		- Unlike in the past, more people today choose to start their own businesses rather than seek stable jobs.
-4. 表达观点、支持论点
-	- There is ample evidence to suggest that + 句子
-		- There is ample evidence to suggest that regular exercise improves mental healthy.
-		- There is ample evidence to suggest that insufficient sleep negatively affects work performance.
-	- It is widely acknowledged that + 句子
-		- It is widely acknowledged that education is the foundation of a nation's development.
-		- It is widely acknowledged that global warming is one of the major issues facing the world today.
-	- It is reasonable to assume that + 句子
-		- It is reasonable to assume that artificial intelligence will transform many industries in the future.
-		- It is reasonable to assume that more jobs will be taken over by robots in coming years.
-	- It is universally accepted that + 句子
-		- It is universally accepted that reading is one of the most effective ways to acquire knowledge.
-		- It is universally accepted that protecting the environment is everyone's responsibility.
-	- A growing number of people tend to believe that + 句子
-		- A growing number of people tend to believe that working from can improve work efficiency.
-		- A growing number of people tend to believe that healthy eating is more important than fast food.
-	- Some people argue that + 句子 + , whereas others hold the opposite opinion and + ...
-		- Some people argue that technological advancements have made life easier, whereas others hold the opposite opinion and believe that people have become more dependent on electronic devices.
-5. 假设、条件
-	- If it were not for + 名词/代词 + , + 句子
-		- If it were not for internet, accessing information **would** become much more difficult.
-		- If it were not for technological advancements, our lives **would** not be as convenient.
-	- Without + 名词/动名词 + , + 句子
-		- Without government support, small businesses **would** struggle to survive.
-		- Without continuous innovation, companies **would** not be able to remain competitive.
-	- Should + 主语 + 动词原形, + 句子
-		- Should global warming continue to worsen, costal cities will face severe flooding.
-		- Should people reduce their use of plastic, environmental pollution will decrease.
+### 3.3.1. 必要性
+- It is essential / critical / crucial that + 主语 + (should) +动词原形
+	- It is essential that the government should take measures to reduce air pollution.
+	- It is essential that students should develop teamwork ability.
+- There is no denying that + 句子
+	- There is no denying that technological advancements have changed our way of life.
+	- There is no denying that social media has made communication more convenient.
+- It is of paramount importance that + 句子
+	- It is of paramount importance that young people learn how to manage their time.
+	- It is of paramount importance that businesses maintain their capacity for innovation.
+- What matters most is that + 句子
+	- 
+### 3.3.2. 原因、结果
+- One of the primary reasons why + 句子 + is that + 句子
+	- One of the primary reasons why online shopping is becoming more popular is that it is highly convenient.
+	- One of the primary reasons why many companies allow remote work is that it can increase productivity.
+- This is largely due to the fact that + 句子
+	- This is largely due to the fact that e-books are cheaper and more convenient.
+	- This is largely due to the fact that online shopping has expanded.
+### 3.3.3. 让步、对比
+- Admittedly, + 句子 + , but + 句子
+	- Admittedly, work experience is important, but education should not be ignored.
+	- Admittedly, private cars bring convenience, but  they also contribute to environmental pollution.
+- While it is true that + 句子 + , it does not necessarily mean that + 句子
+	- While it is true that online courses offer more flexibility, it does not necessarily mean that they are more effective than traditional classrooms.
+	- While it is true that great wealth provides a comfortable life, it does not necessarily mean that it brings happiness.
+- Unlike + 名词/代词 + , + 句子
+	- Unlike traditional classrooms, online learning allows students to manage their own schedules.
+	- Unlike in the past, more people today choose to start their own businesses rather than seek stable jobs.
+	- 
+- Compared with + 名词/代词 + , + 句子
+	- Compared with traditional media, social media spreads information much faster.
+	- Compared with **older generations**, young people adapt to new technologies more easily.
+- On the one hand, + 句子 + . On the other hand, + 句子
+	- On the one hand, online shopping provides convenience to consumers. On the other hand, it **poses** challenges to **physical stores**.
+	- On the one hand, learning a foreign language can enhance **job competitiveness**. One the other hand, it requires a lot of time and effort.
+
+### 3.3.4. 表达观点、支持论点
+- There is ample evidence to suggest that + 句子
+	- There is ample evidence to suggest that regular exercise improves mental healthy.
+	- There is ample evidence to suggest that insufficient sleep negatively affects work performance.
+- It is widely acknowledged that + 句子
+	- It is widely acknowledged that education is the foundation of a nation's development.
+	- It is widely acknowledged that global warming is one of the major issues facing the world today.
+- It is reasonable to assume that + 句子
+	- It is reasonable to assume that artificial intelligence will transform many industries in the future.
+	- It is reasonable to assume that more jobs will be taken over by robots in coming years.
+- It is universally accepted that + 句子
+	- It is universally accepted that reading is one of the most effective ways to acquire knowledge.
+	- It is universally accepted that protecting the environment is everyone's responsibility.
+- A growing number of people tend to believe that + 句子
+	- A growing number of people tend to believe that working from can improve work efficiency.
+	- A growing number of people tend to believe that healthy eating is more important than fast food.
+- Some people argue that + 句子 + , whereas others hold the opposite opinion and + ...
+	- Some people argue that technological advancements have made life easier, whereas others hold the opposite opinion and believe that people have become more dependent on electronic devices.
+	- Some people argue that city life is more appealing, whereas others hold the opposite opinion and think **rural life** is healthier.
+### 3.3.5. 假设、条件
+- If it were not for + 名词/代词 + , + 句子
+	- If it were not for internet, accessing information **would** become much more difficult.
+	- If it were not for technological advancements, our lives **would** not be as convenient.
+- Without + 名词/动名词 + , + 句子
+	- Without government support, small businesses **would** struggle to survive.
+	- Without continuous innovation, companies **would** not be able to remain competitive.
+- Should + 主语 + 动词原形, + 句子
+	- Should global warming continue to worsen, costal cities will face severe flooding.
+	- Should people reduce their use of plastic, environmental pollution will decrease.
+### 3.3.6. 程度、趋势
+- More often that not, + 句子
+	- More often than not, people **prioritize** economic factors when making decisions.
+	- More often than not, students prefer to study in a quiet environment.
+- The more + 形容词/名词/动词短语 + , the more + 形容词/名词/动词短语 + 句子
+	- The more students practice, the better their exam result will be.
+	- The more advanced a country's technology is, the more competitive its economy becomes.
+- There has been a significant increase in + 名词 + over the past few years.
+	- There has been a significant increase in the use of renewable energy over the past few years.
+	- There has been a significant increase in **the demand for** online education over the past few years.
+- 
 
 ## 3.4. word group
 
@@ -156,6 +200,8 @@ Though it's a long shot.
 | self-esteem                                          | 自尊           |
 | allocate resources                                   |              |
 | integrate ... into ...                               | 将...融入       |
+| initiate                                             | 开始、开启        |
+|                                                      |              |
 
 # 4. synonym replacement
 
@@ -168,4 +214,14 @@ Though it's a long shot.
 | 提高      | improve / increase | advance / enhance / encourage / facilitate / spark                          |
 | 改变      | change             | transform / reshape                                                         |
 | 减少      | reduce             | alleviate                                                                   |
-|         |                    |                                                                             |
+| 好       | good               | amazing / excellent / wonderful / fantastic / splendid                      |
+| 编造      | make up            | invent / fabricate                                                          |
+| 一手资料    | in person          | firsthand                                                                   |
+| 需要      | need               | require                                                                     |
+
+# 5. spell
+
+| word        | meaning |     | word | meaning |
+| ----------- | ------- | --- | ---- | ------- |
+| convenience | 方便、便利   |     |      |         |
+| foreign     | 外国的     |     |      |         |
