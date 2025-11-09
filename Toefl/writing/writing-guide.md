@@ -54,7 +54,8 @@ Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+�
 
 # 2. academic writing
 - 对比类题型（二选一，利弊） 90%
-- 开放类题型（Which, What）
+- 开放类题型（Which, What）：减投资（reduce cultural and recreational events）
+- 小心坑点（**仔细读题**：做还是不做、考虑什么因素、看清楚**场景**）
 10min
 读题=1min
 构思=30s
@@ -63,18 +64,18 @@ Discussion: 30s，找到理由
 words: 100/150
 
 例证法：
-1. 表态 + 回应同学观点（可无）
+1. 表态（把题目讲清楚） + 回应同学观点（可无）
 2. 新的论点
 3. 解释：自问自答（why, what 有什么、能干什么、有什么影响）2-3 句话
 4. 举例：（名人案例、官方数据、编造个例 5w + h: who, what, when, where, why, how）
 5. 总结：重申态度 + 总结论点（可无）
 
 ```text
-In my opinion, ...
+In my opinion, [it is essential for] ...
 This viewpoint aligns with xxx's argument that ...
 I would further argue that ... (for xxx [切换对象用])
-To be more specific, ...
-For example, my cousin Jack ...
+To be more specific, ... (最多三句，www) [开放类直接跳到这句]
+For example, my cousin Jack ... (四句，before、do、acquire、now)
 To conclude, ...
 ```
 
@@ -84,7 +85,7 @@ To conclude, ...
 3. 总结
 
 ```text
-While xxx mentioned that 总结要反驳的点, he didn't consider that ...
+While xxx mentioned that 总结要反驳的点, he/she failed to acknowledge that ...
 To conclude, ...
 ```
 
@@ -99,6 +100,7 @@ To conclude, ...
 		- 找到不好方案的替代：Research and Development in Health and Nutrition
 	2. 花钱（用税收去干什么）：不同意
 		- 过渡使用：Overuse
+		- 降低质量
 		- 基建升级扩展：Infrastructure Upgrades and Expansion
 2. 高频理由
 	1. 钱：成本、经济发展、福利

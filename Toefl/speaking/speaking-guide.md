@@ -94,20 +94,11 @@ The university has decided to ... (15s)
 The man/woman in the conversation agrees with/ is against this idea. 
 One reason he/she gives is that (5s) ... (20s, 三句话)
 Another reason is that ... (20s, 三句话)
-
-
-Task 4
-In the lecture, the professor talks about (two)＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
-＿. One is＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿; the other is＿＿＿＿＿＿＿＿＿
-＿＿＿＿＿＿＿＿＿＿＿.
-Then the professor gives two examples to further illustrate them. The first one is＿＿＿＿
-＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿. The second one is＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
-＿＿＿＿＿.
 ```
 
 # 3. task 3
 120~145
-1. 阅读：了解学术概念、不抄标题（找定义）
+1. 阅读：了解学术概念、不抄标题（题目中有标题，只找定义，时间够可以全抄）
 2. 听力：对比、因果逻辑（一个例子：实验对象、实验过程、实验结果）
 3. 多记实词（N + V）、多记数字
 4. 准备：划分结构（五句）、想清楚开头、标记主语/连词
@@ -118,9 +109,19 @@ In the lecture, the professor gives one example to reinforce the theory.
 ... (40s, 五句话)
 ```
 
-task 4：120~145
-1. 听对比、因果细节
-2. 审题
+# 4. task 4
+120~145
+1. 一个主题（不用抄，题目中有）
+2. 两个基本点
 3. 核心概括，对比信号，给出尽可能多的细节（记特殊单词发音）
+
+```text
+In the lecture, the professor talks about (two) ...
+One is ...
+the other is ... (15s)
+Then the professor gives two examples to further illustrate them. (5s)
+The first one is ... (20s, 三句话)
+The second one is ... (20s, 三句话)
+``` 
 
 ![|475](image/Pasted%20image%2020250927210132.png)

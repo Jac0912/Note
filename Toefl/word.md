@@ -279,13 +279,39 @@
 |             |              |           |         |
 |             |              |           |         |
 |             |              |           |         |
-## 2.12. tpo-
+## 2.12. tpo-12
+
+|     read     |     explain     | listening | explain |
+| :----------: | :-------------: | :-------: | :-----: |
+|  vice versa  |      反之亦然       |           |         |
+|     lit      | light 的过去式、过去分词 |           |         |
+|  prevalence  |       盛行        |           |         |
+|   fracture   |      破裂、骨折      |           |         |
+|    spiral    |       螺旋形       |           |         |
+|    tress     |    把（头发）梳理成绺    |           |         |
+|   cerebral   |       大脑的       |           |         |
+|   specimen   |      样品、样本      |           |         |
+|  watershed   |       分水岭       |           |         |
+|    modest    |    谦虚的、不太多的     |           |         |
+|   premiere   |       首映        |           |         |
+| off the mark |    不准确的、不正确的    |           |         |
+|              |                 |           |         |
+|              |                 |           |         |
+|              |                 |           |         |
+|              |                 |           |         |
+|              |                 |           |         |
+## 2.13. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.14. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |           |         |
 
-## 2.13. tpo-36
+## 2.15. tpo-36
 
 | read | explain |    listening    |   explain   |
 | :--: | :-----: | :-------------: | :---------: |
@@ -307,7 +333,7 @@
 |      |         |   internship    |     实习生     |
 |      |         |    strove to    |    努力争取     |
 |      |         |    drive out    |   驱逐、迫使离开   |
-## 2.14. tpo-37
+## 2.16. tpo-37
 
 | read | explain |   listening    |     explain     |
 | :--: | :-----: | :------------: | :-------------: |
@@ -327,7 +353,7 @@
 |      |         |   playhouse    |       剧场        |
 |      |         |    marshal     |     （消防队）队长     |
 |      |         |  intermission  |      幕间休息       |
-## 2.15. tpo-38
+## 2.17. tpo-38
 
 | read | explain |    listening     |  explain   |
 | :--: | :-----: | :--------------: | :--------: |
@@ -366,7 +392,7 @@
 |      |         |       mass       |     质量     |
 |      |         |     coalesce     |     合并     |
 |      |         |    plausible     |   貌似有理的    |
-## 2.16. tpo-39
+## 2.18. tpo-39
 
 | read | explain |      listening      |   explain    |
 | :--: | :-----: | :-----------------: | :----------: |
@@ -393,7 +419,7 @@
 |      |         |       ethanol       |      酒精      |
 |      |         |        yeast        |      酵母      |
 |      |         |       endorse       |      赞同      |
-## 2.17. tpo-40
+## 2.19. tpo-40
 
 | read | explain |  listening   |    explain    |
 | :--: | :-----: | :----------: | :-----------: |
@@ -424,7 +450,7 @@
 |      |         |     hike     |    远足、大幅提高    |
 |      |         |     bond     |     联系、债卷     |
 |      |         |  congestion  |      塞车       |
-## 2.18. tpo-41
+## 2.20. tpo-41
 | read | explain |    listening    |    explain    |
 | :--: | :-----: | :-------------: | :-----------: |
 |      |         |      dorm       |      宿舍       |
@@ -452,7 +478,7 @@
 |      |         |      mason      |    泥瓦匠、石工     |
 |      |         |  alphabetical   |     按字母顺序     |
 |      |         |    let alone    |     更不用说      |
-## 2.19. tpo-42
+## 2.21. tpo-42
 
 | read | explain |   listening    |    explain     |
 | :--: | :-----: | :------------: | :------------: |
@@ -478,7 +504,7 @@
 |      |         |    paradox     |      矛盾的       |
 |      |         |   piping hot   |     食物滚烫的      |
 
-## 2.20. tpo-43
+## 2.22. tpo-43
 
 | read | explain |   listening   |  explain  |
 | :--: | :-----: | :-----------: | :-------: |
@@ -494,12 +520,27 @@
 |      |         |  oscillation  |    震荡     |
 |      |         |   crackling   |    爆裂声    |
 |      |         |    chirpy     |    快活的    |
-## 2.21. tpo-
+## 2.23. tpo-44
+
+| read | explain | listening  | explain |
+| :--: | :-----: | :--------: | :-----: |
+|      |         |  chariot   |  二轮战车   |
+|      |         |   chorus   |   合唱团   |
+|      |         |   funnel   |  输送、漏斗  |
+|      |         |  acoustic  | 声音的、听觉的 |
+|      |         |   ironic   |   反语    |
+|      |         | binoculars |  双筒望远镜  |
+## 2.24. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |           |         |
-## 2.22. tpo-
+## 2.25. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.26. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
