@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Toefl/writing/writing-guide.md",
+                "file": "Toefl/writing/writing-practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "writing-guide"
+              "title": "writing-practice"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/sentence.md",
+                "file": "Toefl/writing/writing-practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "sentence 的大纲"
+              "title": "writing-practice 的大纲"
             }
           },
           {
@@ -254,12 +254,13 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
+    "Toefl/word.md",
+    "Toefl/sentence.md",
     "Toefl/speaking/speaking-guide.md",
     "Toefl/speaking/speaking-practice.md",
-    "Toefl/reading/reading-guide.md",
+    "Toefl/writing/writing-practice.md",
     "Toefl/writing/writing-guide.md",
-    "Toefl/sentence.md",
-    "Toefl/word.md",
+    "Toefl/reading/reading-guide.md",
     "Toefl/toefl-base.base",
     "Toefl/writing",
     "Toefl/reading",

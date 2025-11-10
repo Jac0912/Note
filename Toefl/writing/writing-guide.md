@@ -44,7 +44,7 @@ Firstly, the passage claims that 阅读理由1+细节1. However, the professor d
 
 Additionally, the author of the passage points out that 阅读理由2+细节2. Nonetheless, the professor counters this by pointing out that 听⼒理由2+细节2.
 
-Lastly, the lecturer challenges the reading passage's claim that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
+Finally, the lecturer challenges the reading passage's claim that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
 ```
 
 

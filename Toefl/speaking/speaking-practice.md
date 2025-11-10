@@ -3,7 +3,7 @@
 **TPO35**
 Do you agree or disagree with the following statement? A university's academic reputation is the most important thing a student should consider in deciding which university to attend. Use examples and details to support your opinion.
 Well, in my opinion, I believe that **a** university's reputation is the first thing that a freshman should consider.
-For example, a university with good academic reputation could provide fantastic research ~~atomsphare~~ **atmosphare** ~~to students~~, which literally allows students **to** acquire ~~meaningfull~~ **meaningful** research experience. Also, students could **have** ~~acquire precious chance~~ **valuable opportunities** to learn from famous professor**s** for the reason that great academic reputation **is** partially bulit up by famous professors.
+For example, a university with good academic reputation could provide fantastic research ~~atomsphare~~ **atmosphare** ~~to students~~, which literally allows students **to** acquire ~~meaningfull~~ **meaningful** research experience. Also, students could **have** ~~acquire precious chance~~ **valuable opportunities** to learn from famous professor**s** for the reason that great academic reputation **is** partially built up by famous professors.
 In contrast, students can't get the benefits mentioned above in a university with ~~bad~~ **poor** reputation.
 
 
