@@ -5,6 +5,8 @@ We need therefore to know how much the climate can vary of its own accord in ord
 # 2. argot
 Though it's a long shot.
 尽管希望渺茫。
+I bet.
+我知道
 
 
 # 3. writing
@@ -150,9 +152,9 @@ FANBOYS: for, and, nor, but, or, yet, so
 - This is largely due to the fact that + 句子
 	- This is largely due to the fact that e-books are cheaper and more convenient.
 	- This is largely due to the fact that online shopping has expanded.
-- Owning to + 名词/动名词 + , + 句子
-	- Owning to the popularity of social media, the way people access news has changed. 
-	- Owning to the rising cost of living, many young people are postponing their plans to buy a house.
+- Owing to + 名词/动名词 + , + 句子
+	- Owing to the popularity of social media, the way people access news has changed. 
+	- Owing to the rising cost of living, many young people are postponing their plans to buy a house.
 - The primary factor contributing to + 名词/动名词 + is + 句子
 	- The primary factor contributing to climate change is **greenhouse gas emissions**.
 	- The primary factor contributing to **the rise in childhood obesity** is the lack of physical activity.
@@ -287,6 +289,8 @@ FANBOYS: for, and, nor, but, or, yet, so
 | tailor                                               | v. 量身定制      |
 | bridge the gap between ... and ...                   | 缩小差距         |
 | streamline                                           | v. 提高效率      |
+| tax revenue                                          | 税收           |
+| overhype                                             | 过度宣传         |
 
 # 4. synonym replacement
 
@@ -296,21 +300,26 @@ FANBOYS: for, and, nor, but, or, yet, so
 | 多样的     | different          | varied / diverse                                                            |
 | 重大的     | significant        | considerable / substantial / remarkable / meaningful / momentous / profound |
 | 重要的     | important          | essential                                                                   |
-| 提高      | improve / increase | advance / enhance / encourage / facilitate / spark                          |
+| 提高      | improve / increase | advance / enhance / encourage / facilitate / spark / foster                 |
 | 改变      | change             | transform / reshape                                                         |
-| 减少      | reduce             | alleviate                                                                   |
+| 减少      | reduce             | alleviate / mitigate                                                        |
 | 好       | good               | amazing / excellent / wonderful / fantastic / splendid                      |
 | 编造      | make up            | invent / fabricate                                                          |
 | 一手资料    | in person          | firsthand                                                                   |
 | 需要      | need               | require                                                                     |
 | 轻松的     | easily             | with ease                                                                   |
 | 足够的     | enough             | sufficient                                                                  |
+| 所以      | so                 | therefore / as a result / consequently                                      |
 
 # 5. spell
 
-| word        | meaning |     | word        | meaning |
-| ----------- | ------- | --- | ----------- | ------- |
-| convenience | 方便、便利   |     | entrepuneur | 企业家     |
-| foreign     | 外国的     |     | intelligent | 聪明      |
-| government  | 政府      |     | restaruant  | 餐馆      |
-| alleviate   | 缓解      |     |             |         |
+| word         | meaning |     | word              | meaning |
+| ------------ | ------- | --- | ----------------- | ------- |
+| convenience  | 方便、便利   |     | entrepuneur       | 企业家     |
+| foreign      | 外国的     |     | intelligent       | 聪明      |
+| government   | 政府      |     | restaruant        | 餐馆      |
+| alleviate    | 缓解      |     | essen**t**ial     | 重要的     |
+| occu**rr**ed | 发生      |     | ab**u**ndant      | 丰富的     |
+| f**e**d      | 喂养      |     | advertis**e**ment | 广告      |
+| favorite     | 喜欢的     |     | financial         | 财政的     |
+| college      | 大学      |     |                   |         |

@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "61c2f284ac682f11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toefl/writing/writing-guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "writing-guide"
+            }
+          },
+          {
             "id": "45346b0f092abffc",
             "type": "leaf",
             "state": {
@@ -92,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toefl/writing/writing-practice.md",
+                "file": "Toefl/speaking/speaking-practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "writing-practice 的大纲"
+              "title": "speaking-practice 的大纲"
             }
           },
           {
@@ -254,13 +268,17 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
-    "Toefl/word.md",
-    "Toefl/sentence.md",
+    "Toefl/writing/writing-practice.md",
     "Toefl/speaking/speaking-guide.md",
     "Toefl/speaking/speaking-practice.md",
-    "Toefl/writing/writing-practice.md",
     "Toefl/writing/writing-guide.md",
+    "Toefl/sentence.md",
+    "Toefl/word.md",
     "Toefl/reading/reading-guide.md",
+    "Course_Note/计网/计网.md",
+    "Course_Note/计算机组成原理_Note/计组.md",
+    "Toefl/writing/image/Pasted image 20251111205242.png",
+    "Toefl/writing/image",
     "Toefl/toefl-base.base",
     "Toefl/writing",
     "Toefl/reading",
@@ -271,7 +289,6 @@
     "未命名 1.base",
     "Toefl/资料/bilibili/listening.pdf",
     "Toefl/资料/bcz/listen-note.pdf",
-    "Toefl/资料/bilibili/writing.pdf",
     "Toefl/image/Pasted image 20251007193902.png",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/马克思主义/马克思主义.md",
@@ -282,7 +299,6 @@
     "Toefl/image/Pasted image 20250927161056.png",
     "Toefl/image/Pasted image 20250922180220.png",
     "Toefl/image/Pasted image 20250922180145.png",
-    "Toefl/image/Pasted image 20250922180106.png",
     "科研/量子线路编译/review/review.md",
     "科研/量子线路编译/work/Formulation.md",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Exploiting the Regular Structure of Modern Quantum Architectures for Compiling and Optimizing Programs with Permutable Operators.md",
@@ -298,8 +314,6 @@
     "Untitled 1.md",
     "科研/Beamforming/课题.md",
     "remember/Linux.md",
-    "poem.md",
-    "未命名.canvas",
-    "科研/量子线路编译/未命名.md"
+    "未命名.canvas"
   ]
 }

@@ -105,7 +105,7 @@ Another reason is that ... (20s, 三句话)
 ```text
 The reading passage explains a definition of ..., 
 which means that ... (15s)
-In the lecture, the professor gives one example to reinforce the theory.
+In the lecture, the professor gives one(two) example to reinforce the theory.
 ... (40s, 五句话)
 ```
 

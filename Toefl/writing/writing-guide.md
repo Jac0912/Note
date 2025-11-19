@@ -47,6 +47,9 @@ Additionally, the author of the passage points out that 阅读理由2+细节2. N
 Finally, the lecturer challenges the reading passage's claim that 阅读理由3+细节3. On the contrary, the professor contends that 听⼒理由3+细节3.
 ```
 
+```
+
+```
 
 ![|475](image/Pasted%20image%2020250928210811.png)
 
@@ -79,6 +82,9 @@ For example, my cousin Jack ... (四句，before、do、acquire、now)
 To conclude, ...
 ```
 
+```
+
+```
 让步法（1. 直接反驳、2. 解决方案）：
 1. 表态 + 回应同学观点（可无）
 2. 让步（总结对方你要抨击的点） + 反驳

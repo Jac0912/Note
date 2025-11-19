@@ -28,3 +28,22 @@ Do you agree or disagree with the following statement? Use details and examples 
 expand social circle -> make friends with international students -> broaden their horizons of the word
 cultivate problem-solving abilities -> meet many difficulties, like pronunciation, grammar or words -> develop the skills to solve problems by searching learning resources
 
+# 2. task2
+## 2.1. tpo30-task3
+The author of the student letter suggests that the University should connect a construction project during three months summer break, the woman in the conversation agrees with this idea。
+One reason she gives is that？
+Last December, the University decided to repair parking lots。
+So people who drive cars needed to circle around the street to look for parking lots。
+Going to the long working distance from street to classes。
+The students and even professors were more likely to be late at class。
+Another reason is that there were many slow storms around the area of the University。
+So university's grounds were covered by a lot of eyes and snow。
+Consequently the conduct project has been on and off, which costed longer time to finish it。
+
+
+# 3. task3
+## 3.1. tpo40-task4
+The reading passage explains a definition of the primacy effect, which means that the opinion we have of people or situations tend to base more on the first information we learn about them than on information we learn later. In the lecture, the professor gives an example to reinforce the theory. The professor was an research assistant in a lab before teaching. He delivered a suggestion about running experiments, which lead to a great result. So his boss thought he was a good researcher even he performed average and made some mistakes a week later. However, his coworker lost some important data at first week. Though she performed good and even better than the professor,  her boss is still thought she was unreliable when she made some mistakes a week later.
+
+## 3.2. tpo39-task4
+The reading message explains a definition of signaling, which means that the seller of products  signals to buyer that products are high quality. In the lecture, the professor gives an example to reinforce the theory. A friend of the professor sold expensive jewelry. However, customers who can't tell the difference wanted to know whether products were real or just glasses. In order to reassure customers, she invited an expert with 20 years experience to certify that jewels were authentic. What's more, she also put up a sign to signal customers that all jewels were certified by an expert. Consequently, even the expert didn't work for her anymore, customers still trust the opinion of the expert.
