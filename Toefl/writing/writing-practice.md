@@ -41,8 +41,16 @@ In my opinion, the overhype of tech devices might be the biggest mistake people 
 
 ## 2.3. after-class 2
 In my opinion, it is essential that working while studying can bring more benefits for students. This viewpoint aligns with Mike's argument that this study mode can combine knowledge learned from classes with the actual working environment. Furthermore, I would argue that there is no denying that this way of study can alleviate the financial burden of poor families. To be more specific, owing to expensive tuition fees of universities, poor family has difficult letting their children have excellent education. However, students can make some money from working and finance themselves. In this way, students can acquire more wonderful education. For example, my cousin Jack, an excellent student, who had financial trouble when going to university. Nonetheless, he went to Harvard by working in a technology company near his college. Had it not been for his part-time job, he would not have finished his education at such an amazing college.
-- 拼写：aligns / argument / wonderful
+- 拼写：aligns / argument / wonderful / Harvard
 - more benefit**s**
 - have difficult doing sth.
 - tuition fees of universities
 - let sb. do sth.
+
+## 2.4. AT-1-1
+In my opinion, hiring experienced veterans from famous industries can bring more benefits. This viewpoint aligns with Claire's argument that people with abundant experience can speed up the development of companies. I would further argue that it is also an important way to alleviate the financial burden of a new business. To be more specific, it is widely acknowledged that a new company does not have much financial accumulation. Hiring younger employees will cost over 60%  of the money to train them. Additionally, owing to the working experience of veterans, the money spent on training can be saved. For example, my cousin Jack ran a small technology company and hired many students from universities around the company. Given that many young students from college lack real experience, he spent a fortune cultivating them. As a result, his company faced a serious financial crisis that caused damage to the company's development.
+- 拼写：experience / argument / abundant / accumulation / does
+- cost sb's a fortune
+- dose + v原形
+- spend M doing sth.
+- over 60% more to

@@ -380,11 +380,22 @@
 |    monetary     |   货币的    |           |         |
 |   circumvent    |    规避    |           |         |
 |      prowl      |  潜行、徘徊   |           |         |
-## 2.17. tpo-
+## 2.17. tpo-17
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
+| read | explain |  listening  |  explain   |
+| :--: | :-----: | :---------: | :--------: |
+|      |         | disruptive  |   引起混乱的    |
+|      |         | in spite of |     尽管     |
+|      |         |   rarity    |    罕见的     |
+|      |         | conspicuous |    出色的     |
+|      |         | indistinct  |    模糊的     |
+|      |         | camouflage  |     伪装     |
+|      |         |  ritualize  |    仪式化的    |
+|      |         |  immensity  |     巨大     |
+|      |         |    sheer    | 程度深、数量大、陡峭 |
+|      |         |    bulk     |   主体、大部分   |
+|      |         |    hull     |     船体     |
+|      |         |    mast     |     桅杆     |
 ## 2.18. tpo-
 
 | read | explain | listening | explain |

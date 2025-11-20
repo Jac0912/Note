@@ -1,4 +1,6 @@
 ![|700](image/Pasted%20image%2020251007193902.png)
+# 1. reading
+**错题：4 个**
 36 mins
 Q 1 ~ 9：1 分
 Q 10：2 分
@@ -14,8 +16,9 @@ BCF
 2. in fact 既可以用来引出相反信息（即起到转折作用，与however相同），也可以**总结**相反信息（这个可以理解成不是转折，而是延申/总结，类似于furthermore /in conclusion）
 3. 插入题：a - the（前文提到后用 the）
 
-# 1. 听力
+# 2. listening
 ![|475](image/Pasted%20image%2020250917214144.png)
+**错题：4 个**
 - 36 min
 - 大小 section 出现顺序不一定
 - 听力题目不可回退（切换后不能回答前面的题目）

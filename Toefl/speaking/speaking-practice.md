@@ -42,8 +42,8 @@ Consequently the conduct project has been on and off, which costed longer time t
 
 
 # 3. task3
-## 3.1. tpo40-task4
+## 3.1. tpo39-task4
+The reading message explains a definition of signaling, which means that the seller of products  signals to buyer that products are high quality. In the lecture, the professor gives an example to reinforce the theory. A friend of the professor sold expensive jewelry. However, customers who can't tell the difference wanted to know whether products were real or just glasses. In order to reassure customers, she invited an expert with 20 years experience to certify that jewels were authentic. What's more, she also put up a sign to signal customers that all jewels were certified by an expert. Consequently, even the expert didn't work for her anymore, customers still trust the opinion of the expert.
+## 3.2. tpo40-task4
 The reading passage explains a definition of the primacy effect, which means that the opinion we have of people or situations tend to base more on the first information we learn about them than on information we learn later. In the lecture, the professor gives an example to reinforce the theory. The professor was an research assistant in a lab before teaching. He delivered a suggestion about running experiments, which lead to a great result. So his boss thought he was a good researcher even he performed average and made some mistakes a week later. However, his coworker lost some important data at first week. Though she performed good and even better than the professor,  her boss is still thought she was unreliable when she made some mistakes a week later.
 
-## 3.2. tpo39-task4
-The reading message explains a definition of signaling, which means that the seller of products  signals to buyer that products are high quality. In the lecture, the professor gives an example to reinforce the theory. A friend of the professor sold expensive jewelry. However, customers who can't tell the difference wanted to know whether products were real or just glasses. In order to reassure customers, she invited an expert with 20 years experience to certify that jewels were authentic. What's more, she also put up a sign to signal customers that all jewels were certified by an expert. Consequently, even the expert didn't work for her anymore, customers still trust the opinion of the expert.
