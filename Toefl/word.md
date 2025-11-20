@@ -708,11 +708,23 @@
 |      |         |    swing it     |   成功做成    |
 |      |         |     impetus     |    动力     |
 |      |         |     escort      |    护送     |
-## 2.33. tpo-
+## 2.33. tpo-49
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
+| read | explain |      listening      |  explain   |
+| :--: | :-----: | :-----------------: | :--------: |
+|      |         |      reproduce      |  复制、翻印、繁殖  |
+|      |         |     extraneous      |    外来的     |
+|      |         | straighten sth. out |    整理某事    |
+|      |         |    disintegrate     |   崩溃、瓦解    |
+|      |         |        oval         |    椭圆形的    |
+|      |         |     aerial view     |    鸟瞰图     |
+|      |         |    perpendicular    |    垂直的     |
+|      |         |        slump        |   倒下、骤跌    |
+|      |         |        thaw         |     融化     |
+|      |         |      deduction      |   演绎、推论    |
+|      |         |        motor        | 运动、汽车、乘车旅行 |
+|      |         |     groundwork      |     基础     |
+|      |         |      graduated      | 分等级的、大学毕业  |
 ## 2.34. tpo-
 
 | read | explain | listening | explain |

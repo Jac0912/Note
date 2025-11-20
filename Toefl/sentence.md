@@ -7,7 +7,8 @@ Though it's a long shot.
 尽管希望渺茫。
 I bet.
 我知道
-
+The plot thickens!
+事情变的复杂了
 
 # 3. writing
 ## 3.1. simple sentence
