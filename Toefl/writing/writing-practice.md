@@ -20,6 +20,19 @@ Lastly, the lecturer challenges the reading passage's claim that the salinity ca
 - does-did
 - the water from the Pacific Ocean, which is less salty than **that of** the lake
 - in the long-term
+## 1.3. classic-53
+In the lecture, the professor casts doubt on the reading passage's idea that taxes on unhealthy products can bring more benefits to society. The professor asserts that implementing the methods mentioned in the passage is meaningless.  
+Firstly, the passage claims that higher taxes can discourage unhealthy behaviors among individuals who are addicted to cigarettes or unhealthy food. However, the professor disputes this theory, stating that there is no denying that the taxes will lead people to choose cheaper and lower-quality cigarettes that pose higher health risks. What is more, owing to the high price of the unhealthy food, individuals will spend less money buying healthy food.  
+Additionally, the author of the reading passage points out that investing the taxes in medical care is financially fair. Nonetheless, the professor counters this by pointing out that this policy is definitely unfair to those people with lower income, which literally causes a huge financial burden to them.  
+Finally, the lecturer challenges the reading passage's claim that government can use the revenue to build projects that are beneficial to social health. On the contrary, the professor contends that, given that government is highly dependent on the taxes from cigarettes, it will be unlikely to eliminate unhealthy methods.
+- 拼写：literally / government / definitely / beneficial
+- prohibit / discourage
+- of -> among
+- be addicted to
+- make -> lead
+- **pose** risks
+- be unfair to 
+
 
 # 2. academic writing
 ## 2.1. class 8
@@ -49,8 +62,21 @@ In my opinion, it is essential that working while studying can bring more benefi
 
 ## 2.4. AT-1-1
 In my opinion, hiring experienced veterans from famous industries can bring more benefits. This viewpoint aligns with Claire's argument that people with abundant experience can speed up the development of companies. I would further argue that it is also an important way to alleviate the financial burden of a new business. To be more specific, it is widely acknowledged that a new company does not have much financial accumulation. Hiring younger employees will cost over 60%  of the money to train them. Additionally, owing to the working experience of veterans, the money spent on training can be saved. For example, my cousin Jack ran a small technology company and hired many students from universities around the company. Given that many young students from college lack real experience, he spent a fortune cultivating them. As a result, his company faced a serious financial crisis that caused damage to the company's development.
-- 拼写：experience / argument / abundant / accumulation / does
+- 拼写：experience / argument / abundant / accumulation / does / fortune
 - cost sb's a fortune
 - dose + v原形
 - spend M doing sth.
-- over 60% more to
+- over 60% of ... 
+
+## 2.5. AT-1-2
+In my opinion, there is no denying that online shopping brings more benefits to our society. This viewpoint aligns with Kelly's argument that online shopping can offer lower prices. I would further argue that it is also an effective way to minimize time wastage. To be more specific, owing to the convenience of online shopping, we can buy diverse items just via a phone. What is more, individuals can even buy goods on the way to the office. As a result, we can use the time saved through online shopping to do more meaningful things. For example, my cousin Jack, who works in a technology company under huge working pressure, had trouble balancing life and work. However, given that online shopping can offer delivery services, he could save over 50% of his weekend time previously spent in supermarkets. Had it not been for online shopping, he would not have had enough time to be with his family on weekends.
+- minimize time wastage（不加 the, wastage 抽象名词）
+- via / through phone
+- delivery service
+- much time
+- on weekends / on the weekend
+- an effective way
+- can even
+- under huge work pressure
+- in supermarkets
+

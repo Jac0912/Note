@@ -7,7 +7,7 @@ Accurate + Diverse + **Fluent**(快 + 不卡顿)
 80~110 word
 冗词：you know, well, actually
 1. 确认选择观点
-2. 两个理由（一个也可）
+2. 两个理由（一个也可），三句话
 3. 补充细节（实例：时间、人物、发展、结果）
 4. 组织句子
 5. 给出逻辑信号（逻辑词）
@@ -116,7 +116,7 @@ In the lecture, the professor gives one(two) example to reinforce the theory.
 3. 核心概括，对比信号，给出尽可能多的细节（记特殊单词发音）
 
 ```text
-In the lecture, the professor talks about (two) ...
+In the lecture, the professor talks about two ...
 One is ...
 the other is ... (15s)
 Then the professor gives two examples to further illustrate them. (5s)

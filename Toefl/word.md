@@ -382,32 +382,59 @@
 |      prowl      |  潜行、徘徊   |           |         |
 ## 2.17. tpo-17
 
-| read | explain |  listening  |  explain   |
-| :--: | :-----: | :---------: | :--------: |
-|      |         | disruptive  |   引起混乱的    |
-|      |         | in spite of |     尽管     |
-|      |         |   rarity    |    罕见的     |
-|      |         | conspicuous |    出色的     |
-|      |         | indistinct  |    模糊的     |
-|      |         | camouflage  |     伪装     |
-|      |         |  ritualize  |    仪式化的    |
-|      |         |  immensity  |     巨大     |
-|      |         |    sheer    | 程度深、数量大、陡峭 |
-|      |         |    bulk     |   主体、大部分   |
-|      |         |    hull     |     船体     |
-|      |         |    mast     |     桅杆     |
-## 2.18. tpo-
+|    read     |  explain   | listening | explain |
+| :---------: | :--------: | :-------: | :-----: |
+| disruptive  |   引起混乱的    |           |         |
+| in spite of |     尽管     |           |         |
+|   rarity    |    罕见的     |           |         |
+| conspicuous |    出色的     |           |         |
+| indistinct  |    模糊的     |           |         |
+| camouflage  |     伪装     |           |         |
+|  ritualize  |    仪式化的    |           |         |
+|  immensity  |     巨大     |           |         |
+|    sheer    | 程度深、数量大、陡峭 |           |         |
+|    bulk     |   主体、大部分   |           |         |
+|    hull     |     船体     |           |         |
+|    mast     |     桅杆     |           |         |
+## 2.18. tpo-18
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
+|    read     | explain | listening | explain |
+| :---------: | :-----: | :-------: | :-----: |
+|    fetus    |   胎儿    |           |         |
+| congenital  |   先天的   |           |         |
+|  blockage   |   堵塞物   |           |         |
+|  anecdotal  |   传闻    |           |         |
+|  exertion   |   费力    |           |         |
+|  grandiose  |   宏伟的   |           |         |
+| fluctuation |   波动    |           |         |
+| prosperity  |   繁荣的   |           |         |
 ## 2.19. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |           |         |
+## 2.20. tpo-
 
-## 2.20. tpo-36
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.21. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.22. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.23. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+
+## 2.24. tpo-36
 
 | read | explain |    listening    |   explain   |
 | :--: | :-----: | :-------------: | :---------: |
@@ -429,7 +456,7 @@
 |      |         |   internship    |     实习生     |
 |      |         |    strove to    |    努力争取     |
 |      |         |    drive out    |   驱逐、迫使离开   |
-## 2.21. tpo-37
+## 2.25. tpo-37
 
 | read | explain |   listening    |     explain     |
 | :--: | :-----: | :------------: | :-------------: |
@@ -449,7 +476,7 @@
 |      |         |   playhouse    |       剧场        |
 |      |         |    marshal     |     （消防队）队长     |
 |      |         |  intermission  |      幕间休息       |
-## 2.22. tpo-38
+## 2.26. tpo-38
 
 | read | explain |    listening     |  explain   |
 | :--: | :-----: | :--------------: | :--------: |
@@ -488,7 +515,7 @@
 |      |         |       mass       |     质量     |
 |      |         |     coalesce     |     合并     |
 |      |         |    plausible     |   貌似有理的    |
-## 2.23. tpo-39
+## 2.27. tpo-39
 
 | read | explain |      listening      |   explain    |
 | :--: | :-----: | :-----------------: | :----------: |
@@ -515,7 +542,7 @@
 |      |         |       ethanol       |      酒精      |
 |      |         |        yeast        |      酵母      |
 |      |         |       endorse       |      赞同      |
-## 2.24. tpo-40
+## 2.28. tpo-40
 
 | read | explain |  listening   |    explain    |
 | :--: | :-----: | :----------: | :-----------: |
@@ -546,7 +573,7 @@
 |      |         |     hike     |    远足、大幅提高    |
 |      |         |     bond     |     联系、债卷     |
 |      |         |  congestion  |      塞车       |
-## 2.25. tpo-41
+## 2.29. tpo-41
 | read | explain |    listening    |    explain    |
 | :--: | :-----: | :-------------: | :-----------: |
 |      |         |      dorm       |      宿舍       |
@@ -574,7 +601,7 @@
 |      |         |      mason      |    泥瓦匠、石工     |
 |      |         |  alphabetical   |     按字母顺序     |
 |      |         |    let alone    |     更不用说      |
-## 2.26. tpo-42
+## 2.30. tpo-42
 
 | read | explain |   listening    |    explain     |
 | :--: | :-----: | :------------: | :------------: |
@@ -600,7 +627,7 @@
 |      |         |    paradox     |      矛盾的       |
 |      |         |   piping hot   |     食物滚烫的      |
 
-## 2.27. tpo-43
+## 2.31. tpo-43
 
 | read | explain |   listening   |  explain  |
 | :--: | :-----: | :-----------: | :-------: |
@@ -616,7 +643,7 @@
 |      |         |  oscillation  |    震荡     |
 |      |         |   crackling   |    爆裂声    |
 |      |         |    chirpy     |    快活的    |
-## 2.28. tpo-44
+## 2.32. tpo-44
 
 | read | explain |  listening   | explain |
 | :--: | :-----: | :----------: | :-----: |
@@ -628,7 +655,7 @@
 |      |         |  binoculars  |  双筒望远镜  |
 |      |         | more or less |  某种程度上  |
 |      |         |  ultrathin   |   超薄的   |
-## 2.29. tpo-45
+## 2.33. tpo-45
 
 | read | explain |           listening           |    explain     |
 | :--: | :-----: | :---------------------------: | :------------: |
@@ -647,7 +674,7 @@
 |      |         |           culinary            |       烹饪       |
 |      |         |                               |                |
 |      |         |                               |                |
-## 2.30. tpo-46
+## 2.34. tpo-46
 
 | read | explain |  listening   |      explain       |
 | :--: | :-----: | :----------: | :----------------: |
@@ -678,7 +705,7 @@
 |      |         |   prolong    |       拉长、拖长        |
 |      |         |     hull     |         船体         |
 |      |         | desalination |       （海水）脱盐       |
-## 2.31. tpo-47
+## 2.35. tpo-47
 
 | read | explain |       listening       | explain  |
 | :--: | :-----: | :-------------------: | :------: |
@@ -696,7 +723,7 @@
 |      |         |         chick         |    雏鸟    |
 |      |         |       captivity       |    囚禁    |
 |      |         |       synopsis        |    摘要    |
-## 2.32. tpo-48
+## 2.36. tpo-48
 
 | read | explain |    listening    |  explain  |
 | :--: | :-----: | :-------------: | :-------: |
@@ -708,29 +735,46 @@
 |      |         |    swing it     |   成功做成    |
 |      |         |     impetus     |    动力     |
 |      |         |     escort      |    护送     |
-## 2.33. tpo-49
+## 2.37. tpo-49
 
-| read | explain |      listening      |  explain   |
-| :--: | :-----: | :-----------------: | :--------: |
-|      |         |      reproduce      |  复制、翻印、繁殖  |
-|      |         |     extraneous      |    外来的     |
-|      |         | straighten sth. out |    整理某事    |
-|      |         |    disintegrate     |   崩溃、瓦解    |
-|      |         |        oval         |    椭圆形的    |
-|      |         |     aerial view     |    鸟瞰图     |
-|      |         |    perpendicular    |    垂直的     |
-|      |         |        slump        |   倒下、骤跌    |
-|      |         |        thaw         |     融化     |
-|      |         |      deduction      |   演绎、推论    |
-|      |         |        motor        | 运动、汽车、乘车旅行 |
-|      |         |     groundwork      |     基础     |
-|      |         |      graduated      | 分等级的、大学毕业  |
-## 2.34. tpo-
+| read | explain |      listening      |    explain     |
+| :--: | :-----: | :-----------------: | :------------: |
+|      |         |      reproduce      |    复制、翻印、繁殖    |
+|      |         |     extraneous      |      外来的       |
+|      |         | straighten sth. out |      整理某事      |
+|      |         |    disintegrate     |     崩溃、瓦解      |
+|      |         |        oval         |      椭圆形的      |
+|      |         |     aerial view     |      鸟瞰图       |
+|      |         |    perpendicular    |      垂直的       |
+|      |         |        slump        |     倒下、骤跌      |
+|      |         |        thaw         |       融化       |
+|      |         |      deduction      |     演绎、推论      |
+|      |         |        motor        |   运动、汽车、乘车旅行   |
+|      |         |     groundwork      |       基础       |
+|      |         |      graduated      |   分等级的、大学毕业    |
+|      |         |  run idea past sb.  |    向某人传达想法     |
+|      |         |       arctic        |      北极的       |
+|      |         |      insulated      | 有隔热（或隔音、绝缘）保护的 |
+|      |         |        trek         |   （尤指徒步）长途跋涉   |
+|      |         |         gel         |       凝胶       |
+|      |         |        moss         |       苔藓       |
+|      |         |      crank out      |   大量生产，机械化生产   |
+## 2.38. tpo-50
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
-## 2.35. tpo-
+| read | explain |  listening  | explain  |
+| :--: | :-----: | :---------: | :------: |
+|      |         |   cement    | 加强、粘合、水泥 |
+|      |         | straw poll  |  非正式投票   |
+|      |         |   leaning   |  倾向、偏好   |
+|      |         |   ballot    |    投票    |
+|      |         |  referenda  |   普通投票   |
+|      |         |    arena    |   竞技场    |
+|      |         | sentimental |   情感的    |
+|      |         | paraphrase  |  释义、转义   |
+|      |         |   analogy   |    比喻    |
+|      |         | marginalize | 使处于社会边缘  |
+|      |         |   novella   |   中篇小说   |
+## 2.39. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |

@@ -323,4 +323,5 @@ FANBOYS: for, and, nor, but, or, yet, so
 | occu**rr**ed | 发生      |     | ab**u**ndant      | 丰富的     |
 | f**e**d      | 喂养      |     | advertis**e**ment | 广告      |
 | favorite     | 喜欢的     |     | financial         | 财政的     |
-| college      | 大学      |     |                   |         |
+| college      | 大学      |     | neighborhood      | 邻居      |
+| conflict     | 矛盾      |     | participate       |         |
