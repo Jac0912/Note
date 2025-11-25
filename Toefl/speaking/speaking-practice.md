@@ -28,6 +28,8 @@ Do you agree or disagree with the following statement? Use details and examples 
 expand social circle -> make friends with international students -> broaden their horizons of the word
 cultivate problem-solving abilities -> meet many difficulties, like pronunciation, grammar or words -> develop the skills to solve problems by searching learning resources
 
+## 1.1. tpo54-task2
+I think childhood is the best time in in a person's life. To begin with, childhood means children can create joyful memories with their families. For example, they can barbecue with their family members and do some other fun activities. As a result, they will live a happy childhood. More importantly, it also means they can have healthier mental health. However when they grow up they are more likely under massive pressure from work and study. So they can not be happy like before.
 # 2. task2
 ## 2.1. tpo30-task3
 The author of the student letter suggests that the University should connect a construction project during three months summer break, the woman in the conversation agrees with this idea。
@@ -47,3 +49,6 @@ The reading message explains a definition of signaling, which means that the sel
 ## 3.2. tpo40-task4
 The reading passage explains a definition of the primacy effect, which means that the opinion we have of people or situations tend to base more on the first information we learn about them than on information we learn later. In the lecture, the professor gives an example to reinforce the theory. The professor was an research assistant in a lab before teaching. He delivered a suggestion about running experiments, which lead to a great result. So his boss thought he was a good researcher even he performed average and made some mistakes a week later. However, his coworker lost some important data at first week. Though she performed good and even better than the professor,  her boss is still thought she was unreliable when she made some mistakes a week later.
 
+# 4. task4
+## 4.1. tpo32-task6
+The professor talks about two ways roads can affect the environment. One is that roads can move plants from one place to another place. The other is that roads, especially highways, can divide habitat into small pieces. Uh, then the professor gives two examples to further illustrate them. One is that the stars SOA, California plants, it seeds were stuck into a tire and distribute into new area and it's competed with local plants with natural resources, especially water. Consequently, the local plants can't survive. The second one is that the tit fox, uh, they feed on mice in  open grassland, uh, after the construction of roads, their number has did dramatically declined because of the short of the shortage of food.

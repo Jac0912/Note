@@ -33,6 +33,15 @@ Finally, the lecturer challenges the reading passage's claim that government can
 - **pose** risks
 - be unfair to 
 
+## 1.4. classic-52
+In the lecture, the professor casts doubt on the reading passage that asteroids maybe the best colonization places for human. The professor asserts that the three reasons mentioned in the passage have significant drawbacks.  
+Firstly, the passage claims that owing to the low gravity, spaceships can take less fuel to complete the trip between an asteroid and Earth. However, the professor disputes this theory, stating that there are some serious health risks. If humans stay in low-gravity environment for a long time, they will lose muscle mass and bone density.  
+Additionally, the author of the reading passage points out that given that some asteroids contain abundant valuable metals, it would be profitable to mine them. Nonetheless, the professor counters this by pointing out that the passage does not consider the high cost of transporting the metals and supporting the colonies. What is more, the market price of these valuable metals will dramatically decline because of the increased supply.  
+Finally, the lecturer challenges the reading passage's claim that it is easy to travel to asteroids that orbits close to Earth. On the contrary, the professor contends that due to the movement of asteroids, astronauts can get to an asteroid with ease at one orbit point but it will be very difficult for them to return when the asteroid moves far away.
+- 拼写：muscle / astronomer / astronaut
+- supply 本来可以做名词“供给”
+- human 可数
+- 
 
 # 2. academic writing
 ## 2.1. class 8
@@ -61,7 +70,7 @@ In my opinion, it is essential that working while studying can bring more benefi
 - let sb. do sth.
 
 ## 2.4. AT-1-1
-In my opinion, hiring experienced veterans from famous industries can bring more benefits. This viewpoint aligns with Claire's argument that people with abundant experience can speed up the development of companies. I would further argue that it is also an important way to alleviate the financial burden of a new business. To be more specific, it is widely acknowledged that a new company does not have much financial accumulation. Hiring younger employees will cost over 60%  of the money to train them. Additionally, owing to the working experience of veterans, the money spent on training can be saved. For example, my cousin Jack ran a small technology company and hired many students from universities around the company. Given that many young students from college lack real experience, he spent a fortune cultivating them. As a result, his company faced a serious financial crisis that caused damage to the company's development.
+In my opinion, hiring experienced veterans from famous industries can bring more benefits. This viewpoint aligns with Claire's argument that people with abundant experience can speed up the development of companies. I would further argue that it is also an important way to alleviate the financial burden of a new business. To be more specific, it is widely acknowledged that a new company does not have much financial accumulation. Hiring younger employees will cost over 60% of the money to train them. Additionally, owing to the working experience of veterans, the money spent on training can be saved. For example, my cousin Jack ran a small technology company and hired many students from universities around the company. Given that many young students from college lack real experience, he spent a fortune cultivating them. As a result, his company faced a serious financial crisis that caused damage to the company's development.
 - 拼写：experience / argument / abundant / accumulation / does / fortune
 - cost sb's a fortune
 - dose + v原形
@@ -80,3 +89,21 @@ In my opinion, there is no denying that online shopping brings more benefits to 
 - under huge work pressure
 - in supermarkets
 
+## 2.6. AT-1-3
+In my opinion, giving students assignments during long school breaks is meaningless. This viewpoint aligns with Andrew's argument that, given that there is no guidance or help from their teachers, students cannot solve the problems in their homework. I would argue that avoiding homework during long breaks is also beneficial for students' mental health. To be more specific, excessive homework brings a lot of pressure to students. There is no denying that students can do more exercise without homework. As a result, they can alleviate the pressure accumulated during a busy semester. For example, my cousin Jack, who studied at Harvard, usually had massive assignments during every semester. However, there was no homework during long school breaks, such as summer vacation. Therefore, he could play football during these vacations, which literally means that he could release the pressure from his busy school life and better prepare for the coming semester.
+- excessive homework
+- at Harvard
+- like -> such as
+
+## 2.7. AT-1-4
+In my opinion, it is essential for students to participate in at least one school organization. This viewpoint aligns with Kate's argument that joining a club at school is a good way to expand students' social circles. I would further argue that it also brings more benefits to students. To be more specific, there is no denying that students are usually under great pressure during a busy semester. However, clubs or organizations can create many joyful moments with their friends. As a result, they can alleviate the pressure caused by a heavy study burden. For example, my cousin Jack, who studied at Harvard, once had a serious mental health problem. Nevertheless, he joined a football club where he could play football with the club members on his day off. In this way, he had more energy to prepare for his upcoming academic work.
+- 拼写：essential / studying / further / create
+- at school
+- expand their social circles
+- under ~~a~~ great pressure
+- cased by （被动做后置定语）
+- a heavy study burden
+- once：曾经有...
+- on his day off
+- upcoming academic work
+- create joyful memories / moments

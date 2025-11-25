@@ -35,7 +35,7 @@
 2. 词形变化（名词-动词-形容词-副词）
 3. 句型改变（主动-被动，定从-分词，there be - it is）
 ```text
-64基础词：
+64基础词：since, given that ,owing to , because ,
 In the lecture, the professor casts doubt on the reading passage’s idea that 阅读材料态度. The professor asserts that 听⼒材料态度
 [each of these methods has significant drawbacks that ...] /
 [there is compelling evidence to support the claim that ...].
@@ -122,7 +122,10 @@ To conclude, ...
 - 复数
 - 被动语态的过去分词
 - an / a
-
+# 3. keys
+- 被动做后置定语：
+- 动名词短语：transproting the metals
+- 
 
 In the lecture, the professor casts doubt on the reading passage's idea that it's impossible for humans to survive on Venus. The professor asserts that if a station could be built high enough above Venus' ground, many problems would be solved.  
 Firstly, the passage claims that massive atmospheric pressure on Venus' ground will crush everything. However, the professor disputes this theory, stating that a station so far away from Venus' ground will suffer much lower atmospheric pressure, which can even be equal to the atmospheric pressure on Earth.  

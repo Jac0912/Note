@@ -310,13 +310,14 @@ FANBOYS: for, and, nor, but, or, yet, so
 | 需要      | need               | require                                                                     |
 | 轻松的     | easily             | with ease                                                                   |
 | 足够的     | enough             | sufficient                                                                  |
-| 所以      | so                 | therefore / as a result / consequently                                      |
+| 所以      | so                 | therefore / as a result / consequently / furthermore                        |
+| 许多      | many               | excessive / massive                                                         |
 
 # 5. spell
 
 | word         | meaning |     | word              | meaning |
 | ------------ | ------- | --- | ----------------- | ------- |
-| convenience  | 方便、便利   |     | entrepuneur       | 企业家     |
+| convenience  | 方便、便利   |     | entrepreneur      | 企业家     |
 | foreign      | 外国的     |     | intelligent       | 聪明      |
 | government   | 政府      |     | restaruant        | 餐馆      |
 | alleviate    | 缓解      |     | essen**t**ial     | 重要的     |
@@ -324,4 +325,8 @@ FANBOYS: for, and, nor, but, or, yet, so
 | f**e**d      | 喂养      |     | advertis**e**ment | 广告      |
 | favorite     | 喜欢的     |     | financial         | 财政的     |
 | college      | 大学      |     | neighborhood      | 邻居      |
-| conflict     | 矛盾      |     | participate       |         |
+| conflict     | 矛盾      |     | participate       | 参与      |
+| creat**e**   | 创造      |     | fu**r**ther       | 长远      |
+| muscle       | 肌肉      |     |                   |         |
+
+

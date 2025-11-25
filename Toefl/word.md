@@ -408,16 +408,30 @@
 |  grandiose  |   宏伟的   |           |         |
 | fluctuation |   波动    |           |         |
 | prosperity  |   繁荣的   |           |         |
-## 2.19. tpo-
+## 2.19. tpo-19
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
-## 2.20. tpo-
+|     read      |  explain  | listening | explain |
+| :-----------: | :-------: | :-------: | :-----: |
+| heterogeneous |   不均一的    |           |         |
+| substantiate  |  证实、使实体化  |           |         |
+| legitimately  |  合理的、正当的  |           |         |
+| substantially |  大量的、可观的  |           |         |
+| disaffection  |   不满、背叛   |           |         |
+|  requisition  | 征用、要求、申请书 |           |         |
+|    artisan    |   工匠、技工   |           |         |
+|   regiment    |    军团     |           |         |
+|   garrison    |   要塞、驻军   |           |         |
+## 2.20. tpo-20
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
+|    read     |     explain     | listening | explain |
+| :---------: | :-------------: | :-------: | :-----: |
+|   presage   |       预示        |           |         |
+|  momentous  |       重大的       |           |         |
+|   agency    | 机构、（尤指产生某效果的）作用 |           |         |
+|    odds     |   可能性、不利条件、机会   |           |         |
+|   cavity    |       洞、腔       |           |         |
+|  volatile   |       易变的       |           |         |
+| constituent |       成分        |           |         |
 ## 2.21. tpo-
 
 | read | explain | listening | explain |
@@ -774,10 +788,67 @@
 |      |         |   analogy   |    比喻    |
 |      |         | marginalize | 使处于社会边缘  |
 |      |         |   novella   |   中篇小说   |
-## 2.39. tpo-
+|      |         |   wiggle    |    扭动    |
+## 2.39. tpo-51
+
+| read | explain |     listening      | explain |
+| :--: | :-----: | :----------------: | :-----: |
+|      |         |     meticulous     |  一丝不苟   |
+|      |         |       pastel       | 彩色粉笔、蜡笔 |
+|      |         |    preparatory     |  预备性的   |
+|      |         |       scribe       |  写下、记下  |
+|      |         | first and foremost |   首先的   |
+|      |         |       hybrid       | 混合物、杂种  |
+|      |         |    heliocentric    | 以太阳为中心的 |
+|      |         |      champion      |  冠军、支持  |
+|      |         |      carousel      |  旋转木马   |
+|      |         |     camouflage     |   伪装    |
+## 2.40. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+## 2.41. tpo-
+
+| read | explain | listening  | explain |
+| :--: | :-----: | :--------: | :-----: |
+|      |         |            |         |
+|      |         |            |         |
+|      |         |            |         |
+## 2.42. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+## 2.43. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+## 2.44. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
+## 2.45. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+|      |         |           |         |
+|      |         |           |         |
 |      |         |           |         |
 
 # 3. 机经
@@ -788,7 +859,15 @@
 |      |         |   neat    | 巧妙的、整齐的 |
 |      |         | invasive  |   侵入的   |
 
-# 4. 形近
+# 4. other
+
+| 词        | 意        |     | 词   | 意   |
+| -------- | -------- | --- | --- | --- |
+| chore    | 家庭杂物、杂活  |     |     |     |
+| nuisance | 麻烦事、讨厌的人 |     |     |     |
+|          |          |     |     |     |
+|          |          |     |     |     |
+# 5. 形近
 
 | 词            | 意     |     | 词   | 意   |
 | ------------ | ----- | --- | --- | --- |
