@@ -432,11 +432,13 @@
 |   cavity    |       洞、腔       |           |         |
 |  volatile   |       易变的       |           |         |
 | constituent |       成分        |           |         |
-## 2.21. tpo-
+## 2.21. tpo-21
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
+|    read     | explain  | listening | explain |
+| :---------: | :------: | :-------: | :-----: |
+|  sedentary  |   静止的    |           |         |
+| contention  |  看法、争论   |           |         |
+| practically | 几乎、实事求是的 |           |         |
 ## 2.22. tpo-
 
 | read | explain | listening | explain |
@@ -447,8 +449,33 @@
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
 |      |         |           |         |
+## 2.24. tpo-
 
-## 2.24. tpo-36
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.25. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.26. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.27. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+## 2.28. tpo-
+
+| read | explain | listening | explain |
+| :--: | :-----: | :-------: | :-----: |
+|      |         |           |         |
+
+## 2.29. tpo-36
 
 | read | explain |    listening    |   explain   |
 | :--: | :-----: | :-------------: | :---------: |
@@ -470,7 +497,7 @@
 |      |         |   internship    |     实习生     |
 |      |         |    strove to    |    努力争取     |
 |      |         |    drive out    |   驱逐、迫使离开   |
-## 2.25. tpo-37
+## 2.30. tpo-37
 
 | read | explain |   listening    |     explain     |
 | :--: | :-----: | :------------: | :-------------: |
@@ -490,7 +517,7 @@
 |      |         |   playhouse    |       剧场        |
 |      |         |    marshal     |     （消防队）队长     |
 |      |         |  intermission  |      幕间休息       |
-## 2.26. tpo-38
+## 2.31. tpo-38
 
 | read | explain |    listening     |  explain   |
 | :--: | :-----: | :--------------: | :--------: |
@@ -529,7 +556,7 @@
 |      |         |       mass       |     质量     |
 |      |         |     coalesce     |     合并     |
 |      |         |    plausible     |   貌似有理的    |
-## 2.27. tpo-39
+## 2.32. tpo-39
 
 | read | explain |      listening      |   explain    |
 | :--: | :-----: | :-----------------: | :----------: |
@@ -556,7 +583,7 @@
 |      |         |       ethanol       |      酒精      |
 |      |         |        yeast        |      酵母      |
 |      |         |       endorse       |      赞同      |
-## 2.28. tpo-40
+## 2.33. tpo-40
 
 | read | explain |  listening   |    explain    |
 | :--: | :-----: | :----------: | :-----------: |
@@ -587,7 +614,7 @@
 |      |         |     hike     |    远足、大幅提高    |
 |      |         |     bond     |     联系、债卷     |
 |      |         |  congestion  |      塞车       |
-## 2.29. tpo-41
+## 2.34. tpo-41
 | read | explain |    listening    |    explain    |
 | :--: | :-----: | :-------------: | :-----------: |
 |      |         |      dorm       |      宿舍       |
@@ -615,7 +642,7 @@
 |      |         |      mason      |    泥瓦匠、石工     |
 |      |         |  alphabetical   |     按字母顺序     |
 |      |         |    let alone    |     更不用说      |
-## 2.30. tpo-42
+## 2.35. tpo-42
 
 | read | explain |   listening    |    explain     |
 | :--: | :-----: | :------------: | :------------: |
@@ -641,7 +668,7 @@
 |      |         |    paradox     |      矛盾的       |
 |      |         |   piping hot   |     食物滚烫的      |
 
-## 2.31. tpo-43
+## 2.36. tpo-43
 
 | read | explain |   listening   |  explain  |
 | :--: | :-----: | :-----------: | :-------: |
@@ -657,7 +684,7 @@
 |      |         |  oscillation  |    震荡     |
 |      |         |   crackling   |    爆裂声    |
 |      |         |    chirpy     |    快活的    |
-## 2.32. tpo-44
+## 2.37. tpo-44
 
 | read | explain |  listening   | explain |
 | :--: | :-----: | :----------: | :-----: |
@@ -669,7 +696,7 @@
 |      |         |  binoculars  |  双筒望远镜  |
 |      |         | more or less |  某种程度上  |
 |      |         |  ultrathin   |   超薄的   |
-## 2.33. tpo-45
+## 2.38. tpo-45
 
 | read | explain |           listening           |    explain     |
 | :--: | :-----: | :---------------------------: | :------------: |
@@ -688,7 +715,7 @@
 |      |         |           culinary            |       烹饪       |
 |      |         |                               |                |
 |      |         |                               |                |
-## 2.34. tpo-46
+## 2.39. tpo-46
 
 | read | explain |  listening   |      explain       |
 | :--: | :-----: | :----------: | :----------------: |
@@ -719,7 +746,7 @@
 |      |         |   prolong    |       拉长、拖长        |
 |      |         |     hull     |         船体         |
 |      |         | desalination |       （海水）脱盐       |
-## 2.35. tpo-47
+## 2.40. tpo-47
 
 | read | explain |       listening       | explain  |
 | :--: | :-----: | :-------------------: | :------: |
@@ -737,7 +764,7 @@
 |      |         |         chick         |    雏鸟    |
 |      |         |       captivity       |    囚禁    |
 |      |         |       synopsis        |    摘要    |
-## 2.36. tpo-48
+## 2.41. tpo-48
 
 | read | explain |    listening    |  explain  |
 | :--: | :-----: | :-------------: | :-------: |
@@ -749,7 +776,7 @@
 |      |         |    swing it     |   成功做成    |
 |      |         |     impetus     |    动力     |
 |      |         |     escort      |    护送     |
-## 2.37. tpo-49
+## 2.42. tpo-49
 
 | read | explain |      listening      |    explain     |
 | :--: | :-----: | :-----------------: | :------------: |
@@ -773,7 +800,7 @@
 |      |         |         gel         |       凝胶       |
 |      |         |        moss         |       苔藓       |
 |      |         |      crank out      |   大量生产，机械化生产   |
-## 2.38. tpo-50
+## 2.43. tpo-50
 
 | read | explain |  listening  | explain  |
 | :--: | :-----: | :---------: | :------: |
@@ -789,7 +816,7 @@
 |      |         | marginalize | 使处于社会边缘  |
 |      |         |   novella   |   中篇小说   |
 |      |         |   wiggle    |    扭动    |
-## 2.39. tpo-51
+## 2.44. tpo-51
 
 | read | explain |     listening      | explain |
 | :--: | :-----: | :----------------: | :-----: |
@@ -803,22 +830,37 @@
 |      |         |      champion      |  冠军、支持  |
 |      |         |      carousel      |  旋转木马   |
 |      |         |     camouflage     |   伪装    |
-## 2.40. tpo-
+## 2.45. tpo-52
 
-| read | explain | listening | explain |
-| :--: | :-----: | :-------: | :-----: |
-|      |         |           |         |
-|      |         |           |         |
-|      |         |           |         |
-|      |         |           |         |
-## 2.41. tpo-
+| read | explain |     listening      |  explain  |
+| :--: | :-----: | :----------------: | :-------: |
+|      |         | call into question | 质疑、对...怀疑 |
+|      |         |      vibrancy      |   震动、活力   |
+|      |         |      vibrant       |   充满活力的   |
+|      |         |     start over     |  重新开始做某事  |
+|      |         |     cluttered      |    凌乱的    |
+|      |         |     threw off      |   摆脱、迷惑   |
+|      |         |     contrived      |    人为的    |
+|      |         |      forever       | 极长的时间、永久  |
+|      |         |  on top of things  |   掌控局面    |
+|      |         |    explication     |    说明     |
+|      |         |       simile       |    明喻     |
+|      |         |      stained       |  玷污的、着色的  |
+|      |         |   concentration    |   浓度、专心   |
+|      |         |        clog        |    堵塞     |
+|      |         |   confrontation    |   对抗、冲突   |
+|      |         |       vendor       |  小贩、供应商   |
+|      |         |      emporium      |    大商场    |
+|      |         |       recoup       |  收回、获得补偿  |
+|      |         |      nominal       | 名义上的、象征性的 |
+## 2.46. tpo-
 
 | read | explain | listening  | explain |
 | :--: | :-----: | :--------: | :-----: |
 |      |         |            |         |
 |      |         |            |         |
 |      |         |            |         |
-## 2.42. tpo-
+## 2.47. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
@@ -826,7 +868,7 @@
 |      |         |           |         |
 |      |         |           |         |
 |      |         |           |         |
-## 2.43. tpo-
+## 2.48. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
@@ -834,7 +876,7 @@
 |      |         |           |         |
 |      |         |           |         |
 |      |         |           |         |
-## 2.44. tpo-
+## 2.49. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
@@ -842,7 +884,7 @@
 |      |         |           |         |
 |      |         |           |         |
 |      |         |           |         |
-## 2.45. tpo-
+## 2.50. tpo-
 
 | read | explain | listening | explain |
 | :--: | :-----: | :-------: | :-----: |
