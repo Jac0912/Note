@@ -3,7 +3,7 @@
 | word           | meaning                                    |     |     |
 | -------------- | ------------------------------------------ | --- | --- |
 | minibus        | 小型公共汽车                                     |     |     |
-| repitle        | 爬行动物                                       |     |     |
+| reptile        | 爬行动物                                       |     |     |
 | module         | 模块,组件,课程                                   |     |     |
 | modular        | (尤指英国大学里的课程)分单元的                           |     |     |
 | nursery        | 婴儿室                                        |     |     |
@@ -47,7 +47,7 @@
 | sensory        | 感觉的,感官的                                    |     |     |
 | handicap       | 障碍                                         |     |     |
 | vital          | 至关重要的                                      |     |     |
-| resoning       | 推理                                         |     |     |
+| reasoning      | 推理                                         |     |     |
 | sedimentation  | 沉淀                                         |     |     |
 | astounding     | 令人震惊的                                      |     |     |
 | Nile           | 尼罗河                                        |     |     |
