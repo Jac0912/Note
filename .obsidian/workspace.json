@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/智能控制/智能控制.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,9 +198,17 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
+    "Course_Note/智能控制/image/Pasted image 20251201201127.png",
+    "Course_Note/智能控制/image/Pasted image 20251201201101.png",
+    "Course_Note/智能控制/image/Pasted image 20251201201045.png",
+    "Course_Note/智能控制/image/Pasted image 20251201201019.png",
+    "Course_Note/智能控制/image/Pasted image 20251201200901.png",
+    "Course_Note/智能控制/image/Pasted image 20251201200836.png",
+    "Course_Note/智能控制/image/Pasted image 20251201200724.png",
+    "Course_Note/智能控制/image/Pasted image 20251201200643.png",
     "IELTS/word/word.md",
-    "Linux_Note/Linux.md",
     "Course_Note/智能控制/智能控制.md",
+    "Linux_Note/Linux.md",
     "Middleware/Container_Note/Container.md",
     "Course_Note/智能控制/image/Pasted image 20251130102147.png",
     "Course_Note/交通工程学/交通工程学.md",
@@ -218,13 +226,6 @@
     "Toefl/R&L/R&L-guide.md",
     "Course_Note/智能控制/image/Pasted image 20251124171210.png",
     "Course_Note/智能控制/image/Pasted image 20251124171008.png",
-    "Course_Note/智能控制/image/Pasted image 20251124170942.png",
-    "Course_Note/智能控制/image/Pasted image 20251124143811.png",
-    "Course_Note/智能控制/image/Pasted image 20251124143714.png",
-    "Course_Note/智能控制/image/Pasted image 20251123222020.png",
-    "Course_Note/智能控制/image/Pasted image 20251123221821.png",
-    "Course_Note/智能控制/image/Pasted image 20251123221747.png",
-    "Course_Note/智能控制/image/Pasted image 20251123211550.png",
     "README.md",
     "image",
     "Course_Note/智能控制/image",
@@ -243,7 +244,6 @@
     "科研/量子线路编译/learn/learn.md",
     "setup.md",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Scalable Optimal Layout Synthesis for NISQ Quantum Processors.md",
-    "科研/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
     "未命名.canvas"
   ]
 }
