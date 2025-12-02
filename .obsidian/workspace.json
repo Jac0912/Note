@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/智能控制/智能控制.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -196,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94caf3029d42f4c7",
+  "active": "08686143fb0e765b",
   "lastOpenFiles": [
+    "IELTS/word/word.md",
+    "Course_Note/智能控制/智能控制.md",
     "Course_Note/智能控制/image/Pasted image 20251201201127.png",
     "Course_Note/智能控制/image/Pasted image 20251201201101.png",
     "Course_Note/智能控制/image/Pasted image 20251201201045.png",
@@ -206,8 +208,6 @@
     "Course_Note/智能控制/image/Pasted image 20251201200836.png",
     "Course_Note/智能控制/image/Pasted image 20251201200724.png",
     "Course_Note/智能控制/image/Pasted image 20251201200643.png",
-    "IELTS/word/word.md",
-    "Course_Note/智能控制/智能控制.md",
     "Linux_Note/Linux.md",
     "Middleware/Container_Note/Container.md",
     "Course_Note/智能控制/image/Pasted image 20251130102147.png",
@@ -225,7 +225,6 @@
     "Toefl/writing/writing-practice.md",
     "Toefl/R&L/R&L-guide.md",
     "Course_Note/智能控制/image/Pasted image 20251124171210.png",
-    "Course_Note/智能控制/image/Pasted image 20251124171008.png",
     "README.md",
     "image",
     "Course_Note/智能控制/image",

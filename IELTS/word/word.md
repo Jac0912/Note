@@ -1,115 +1,114 @@
-# 1. word-5
+# 1. word-5/6
 
-| word           | meaning                                    |     |     |
-| -------------- | ------------------------------------------ | --- | --- |
-| minibus        | 小型公共汽车                                     |     |     |
-| reptile        | 爬行动物                                       |     |     |
-| module         | 模块,组件,课程                                   |     |     |
-| modular        | (尤指英国大学里的课程)分单元的                           |     |     |
-| nursery        | 婴儿室                                        |     |     |
-| synthesis      | 综合,综合体                                     |     |     |
-| vicissitude    | 变迁兴衰                                       |     |     |
-| obscurity      | 朦胧, 晦涩, 默默无闻                               |     |     |
-| analogy        | 类似,相似                                      |     |     |
-| folklore       | 民间传说                                       |     |     |
-| nurture        | 养育,培育；教养,培育                                |     |     |
-| repetition     | 重复                                         |     |     |
-| discrepancy    | 矛盾,不符合之处                                   |     |     |
-| remnant        | 残余,剩余部分；剩余的,残留的                            |     |     |
-| benevolent     | 仁慈的                                        |     |     |
-| malevolent     | 恶毒的,心肠坏的                                   |     |     |
-| forgo          | 放弃                                         |     |     |
-| transient      | 短暂的                                        |     |     |
-| lobby          | 门厅,大厅, 游说                                  |     |     |
-| trash          | 废物 trashcan                                |     |     |
-| considerable   | 很大的                                        |     |     |
-| carbon dioxide | 二氧化碳                                       |     |     |
-| drastic        | 激烈的                                        |     |     |
-| diminish       | 减少                                         |     |     |
-| sanitation     | 卫生                                         |     |     |
-| overhead       | 在头顶；管理费用                                   |     |     |
-| Antarctica     | 南极洲                                        |     |     |
-| sledge         | 雪橇                                         |     |     |
-| dwindle        | 减少                                         |     |     |
-| ivory          | 象牙                                         |     |     |
-| hollow         | 空的                                         |     |     |
-| taper          | 逐渐变细                                       |     |     |
-| disdain        | 蔑视                                         |     |     |
-| flavor         | 风味                                         |     |     |
-| drab           | 单调                                         |     |     |
-| versatile      | 多才多艺的                                      |     |     |
-| punchline      | 妙语                                         |     |     |
-| astronomy      | 天文学                                        |     |     |
-| encyclopedia   | 百科全书                                       |     |     |
-| session        | 环节（discussion session），季（training session） |     |     |
-| landfill       | 垃圾填埋场                                      |     |     |
-| facilitator    | 促进者,帮助者,服务商                                |     |     |
-| sensory        | 感觉的,感官的                                    |     |     |
-| handicap       | 障碍                                         |     |     |
-| vital          | 至关重要的                                      |     |     |
-| reasoning      | 推理                                         |     |     |
-| sedimentation  | 沉淀                                         |     |     |
-| astounding     | 令人震惊的                                      |     |     |
-| Nile           | 尼罗河                                        |     |     |
-| delta          | 三角洲                                        |     |     |
-| scour          | 冲刷                                         |     |     |
-| sediment       | 沉淀物,沉积物                                    |     |     |
-| fertilizer     | 肥料                                         |     |     |
-| canal          | 运河                                         |     |     |
-| Mediterranean  | 地中海的                                       |     |     |
-| erosion        | 侵蚀                                         |     |     |
-| comeback       | 恢复,复原                                      |     |     |
-| launch         | 发动,开展。（计算机）开始应用程序                          |     |     |
-| reckon         | 测算,估计                                      |     |     |
-| transcribe     | 转录                                         |     |     |
-| aspiration     | 抱负                                         |     |     |
-| inspiration    | 灵感                                         |     |     |
-| contaminate    | 污染                                         |     |     |
-| trigger        | 触发器                                        |     |     |
-| tango          | 探戈舞                                        |     |     |
-| verdict        | 裁决,裁定                                      |     |     |
-| pretension     | 假装,做作,主张                                   |     |     |
-| finance        | 财政                                         |     |     |
-| incineration   | 焚化,火葬                                      |     |     |
-| fluctuate      | 波动                                         |     |     |
-| proportion     | 比例                                         |     |     |
-| approximate    | 大概的。接近于                                    |     |     |
-| dramatically   | 戏剧性地                                       |     |     |
-| consistency    | 一致性                                        |     |     |
-| conditioner    | 调节器                                        |     |     |
-| detail         | 细节                                         |     |     |
-| definite       | 明确的,一定的                                    |     |     |
-| intermediate   | 中间的；调解                                     |     |     |
-| vegetarian     | 素食主义者                                      |     |     |
-| facility       | 设施                                         |     |     |
-| clubhouse      | 俱乐部会所                                      |     |     |
-| supervise      | 监督,管理,指导                                   |     |     |
-| newsletter     | 通讯                                         |     |     |
-| capital        | 资本                                         |     |     |
-| invest         | 投资                                         |     |     |
-| interest       | 利益,利息                                      |     |     |
-| boost          | 促进,提高                                      |     |     |
-| bibliography   | 参考书目                                       |     |     |
-| reference      | 参考书目、推荐信、查询，提及                             |     |     |
-| razor          | 剃须刀                                        |     |     |
-| interior       | 内部的                                        |     |     |
-| exterior       | 外部的                                        |     |     |
-| solidify       | 使凝固；使团结一致                                  |     |     |
-| iceberg        | 冰山                                         |     |     |
-| profound       | 意义深远的；深厚的                                  |     |     |
-| sufficient     | 足够的                                        |     |     |
-| insufficient   | 不足的；不够的                                    |     |     |
-| output         | 输出,产出                                      |     |     |
-| pottery        | 陶器                                         |     |     |
-| adequate       | 足够的,适当的                                    |     |     |
-| offspring      | 子孙后代                                       |     |     |
-| breed          | 繁殖                                         |     |     |
-| reproduction   | 繁殖                                         |     |     |
-| germinate      | 发芽,发育                                      |     |     |
-| fertilization  | 施肥,受精                                      |     |     |
-| comfortable    | 舒适的                                        |     |     |
-| annual         | 一年的,一年生的                                   |     |     |
-| invest         | 投资                                         |     |     |
-| destination    | 目的地                                        |     |     |
-| dissertation   | 专题论文                                       |     |     |
-
+| word-5         | meaning                                    | wrod-6                   | meaning                                                                                                                                                             |
+| -------------- | ------------------------------------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| minibus        | 小型公共汽车                                     | keep fit                 | 保持健康                                                                                                                                                                |
+| reptile        | 爬行动物                                       | yoga                     | 瑜伽                                                                                                                                                                  |
+| module         | 模块,组件,课程                                   | salad                    | 沙拉                                                                                                                                                                  |
+| modular        | (尤指英国大学里的课程)分单元的                           | assessment               | 评估, 评价                                                                                                                                                              |
+| nursery        | 婴儿室                                        | refectory                | 食堂,餐厅 [rɪˈfektri]                                                                                                                                                   |
+| synthesis      | 综合,综合体                                     | nursery                  | 婴儿室                                                                                                                                                                 |
+| vicissitude    | 变迁兴衰                                       | laptop                   | 便携式电脑                                                                                                                                                               |
+| obscurity      | 朦胧, 晦涩, 默默无闻                               | printer                  | 打印机                                                                                                                                                                 |
+| analogy        | 类似,相似                                      | golfer                   | 高尔夫球手                                                                                                                                                               |
+| folklore       | 民间传说                                       | velocity                 | 速度,速率                                                                                                                                                               |
+| nurture        | 养育,培育；教养,培育                                | spit                     | 吐 [spɪt]                                                                                                                                                            |
+| repetition     | 重复                                         | sensor                   | 传感器                                                                                                                                                                 |
+| discrepancy    | 矛盾,不符合之处                                   | altitude                 | 海拔                                                                                                                                                                  |
+| remnant        | 残余,剩余部分；剩余的,残留的                            | latitude                 | 纬度                                                                                                                                                                  |
+| benevolent     | 仁慈的                                        | replicate                | 复制 [ˈreplɪkeɪt]                                                                                                                                                     |
+| malevolent     | 恶毒的,心肠坏的                                   | expertise                | 专门知识, 专门技能,专长                                                                                                                                                       |
+| forgo          | 放弃                                         | freight                  | 航运,海运                                                                                                                                                               |
+| transient      | 短暂的                                        | deter                    | 阻止<br>To deter someone from doing something means to make them not want to do it or continue doing it.                                                              |
+| lobby          | 门厅,大厅, 游说                                  | tariff                   | 关税                                                                                                                                                                  |
+| trash          | 废物 trashcan                                | precarious               | 不稳定的<br>If your situation is precarious, you might fail at any moment.                                                                                              |
+| considerable   | 很大的                                        | curtail                  | 缩短                                                                                                                                                                  |
+| carbon dioxide | 二氧化碳                                       | obesity                  | 肥胖                                                                                                                                                                  |
+| drastic        | 激烈的                                        | capricious               | 变幻无常的,变幻莫测<br>Someone who is capricious often changes their mind unexpectedly.                                                                                      |
+| diminish       | 减少                                         | refreshment              | 点心,茶点                                                                                                                                                               |
+| sanitation     | 卫生                                         | reservation              | 预定                                                                                                                                                                  |
+| overhead       | 在头顶；管理费用                                   | aquarium                 | 水族馆 [əˈkweəriəm]                                                                                                                                                    |
+| Antarctica     | 南极洲                                        | dissertation             | 专题论文,学位论文                                                                                                                                                           |
+| sledge         | 雪橇                                         | catalogue                | 目录                                                                                                                                                                  |
+| dwindle        | 减少                                         | projector                | 放映机                                                                                                                                                                 |
+| ivory          | 象牙                                         | reel                     | 卷轴                                                                                                                                                                  |
+| hollow         | 空的                                         | arithmetic               | 算术,算法                                                                                                                                                               |
+| taper          | 逐渐变细                                       | cereal                   | 谷物 [ˈsɪəriəl]                                                                                                                                                       |
+| disdain        | 蔑视                                         | clerical                 | 教士的；牧师 [ˈklerɪkl]                                                                                                                                                   |
+| flavor         | 风味                                         | disclose                 | 公开,揭露<br>If you disclose new or secret information, you tell people about it.                                                                                       |
+| drab           | 单调                                         | molecular                | 分子的 [məˈlekjələ(r)]                                                                                                                                                 |
+| versatile      | 多才多艺的                                      | caloric                  | 热量的 [kə'lɒrɪk]                                                                                                                                                      |
+| punchline      | 妙语                                         | glucose                  | 葡萄糖                                                                                                                                                                 |
+| astronomy      | 天文学                                        | toxic                    | 有毒的,中毒的                                                                                                                                                             |
+| encyclopedia   | 百科全书                                       | diabetic                 | 糖尿病的                                                                                                                                                                |
+| session        | 环节（discussion session），季（training session） | chronic                  | 慢性的<br>A chronic illness lasts for a very long time.                                                                                                                |
+| landfill       | 垃圾填埋场                                      | insulin                  | 胰岛素 [ˈɪnsjəlɪn]                                                                                                                                                     |
+| facilitator    | 促进者,帮助者,服务商                                | commuter                 | 远距离上下班往返的人                                                                                                                                                          |
+| sensory        | 感觉的,感官的                                    | rush hour                | 高峰时段                                                                                                                                                                |
+| handicap       | 障碍                                         | traffic congestion / jam | 交通堵塞                                                                                                                                                                |
+| vital          | 至关重要的                                      | late for work            | 上班迟到                                                                                                                                                                |
+| reasoning      | 推理                                         | main hall                | 正厅                                                                                                                                                                  |
+| sedimentation  | 沉淀                                         | periodical               | 期刊,杂志                                                                                                                                                               |
+| astounding     | 令人震惊的                                      | overdue                  | 过期的                                                                                                                                                                 |
+| Nile           | 尼罗河                                        | sanctuary                | 避难所,庇护所                                                                                                                                                             |
+| delta          | 三角洲                                        | pharmaceutical           | 制药的 [ˌfɑːməˈsuːtɪkl]                                                                                                                                                |
+| scour          | 冲刷                                         | rep                      | 代表<br>A rep is a representative for a group of people.                                                                                                              |
+| sediment       | 沉淀物,沉积物                                    | escalate                 | 升级 [ˈeskəleɪt]<br>If a bad situation escalates, it becomes more serious.                                                                                            |
+| fertilizer     | 肥料                                         | extravagance             | 奢侈,挥霍 [ɪkˈstrævəɡəns]                                                                                                                                               |
+| canal          | 运河                                         | mug                      | 杯子 [mʌɡ]                                                                                                                                                            |
+| Mediterranean  | 地中海的                                       | bribe                    | 贿赂                                                                                                                                                                  |
+| erosion        | 侵蚀                                         | scrutinize               | vt.仔细检查; n. 仔细或彻底检查<br>If you scrutinize something, you examine it very carefully.                                                                                  |
+| comeback       | 恢复,复原                                      | grapple                  | vt.抓住,捉牢,格斗 [ˈɡræpl]<br>If you grapple with someone, you struggle with them.                                                                                        |
+| launch         | 发动,开展。（计算机）开始应用程序                          | legitimate               | 合法的                                                                                                                                                                 |
+| reckon         | 测算,估计                                      | notoriously              | 臭名昭著的 [nəʊ'tɔ:rɪəslɪ]                                                                                                                                               |
+| transcribe     | 转录                                         | maternal                 | 母亲的                                                                                                                                                                 |
+| aspiration     | 抱负                                         | paternal                 | 父亲的                                                                                                                                                                 |
+| inspiration    | 灵感                                         | malnourished             | 营养不良的                                                                                                                                                               |
+| contaminate    | 污染                                         | bully                    | 恐吓,威逼                                                                                                                                                               |
+| trigger        | 触发器                                        | disseminate              | 散布,传播<br>To disseminate information means to distribute it widely.                                                                                                  |
+| tango          | 探戈舞                                        | assertiveness            | 过分自信,武断                                                                                                                                                             |
+| verdict        | 裁决,裁定                                      | eligible                 | 合适的<br>Someone who is eligible to do something is qualified or able to do it, for example, because they are old enough                                              |
+| pretension     | 假装,做作,主张                                   | allergy                  | 过敏性反应 [ˈælədʒi]                                                                                                                                                     |
+| finance        | 财政                                         | discount                 | 打折扣                                                                                                                                                                 |
+| incineration   | 焚化,火葬                                      | viewpoint                | 观点                                                                                                                                                                  |
+| fluctuate      | 波动                                         | garage                   | 车库                                                                                                                                                                  |
+| proportion     | 比例                                         | concert                  | 音乐会                                                                                                                                                                 |
+| approximate    | 大概的。接近于                                    | opera house              | 歌剧院                                                                                                                                                                 |
+| dramatically   | 戏剧性地                                       | annual                   | 年度的,每年的                                                                                                                                                             |
+| consistency    | 一致性                                        | fee                      | 费用<br>A fee is a sum of money you pay to do something.                                                                                                              |
+| conditioner    | 调节器                                        | laptop                   | 便携式电脑                                                                                                                                                               |
+| detail         | 细节                                         | printer                  | 打印机                                                                                                                                                                 |
+| definite       | 明确的,一定的                                    | accelerate               | 加快,加速<br>If the process or rate of something accelerates or if something accelerates it, it gets faster and faster.                                                 |
+| intermediate   | 中间的；调解                                     | indispensable            | 不可缺少的<br>If you say that someone or something is indispensable, you mean that they are absolutely essential and other people or things cannot function without them |
+| vegetarian     | 素食主义者                                      | inevitable               | 不可避免的,必然发生的<br>If something is inevitable, it is certain to happen and cannot be prevented or avoided.                                                              |
+| facility       | 设施                                         |                          |                                                                                                                                                                     |
+| clubhouse      | 俱乐部会所                                      |                          |                                                                                                                                                                     |
+| supervise      | 监督,管理,指导                                   |                          |                                                                                                                                                                     |
+| newsletter     | 通讯                                         |                          |                                                                                                                                                                     |
+| capital        | 资本                                         |                          |                                                                                                                                                                     |
+| invest         | 投资                                         |                          |                                                                                                                                                                     |
+| interest       | 利益,利息                                      |                          |                                                                                                                                                                     |
+| boost          | 促进,提高                                      |                          |                                                                                                                                                                     |
+| bibliography   | 参考书目                                       |                          |                                                                                                                                                                     |
+| reference      | 参考书目、推荐信、查询，提及                             |                          |                                                                                                                                                                     |
+| razor          | 剃须刀                                        |                          |                                                                                                                                                                     |
+| interior       | 内部的                                        |                          |                                                                                                                                                                     |
+| exterior       | 外部的                                        |                          |                                                                                                                                                                     |
+| solidify       | 使凝固；使团结一致                                  |                          |                                                                                                                                                                     |
+| iceberg        | 冰山                                         |                          |                                                                                                                                                                     |
+| profound       | 意义深远的；深厚的                                  |                          |                                                                                                                                                                     |
+| sufficient     | 足够的                                        |                          |                                                                                                                                                                     |
+| insufficient   | 不足的；不够的                                    |                          |                                                                                                                                                                     |
+| output         | 输出,产出                                      |                          |                                                                                                                                                                     |
+| pottery        | 陶器                                         |                          |                                                                                                                                                                     |
+| adequate       | 足够的,适当的                                    |                          |                                                                                                                                                                     |
+| offspring      | 子孙后代                                       |                          |                                                                                                                                                                     |
+| breed          | 繁殖                                         |                          |                                                                                                                                                                     |
+| reproduction   | 繁殖                                         |                          |                                                                                                                                                                     |
+| germinate      | 发芽,发育                                      |                          |                                                                                                                                                                     |
+| fertilization  | 施肥,受精                                      |                          |                                                                                                                                                                     |
+| comfortable    | 舒适的                                        |                          |                                                                                                                                                                     |
+| annual         | 一年的,一年生的                                   |                          |                                                                                                                                                                     |
+| invest         | 投资                                         |                          |                                                                                                                                                                     |
+| destination    | 目的地                                        |                          |                                                                                                                                                                     |
+| dissertation   | 专题论文                                       |                          |                                                                                                                                                                     |
