@@ -13,5 +13,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "readableLineLength": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "strictLineBreaks": false
 }
