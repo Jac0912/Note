@@ -31,7 +31,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/智能控制/智能控制.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -86,13 +86,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "temp.md",
+                "file": "Course_Note/智能控制/智能控制.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "temp 的大纲"
+              "title": "智能控制 的大纲"
             }
           },
           {
