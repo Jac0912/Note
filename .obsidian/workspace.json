@@ -59,16 +59,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/Container_Note/Container.md",
+                "file": "Middleware/Git_Note/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Container"
+              "title": "Git"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/Container_Note/Container.md",
+                "file": "Course_Note/智能控制/智能控制.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Container 的大纲"
+              "title": "智能控制 的大纲"
             }
           },
           {
@@ -230,14 +230,16 @@
   },
   "active": "94caf3029d42f4c7",
   "lastOpenFiles": [
+    "Middleware/Git_Note/Git.md",
+    "Middleware/Crawler_Note/Crawler_Note.md",
+    "Middleware/Container_Note/Container.md",
     "Course_Note/智能控制/智能控制.md",
-    "IELTS/word/word.md",
     "Course_Note/马克思主义/马克思主义.md",
+    "IELTS/word/word.md",
     "temp.md",
     "未命名.canvas",
     "2025-12-06.md",
     "Toefl/R&L/R&L-guide.md",
-    "Middleware/Container_Note/Container.md",
     "Course_Note/智能控制/image/Pasted image 20251203152551.png",
     "Course_Note/智能控制/image/Pasted image 20251201201127.png",
     "Course_Note/智能控制/image/Pasted image 20251201201101.png",
@@ -274,7 +276,6 @@
     "科研/量子线路编译/review/review.md",
     "科研/量子线路编译/work/Formulation.md",
     "科研/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Exploiting the Regular Structure of Modern Quantum Architectures for Compiling and Optimizing Programs with Permutable Operators.md",
-    "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
-    "科研/量子线路编译/learn/learn.md"
+    "科研/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md"
   ]
 }
