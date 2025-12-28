@@ -14,5 +14,6 @@
   "newLinkFormat": "relative",
   "readableLineLength": true,
   "focusNewTab": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "showUnsupportedFiles": true
 }

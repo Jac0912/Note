@@ -182,7 +182,7 @@ Test-NetConnection 1.95.183.0 -Port 3306
 1. 第一步：配置端口转发
 2. 以管理员权限打开PS，输入命令：
 ```shell
-netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=6379 connectaddress=localhost connectport=6379
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=5173 connectaddress=localhost connectport=5173
 ```
 - **listenaddress**： 监听地址， **0.0.0.0** 表示匹配所有地址。
 - **listenport**：监听的Windows端口。
