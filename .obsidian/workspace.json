@@ -26,19 +26,37 @@
           {
             "id": "6c07dd1dea7579c6",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course_Note/毛概/毛概.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "毛概"
+            }
+          },
+          {
+            "id": "ffc06ce6ad5041ac",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Course_Note/习思想/习思想.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "习思想"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,13 +88,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/毛概/毛概.md",
+                "file": "Course_Note/习思想/习思想.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "毛概 的大纲"
+              "title": "习思想 的大纲"
             }
           },
           {
@@ -199,12 +217,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c07dd1dea7579c6",
+  "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "IELTS/word/word.md",
-    "Linux_Note/Linux.md",
     "Course_Note/毛概/毛概.md",
     "Course_Note/习思想/习思想.md",
+    "未命名.canvas",
+    "IELTS/word/word.md",
+    "Linux_Note/Linux.md",
     "Course_Note/毛概",
     "Course_Note/习思想/image/Pasted image 20251220143519.png",
     "Course_Note/习思想/image",
@@ -218,7 +237,6 @@
     "Course_Note/智能控制/智能控制.md",
     "Middleware/Crawler_Note/Crawler_Note.md",
     "Middleware/Container_Note/Container.md",
-    "未命名.canvas",
     "2025-12-06.md",
     "Toefl/R&L/R&L-guide.md",
     "Course_Note/智能控制/image/Pasted image 20251203152551.png",
@@ -246,7 +264,6 @@
     "Course_Note/计网/计网.md",
     "Course_Note/计算机组成原理_Note/计组.md",
     "Toefl/writing/image",
-    "科研/量子线路编译/review/review.md",
-    "科研/量子线路编译/work/Formulation.md"
+    "科研/量子线路编译/review/review.md"
   ]
 }

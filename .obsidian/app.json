@@ -15,5 +15,6 @@
   "readableLineLength": true,
   "focusNewTab": true,
   "strictLineBreaks": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showLineNumber": false
 }
