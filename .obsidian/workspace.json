@@ -24,22 +24,6 @@
             }
           },
           {
-            "id": "6c07dd1dea7579c6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course_Note/毛概/毛概.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "毛概"
-            }
-          },
-          {
             "id": "ffc06ce6ad5041ac",
             "type": "leaf",
             "pinned": true,
@@ -47,12 +31,28 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/习思想/习思想.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "习思想"
+            }
+          },
+          {
+            "id": "085d2e99f7bf3f4a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course_Note/毛概/毛概.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "毛概"
             }
           },
           {
@@ -79,9 +79,9 @@
               "state": {
                 "file": "Course_Note/毛概/Canvas.canvas",
                 "viewState": {
-                  "x": -246.03282610700438,
-                  "y": -19.411193510684484,
-                  "zoom": -0.2801837444001403
+                  "x": -7.335342019165651,
+                  "y": 118.50266099959356,
+                  "zoom": -0.5844740647879496
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -252,23 +252,27 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "Course_Note/习思想/习思想.md",
-    "Course_Note/毛概/Canvas.canvas",
     "Course_Note/毛概/毛概.md",
+    "Course_Note/毛概/image/8.jpg",
+    "Course_Note/毛概/image/7.jpg",
+    "Course_Note/毛概/image/6.jpg",
+    "Course_Note/毛概/image/5.jpg",
+    "Course_Note/毛概/image/4.jpg",
+    "Course_Note/毛概/image/3.jpg",
+    "Course_Note/毛概/image/2.jpg",
+    "Course_Note/习思想/习思想.md",
+    "Course_Note/毛概/image/1.jpg",
+    "Course_Note/毛概/image",
     "Course_Note/习思想/practice.md",
+    "Course_Note/毛概/Canvas.canvas",
     "未命名.base",
     "未命名.md",
     "().md",
     "Course_Note/习思想/image/Pasted image 20260102110352.png",
     "Course_Note/习思想/image/Pasted image 20260102110336.png",
-    "Course_Note/习思想/image/Pasted image 20260102104930.png",
-    "Course_Note/习思想/image/Pasted image 20260102102708.png",
-    "Course_Note/习思想/image/Pasted image 20260102102612.png",
-    "Course_Note/习思想/image/Pasted image 20260102102552.png",
     "IELTS/word/word.md",
     "Linux_Note/Linux.md",
     "Course_Note/毛概",
-    "Course_Note/习思想/image/Pasted image 20251220143519.png",
     "Course_Note/习思想/image",
     "Course_Note/习思想",
     "Toefl/sentence.md",
@@ -282,9 +286,6 @@
     "Middleware/Container_Note/Container.md",
     "2025-12-06.md",
     "Toefl/R&L/R&L-guide.md",
-    "Course_Note/智能控制/image/Pasted image 20251203152551.png",
-    "Course_Note/智能控制/image/Pasted image 20251201201127.png",
-    "Course_Note/智能控制/image/Pasted image 20251201201101.png",
     "Course_Note/交通工程学/交通工程学.md",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/数据库_Note/数据库.md",
@@ -296,7 +297,6 @@
     "README.md",
     "image",
     "Course_Note/智能控制/image",
-    "Course_Note/智能控制",
-    "Toefl/writing/image"
+    "Course_Note/智能控制"
   ]
 }
