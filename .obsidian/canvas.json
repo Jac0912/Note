@@ -1,4 +1,4 @@
 {
-  "snapToObjects": true,
-  "snapToGrid": true
+  "snapToObjects": false,
+  "snapToGrid": false
 }

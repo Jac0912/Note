@@ -47,7 +47,7 @@
               "type": "markdown",
               "state": {
                 "file": "Course_Note/毛概/毛概.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -79,9 +79,9 @@
               "state": {
                 "file": "Course_Note/毛概/Canvas.canvas",
                 "viewState": {
-                  "x": -7.335342019165651,
-                  "y": 118.50266099959356,
-                  "zoom": -0.5844740647879496
+                  "x": -64.44583298062504,
+                  "y": 4162.450682662454,
+                  "zoom": -0.2801837444001403
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -253,6 +253,8 @@
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
     "Course_Note/毛概/毛概.md",
+    "Course_Note/习思想/practice.md",
+    "Course_Note/毛概/Canvas.canvas",
     "Course_Note/毛概/image/8.jpg",
     "Course_Note/毛概/image/7.jpg",
     "Course_Note/毛概/image/6.jpg",
@@ -263,8 +265,6 @@
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/image/1.jpg",
     "Course_Note/毛概/image",
-    "Course_Note/习思想/practice.md",
-    "Course_Note/毛概/Canvas.canvas",
     "未命名.base",
     "未命名.md",
     "().md",
