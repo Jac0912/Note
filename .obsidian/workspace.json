@@ -24,22 +24,6 @@
             }
           },
           {
-            "id": "ffc06ce6ad5041ac",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course_Note/习思想/习思想.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "习思想"
-            }
-          },
-          {
             "id": "e45c4ae9705dcb76",
             "type": "leaf",
             "pinned": true,
@@ -61,16 +45,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp.md",
+                "file": "Course_Note/马克思主义/马克思主义.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temp"
+              "title": "马克思主义"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,13 +86,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/习思想/习思想.md",
+                "file": "Course_Note/马克思主义/马克思主义.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "习思想 的大纲"
+              "title": "马克思主义 的大纲"
             }
           },
           {
@@ -138,8 +122,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -230,12 +213,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a10ee232e4604e",
+  "active": "728abc4706e2d77a",
   "lastOpenFiles": [
-    "Course_Note/习思想/practice.md",
-    "Course_Note/习思想/习思想.md",
+    "Course_Note/马克思主义/image/Pasted image 20260110152429.png",
+    "Course_Note/马克思主义/image/Pasted image 20260110145809.png",
+    "Course_Note/马克思主义/image/Pasted image 20260110125805.png",
+    "Course_Note/马克思主义/image/Pasted image 20260110125413.png",
+    "Course_Note/马克思主义/image/Pasted image 20260110105817.png",
+    "Course_Note/马克思主义/image",
     "temp.md",
+    "Course_Note/习思想/practice.md",
     "IELTS/word/word.md",
+    "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
     "Course_Note/毛概/Canvas.canvas",
     "Course_Note/毛概/image/8.jpg",
@@ -244,14 +233,10 @@
     "Course_Note/毛概/image/5.jpg",
     "Course_Note/毛概/image/4.jpg",
     "Course_Note/毛概/image/3.jpg",
-    "Course_Note/毛概/image/2.jpg",
-    "Course_Note/毛概/image/1.jpg",
     "Course_Note/毛概/image",
     "未命名.base",
     "未命名.md",
     "().md",
-    "Course_Note/习思想/image/Pasted image 20260102110352.png",
-    "Course_Note/习思想/image/Pasted image 20260102110336.png",
     "Linux_Note/Linux.md",
     "Course_Note/毛概",
     "Course_Note/习思想/image",
@@ -276,7 +261,6 @@
     "Toefl/writing/writing-practice.md",
     "README.md",
     "image",
-    "Course_Note/智能控制/image",
-    "Course_Note/智能控制"
+    "Course_Note/智能控制/image"
   ]
 }
