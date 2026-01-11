@@ -122,7 +122,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "728abc4706e2d77a",
+  "active": "83a10ee232e4604e",
   "lastOpenFiles": [
     "Course_Note/马克思主义/image/Pasted image 20260110152429.png",
     "Course_Note/马克思主义/image/Pasted image 20260110145809.png",
