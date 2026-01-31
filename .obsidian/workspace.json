@@ -4,53 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "529e3a1f7ce90213",
+        "id": "8f9572be2df22630",
         "type": "tabs",
         "children": [
           {
-            "id": "450aea38146bd536",
+            "id": "45d60c2f0db09fa3",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/word/word.md",
-                "mode": "preview",
+                "file": "Chisel/chisel.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "word"
+              "title": "chisel"
             }
           },
           {
-            "id": "e45c4ae9705dcb76",
+            "id": "8ef408dd94dc0f8a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/习思想/practice.md",
-                "mode": "preview",
+                "file": "Middleware/Mill/Mill.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "practice"
+              "title": "Mill"
             }
           },
           {
-            "id": "728abc4706e2d77a",
+            "id": "3e56f93c28686901",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course_Note/马克思主义/马克思主义.md",
+                "file": "GPU/GPU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "马克思主义"
+              "title": "GPU"
             }
           }
         ],
@@ -86,13 +86,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course_Note/马克思主义/马克思主义.md",
+                "file": "GPU/GPU.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "马克思主义 的大纲"
+              "title": "GPU 的大纲"
             }
           },
           {
@@ -216,21 +216,31 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "GPU/image/Pasted image 20260130213528.png",
+    "GPU/image/Pasted image 20260130210616.png",
+    "GPU/image/Pasted image 20260130175551.png",
+    "GPU/image/Pasted image 20260130164515.png",
+    "GPU/image/Pasted image 20260130151250.png",
+    "GPU/image/Pasted image 20260130112705.png",
+    "GPU/image",
+    "Middleware/Mill/Mill.md",
+    "Chisel/chisel.md",
+    "Chisel/image/43c4761cbe913b6301ef691259c4bb03.jpg",
+    "Chisel/image",
+    "GPU/GPU.md",
+    "未命名",
+    "GPU",
+    "IELTS/word/word.md",
+    "Course_Note/习思想/practice.md",
+    "temp.md",
+    "Middleware/Mill",
+    "Chisel",
+    "Course_Note/马克思主义/马克思主义.md",
     "Course_Note/马克思主义/image/Pasted image 20260111221523.png",
     "Course_Note/马克思主义/image/Pasted image 20260111221209.png",
     "Course_Note/马克思主义/image/Pasted image 20260111221133.png",
     "Course_Note/马克思主义/image/Pasted image 20260111220723.png",
-    "Course_Note/马克思主义/image/Pasted image 20260111220635.png",
-    "Course_Note/马克思主义/image/Pasted image 20260111220508.png",
-    "Course_Note/马克思主义/image/Pasted image 20260111220435.png",
-    "Course_Note/马克思主义/image/Pasted image 20260111220259.png",
-    "Course_Note/马克思主义/image/Pasted image 20260110152429.png",
-    "Course_Note/马克思主义/image/Pasted image 20260110145809.png",
-    "Course_Note/马克思主义/image/Pasted image 20260110125805.png",
     "Course_Note/马克思主义/image",
-    "temp.md",
-    "Course_Note/习思想/practice.md",
-    "IELTS/word/word.md",
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
     "Course_Note/毛概/Canvas.canvas",
@@ -240,12 +250,9 @@
     "().md",
     "Linux_Note/Linux.md",
     "Course_Note/毛概",
-    "Course_Note/习思想/image",
-    "Course_Note/习思想",
     "Toefl/sentence.md",
     "Toefl/writing/writing-guide.md",
     "Toefl/speaking/speaking-guide.md",
-    "Course_Note/马克思主义/马克思主义.md",
     "Middleware/Git_Note/Git.md",
     "Course_Note/智能控制/智能控制.md",
     "Middleware/Crawler_Note/Crawler_Note.md",
@@ -255,13 +262,6 @@
     "Course_Note/交通工程学/交通工程学.md",
     "Middleware/Markdown/Markdown.md",
     "Course_Note/数据库_Note/数据库.md",
-    "IELTS/word",
-    "IELTS",
-    "Toefl/word.md",
-    "Toefl/speaking/speaking-practice.md",
-    "Toefl/writing/writing-practice.md",
-    "README.md",
-    "image",
-    "Course_Note/智能控制/image"
+    "Toefl/word.md"
   ]
 }
