@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45d60c2f0db09fa3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chisel/chisel.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "chisel"
-            }
-          },
-          {
             "id": "8ef408dd94dc0f8a",
             "type": "leaf",
             "pinned": true,
@@ -40,13 +24,13 @@
             }
           },
           {
-            "id": "3e56f93c28686901",
+            "id": "450e59b3f875ab9d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU/GPU.md",
+                "file": "HD/GPU/GPU.md",
                 "mode": "source",
                 "source": false
               },
@@ -56,35 +40,35 @@
             }
           },
           {
-            "id": "9ae7245b9c9b2fda",
+            "id": "71b8789775d9903b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_Note/Linux.md",
+                "file": "Algorithm/Algorithm_on_Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "Algorithm_on_Python"
             }
           },
           {
-            "id": "b5ef0969e2f8f389",
+            "id": "ed6541a952f423f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp.md",
+                "file": "Algorithm/Practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temp"
+              "title": "Practice"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPU/GPU.md",
+                "file": "Algorithm/Algorithm_on_Python.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPU 的大纲"
+              "title": "Algorithm_on_Python 的大纲"
             }
           },
           {
@@ -244,32 +228,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a10ee232e4604e",
+  "active": "71b8789775d9903b",
   "lastOpenFiles": [
-    "GPU/GPU.md",
-    "GPU/image/Pasted image 20260201171908.png",
-    "GPU/image/Pasted image 20260201171003.png",
-    "Linux_Note/Linux.md",
-    "GPU/image/Pasted image 20260130213528.png",
-    "GPU/image/Pasted image 20260130210616.png",
-    "GPU/image/Pasted image 20260130175551.png",
-    "GPU/image/Pasted image 20260130164515.png",
-    "GPU/image/Pasted image 20260130151250.png",
-    "GPU/image/Pasted image 20260130112705.png",
-    "GPU/image",
+    "Algorithm/Practice.md",
+    "Algorithm/Algorithm_on_Python.md",
+    "Algorithm/history.md",
+    "Algorithm/Algorithm_on_Java.md",
+    "Algorithm/C++.md",
+    "Algorithm/Algorithm_Note.md",
     "Middleware/Mill/Mill.md",
-    "Chisel/chisel.md",
-    "Chisel/image/43c4761cbe913b6301ef691259c4bb03.jpg",
+    "HD/GPU/GPU.md",
+    "Toefl/writing/writing-practice.md",
+    "Toefl/sentence.md",
+    "HD/GPU/image/Pasted image 20260130112705.png",
+    "Linux_Note/Linux.md",
+    "temp.md",
+    "Middleware/Container_Note/Container.md",
+    "HD/Vivado/TCL.md",
+    "HD/Vivado",
+    "HD",
+    "HD/GPU/DOCA GPUNetIO.md",
+    "HD/GPU/image/Pasted image 20260201230945.png",
+    "HD/GPU/image/Pasted image 20260201230842.png",
+    "HD/GPU/image/Pasted image 20260201171908.png",
+    "HD/GPU/image/Pasted image 20260201171003.png",
+    "HD/GPU/image/Pasted image 20260130213528.png",
+    "HD/GPU/image/Pasted image 20260130210616.png",
+    "HD/GPU/image/Pasted image 20260130175551.png",
+    "HD/GPU/image/Pasted image 20260130164515.png",
+    "HD/GPU/image/Pasted image 20260130151250.png",
+    "HD/GPU/image",
+    "HD/Chisel/chisel.md",
     "Chisel/image",
-    "未命名",
-    "GPU",
+    "HD/GPU",
     "IELTS/word/word.md",
     "Course_Note/习思想/practice.md",
-    "temp.md",
     "Middleware/Mill",
-    "Chisel",
+    "HD/Chisel",
     "Course_Note/马克思主义/马克思主义.md",
-    "Course_Note/马克思主义/image/Pasted image 20260111221523.png",
     "Course_Note/马克思主义/image",
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
@@ -278,19 +274,8 @@
     "未命名.base",
     "未命名.md",
     "().md",
-    "Course_Note/毛概",
-    "Toefl/sentence.md",
     "Toefl/writing/writing-guide.md",
     "Toefl/speaking/speaking-guide.md",
-    "Middleware/Git_Note/Git.md",
-    "Course_Note/智能控制/智能控制.md",
-    "Middleware/Crawler_Note/Crawler_Note.md",
-    "Middleware/Container_Note/Container.md",
-    "2025-12-06.md",
-    "Toefl/R&L/R&L-guide.md",
-    "Course_Note/交通工程学/交通工程学.md",
-    "Middleware/Markdown/Markdown.md",
-    "Course_Note/数据库_Note/数据库.md",
-    "Toefl/word.md"
+    "Middleware/Git_Note/Git.md"
   ]
 }

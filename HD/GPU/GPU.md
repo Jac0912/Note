@@ -106,6 +106,7 @@ $$
 2. GPU ingress reduced version of **its** local shard: $B/N$
 3. GPU egresses: $B/N$
 4. GPU ingresses fully reduced result: $B\cdot (N-1)/N$
+
 ## 3.2. Cross-node collectives
 ### 3.2.1. node-level AllGather or ReductionScatter (roughly)
 $$

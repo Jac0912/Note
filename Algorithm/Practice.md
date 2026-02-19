@@ -1,4 +1,4 @@
-# LeetCode
+# 1. LeetCode
 LeetCode 416. 分割等和子集(01背包)
 ```python
 class Solution(object):  
@@ -629,8 +629,8 @@ class Solution(object):
         return [l, r - 1]
 ```
 
-# 蓝桥杯
-###### 2928.分糖果
+# 2. 蓝桥杯
+###### 2.1.1.1.1.1. 2928.分糖果
 ```python
 import math  
   
@@ -647,7 +647,7 @@ else:
     print(s[x])
 ```
 
-###### 97.k倍区间（同余定理，前缀和）
+###### 2.1.1.1.1.2. 97.k倍区间（同余定理，前缀和）
 ```python
 n, k = map(int, input().split())  
 arr = [0] * n  
@@ -666,7 +666,7 @@ for m in mod:
 print(res)
 ```
 
-###### 99.分巧克力（二分）
+###### 2.1.1.1.1.3. 99.分巧克力（二分）
 ```python
 n, k = map(int, input().split())  
 arr = [list(map(int, input().split())) for _ in range(n)]  
@@ -691,7 +691,7 @@ while left + 1 != right:
 print(left)
 ```
 
-###### 101.拉马车（模拟）
+###### 2.1.1.1.1.4. 101.拉马车（模拟）
 ```python
 from collections import deque  
   
@@ -740,7 +740,7 @@ else:
     print(''.join(b))
 ```
 
-###### 109.分考场（dfs）
+###### 2.1.1.1.1.5. 109.分考场（dfs）
 ```python
 def dfs(x, room, n):  
     global res  
@@ -778,7 +778,7 @@ dfs(1, 1, n)
 print(res)
 ```
 
-###### 110.合根植物（并查集）
+###### 2.1.1.1.1.6. 110.合根植物（并查集）
 ```python
 m, n = map(int, input().split())  
 k = int(input())  
@@ -802,7 +802,7 @@ for i in range(1, n * m + 1):
 print(res)
 ```
 
-###### 111.区间位移（二分）
+###### 2.1.1.1.1.7. 111.区间位移（二分）
 ```python
 n = int(input())  
 arr = [tuple(map(int, input().split())) for _ in range(n)]  
@@ -843,7 +843,7 @@ else:
     print(l)
 ```
 
-###### 126.交换瓶子（模拟）
+###### 2.1.1.1.1.8. 126.交换瓶子（模拟）
 ```python
 n=int(input())
 arr=[0]+list(map(int,input().split()))
@@ -856,7 +856,7 @@ for i in range(1,n+1):
 print(res)
 ```
 
-###### 11.移动距离（数学推导）
+###### 2.1.1.1.1.9. 11.移动距离（数学推导）
 ```python
 w, m, n = map(int, input().split())  
   
@@ -878,7 +878,7 @@ r2, c2 = point(n)
 print(abs(r1 - r2) + abs(c1 - c2))
 ```
 
-###### 7.长草（bfs）
+###### 2.1.1.1.1.10. 7.长草（bfs）
 ```python
 from collections import deque
 n,m=map(int,input().split())
@@ -911,7 +911,7 @@ for i in range(n):
 
 ```
 
-###### 136.奇怪的数列
+###### 2.1.1.1.1.11. 136.奇怪的数列
 ```python
 num = input()  
 n = int(input())  
@@ -937,7 +937,7 @@ for i in range(n):
 print(num)
 ```
 
-###### 5.穿越雷区（bfs）
+###### 2.1.1.1.1.12. 5.穿越雷区（bfs）
 ```python
 from collections import deque  
   
@@ -985,7 +985,7 @@ res = bfs()
 print(res)
 ```
 
-###### 11.递增三元组（二分）
+###### 2.1.1.1.1.13. 11.递增三元组（二分）
 ```python
 n = int(input())  
 a = sorted(map(int, input().split()))  
@@ -1027,7 +1027,7 @@ for i in b:
 print(res)
 ```
 
-###### 18.日志统计(双指针)
+###### 2.1.1.1.1.14. 18.日志统计(双指针)
 ```python
 n,d,k=map(int,input().split())  
 dic={}  
@@ -1059,7 +1059,7 @@ for r in res:
     print(r)
 ```
 
-###### 12.完全二叉树的权值(完全二叉树)
+###### 2.1.1.1.1.15. 12.完全二叉树的权值(完全二叉树)
 ```python
 import math  
   
@@ -1073,7 +1073,7 @@ for i in range(deep):
 print(res.index(max(res)) + 1)
 ```
 
-###### 1.外卖店优先级(模拟)
+###### 2.1.1.1.1.16. 1.外卖店优先级(模拟)
 ```python
 n, m, t = map(int, input().split())  
 mp = {}  
@@ -1111,7 +1111,7 @@ for _, arr in mp.items():
 print(res)
 ```
 
-###### 14.大臣的旅费(树的直径)
+###### 2.1.1.1.1.17. 14.大臣的旅费(树的直径)
 ```python
 n = int(input())  
 tree = [list() for _ in range(n + 1)]  
@@ -1141,7 +1141,7 @@ d = deep[st]
 print((d + 21) * d // 2)
 ```
 
-###### 16.剪格子(dfs)
+###### 2.1.1.1.1.18. 16.剪格子(dfs)
 ```python
 m, n = map(int, input().split())  
 arr = [list(map(int, input().split())) for _ in range(n)]  
