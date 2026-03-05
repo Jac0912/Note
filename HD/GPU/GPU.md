@@ -1,6 +1,6 @@
 # 1. Framework
 ## 1.1. overall
-![|750](image/Pasted%20image%2020260130112705.png)
+![](image/Pasted%20image%2020260130112705.png)
 - SM(Streaming Multiprocessors): 矩阵乘
 - Warp Scheduler: 向量运算单元，32 线程，起控制作用
 ## 1.2. SM

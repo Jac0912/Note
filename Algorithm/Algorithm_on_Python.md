@@ -133,7 +133,7 @@ bisect.bisect_left(<list>, num, lo=0, hi=len(<list>))  #返回应该插入num的
 ```
 
 **King**
-![image-20240229165813532](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240229165813532.png)
+![image-20240229165813532|229](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240229165813532.png)
 
 ```python
 left = -1
@@ -487,8 +487,8 @@ dp\[j]：容量为j的背包的最大价值
 - 装满容器的最大价值(纯01背包)
 - 给容器求能否装满（dp\[target] ?= target）
 - 给定容器，最多能装多少
-- 装满背包有多少种方法
-- 装满背包最多有多少个物品
+- 装满背包有**多少种方法**（dp 数组为方法数，**递推公式不变**dp\[j] += dp\[j - nums\[i]]）
+- 装满背包最多有多少个物品（dp 数组为物品数量，枚举物品：max(dp\[i], dp\[i - t]) + 1）
 ```java
 	for(int i = 0;i<weightSize;i++) {
 		for (int j = bagWeight; j >= weight[i]; j--) {

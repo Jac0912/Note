@@ -1,6 +1,6 @@
-# Alogrithm
+# 1. Alogrithm
 
-## 前缀和
+## 1.1. 前缀和
 
 ```java
 int []a=new int[10];
@@ -11,7 +11,7 @@ for(int i=1;i<11;i++)
 }
 ```
 
-## 差分
+## 1.2. 差分
 
 **改变数组多个区间**  $O(1)$
 
@@ -21,13 +21,13 @@ exp：区间L,R加a
 - save[L]+=a  save[R+1]-=a(消除对区间外的影响)
 - 对save数组求前缀和得结果
 
-## 获取数组中最大值
+## 1.3. 获取数组中最大值
 
 ```java
 int max=Arrays.stream(save).max().getAsInt();
 ```
 
-## 数组排序
+## 1.4. 数组排序
 
 ```java
 Arrays.sort(array,Comparator.comparingInt(arr->arr[1]));
@@ -49,23 +49,23 @@ Arrays.sort(partic,new Comparator<int[]>() {
 		}.reversed());
 ```
 
-## 递归
+## 1.5. 递归
 
 **分析：**递归搜索树
 
 n=30
 
-## DFS
+## 1.6. DFS
 
 用递归实现n层for循环搜索(某种程度的枚举)
 
-#### 枚举
+#### 1.6.1.1. 枚举
 
 1. 组合
 2. 排列
 3. 指数(方法间没关联)
 
-### 指数
+### 1.6.2. 指数
 
 ![image-20240302203637573](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240302203637573.png)
 
@@ -120,7 +120,7 @@ public class Main {
 
 
 
-### 全排列
+### 1.6.3. 全排列
 
 ```java
 
@@ -223,7 +223,7 @@ public class Test2 {
 
 
 
-### 图(DFS)
+### 1.6.4. 图(DFS)
 
 ![image-20240227211655135](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240227211655135.png)
 
@@ -296,7 +296,7 @@ public class Test2 {
 }
 ````
 
-### 剪枝
+### 1.6.5. 剪枝
 
 在dfs开头添加条件提前终止不需要的路径
 
@@ -340,9 +340,9 @@ public class Main {
 
 
 
-### 转换大小写：x^=32
+### 1.6.6. 转换大小写：x^=32
 
-## 同余定理
+## 1.7. 同余定理
 
 **a%k=b%k⇒|a-b|=n*k**
 
@@ -377,9 +377,9 @@ public class Test {
 }
 ```
 
-## 二分查找
+## 1.8. 二分查找
 
-### King
+### 1.8.1. King
 
 ![image-20240229165813532](C:\Users\welco\AppData\Roaming\Typora\typora-user-images\image-20240229165813532.png)
 
@@ -401,7 +401,7 @@ public class Test {
 3. 确定返回值的位置（left or right）
 4. 判断没找到的情况
 
-### API
+### 1.8.2. API
 
 ```java
 Arrays.binarySearch(arr, target);
@@ -409,7 +409,7 @@ Arrays.binarySearch(arr, target);
 
 **使用时需排序**
 
-### 查找>=k的最小值
+### 1.8.3. 查找>=k的最小值
 
 ```java 
 int[] arr = { 1, 2, 3, 4, 5, 6 };
@@ -443,7 +443,7 @@ public static int downK(List list, int key){
 }
 ```
 
-### 查找<=k的最大值
+### 1.8.4. 查找<=k的最大值
 
 ```java
 int[] arr = { 1, 2, 3, 4, 5, 6 };
@@ -480,7 +480,7 @@ int[] arr = { 1, 2, 3, 4, 5, 6 };
     }
 ```
 
-### 浮点二分
+### 1.8.5. 浮点二分
 
 ```java
 		double right = 1e5;
@@ -499,7 +499,7 @@ int[] arr = { 1, 2, 3, 4, 5, 6 };
 Collections.binarySearch(); 方法
 ```
 
-## BigInteger
+## 1.9. BigInteger
 
 ```java
 BigInteger a=new BigInteger(String str);
@@ -519,9 +519,9 @@ a.gcd(b);                                  //a,b最大公约数
 LCM(a, b) = (a * b) / GCD(a, b)            //求最小公倍数
 ```
 
-## 动态规划
+## 1.10. 动态规划
 
-### 线性dp
+### 1.10.1. 线性dp
 
 多决策问题
 
@@ -531,7 +531,7 @@ LCM(a, b) = (a * b) / GCD(a, b)            //求最小公倍数
 
 找到最后一步→**去掉最后一步**
 
-### 步骤
+### 1.10.2. 步骤
 
 1. dp数组以及下标含义
 2. 递推公式
@@ -539,18 +539,18 @@ LCM(a, b) = (a * b) / GCD(a, b)            //求最小公倍数
 4. 遍历顺序
 5. 打印dp数组(出问题后检测)
 
-### 类型
+### 1.10.3. 类型
 
-#### 01背包
+#### 1.10.3.1. 01背包
 
 每个物品只能使用一次
 
-##### 方法
+##### 1.10.3.1.1. 方法
 
 - 先遍历物品，后遍历背包
 - 背包倒序遍历(防止重复)
 
-##### 应用
+##### 1.10.3.1.2. 应用
 
 - 装满容器的最大价值(纯01背包)
 - 给容器求能否装满
@@ -568,34 +568,34 @@ LCM(a, b) = (a * b) / GCD(a, b)            //求最小公倍数
 
 
 
-#### 完全背包
+#### 1.10.3.2. 完全背包
 
 同一件物品可使用无限次
 
-##### 方法
+##### 1.10.3.2.1. 方法
 
 - 背包与物品遍历顺序可以颠倒
 - 背包顺序遍历(多次拿取物品)
 
-##### 应用
+##### 1.10.3.2.2. 应用
 
 
 
-#### 打家劫舍
+#### 1.10.3.3. 打家劫舍
 
 
 
-#### 股票问题
+#### 1.10.3.4. 股票问题
 
 
 
-#### 子序列问题
+#### 1.10.3.5. 子序列问题
 
 
 
-## Math
+## 1.11. Math
 
-### 最大公约数（gcd）
+### 1.11.1. 最大公约数（gcd）
 
 ```java 
 public static long gcd(long x, long y) {
@@ -607,7 +607,7 @@ public static long gcd(long x, long y) {
 2. 较小数与余数作为新的两个数，重复1，直到余数为0
 3. 余数为0时，除数即为两数最大公约数
 
-### 最小公倍数（lcm）
+### 1.11.2. 最小公倍数（lcm）
 
 ```java
 public static long lcm(long x,long y) {
@@ -615,7 +615,7 @@ public static long lcm(long x,long y) {
 	}
 ```
 
-### 进制转换
+### 1.11.3. 进制转换
 
 ```java
 String str=Integer.toString(target,int radix);    //target:待转换数，radix=进制
@@ -624,7 +624,7 @@ long out=Integer.parseInt(String x,int radix);    //待转换字符串
 
 - 转换后字符串中的字母字符为小写
 
-## 数据规模与算法
+## 1.12. 数据规模与算法
 
 1.n<=30,指数级别，dfs+剪枝、状态压缩dp；
 
@@ -662,7 +662,7 @@ long out=Integer.parseInt(String x,int radix);    //待转换字符串
 
 
 
-# Key~
+# 2. Key~
 
 - 最大公约数
 
@@ -705,7 +705,7 @@ while(！input.hasNext("\n"))  //当读到回车停止读取
 
 
 
-# 注！！
+# 3. 注！！
 
 1.
 

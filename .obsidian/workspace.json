@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Algorithm_on_Python.md",
+                "file": "HD/Verilog/Verilog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithm_on_Python"
+              "title": "Verilog"
             }
           },
           {
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Algorithm_on_Python.md",
+                "file": "HD/Verilog/Verilog.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Algorithm_on_Python 的大纲"
+              "title": "Verilog 的大纲"
             }
           },
           {
@@ -228,21 +228,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71b8789775d9903b",
+  "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "temp.md",
+    "HD/Verilog/Verilog.md",
+    "HD/Verilog",
     "Algorithm/Practice.md",
     "Algorithm/Algorithm_on_Python.md",
-    "Algorithm/history.md",
-    "Algorithm/Algorithm_on_Java.md",
-    "Algorithm/C++.md",
     "Algorithm/Algorithm_Note.md",
-    "Middleware/Mill/Mill.md",
+    "Algorithm/Algorithm_on_Java.md",
     "HD/GPU/GPU.md",
+    "Algorithm/history.md",
+    "Algorithm/C++.md",
+    "Middleware/Mill/Mill.md",
     "Toefl/writing/writing-practice.md",
     "Toefl/sentence.md",
     "HD/GPU/image/Pasted image 20260130112705.png",
     "Linux_Note/Linux.md",
-    "temp.md",
     "Middleware/Container_Note/Container.md",
     "HD/Vivado/TCL.md",
     "HD/Vivado",
@@ -271,11 +273,9 @@
     "Course_Note/毛概/毛概.md",
     "Course_Note/毛概/Canvas.canvas",
     "Course_Note/毛概/image",
-    "未命名.base",
     "未命名.md",
     "().md",
     "Toefl/writing/writing-guide.md",
-    "Toefl/speaking/speaking-guide.md",
-    "Middleware/Git_Note/Git.md"
+    "Toefl/speaking/speaking-guide.md"
   ]
 }
