@@ -16,5 +16,8 @@
   "focusNewTab": true,
   "strictLineBreaks": false,
   "showUnsupportedFiles": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "showIndentGuide": true
 }

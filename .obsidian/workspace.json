@@ -8,67 +8,69 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ef408dd94dc0f8a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Middleware/Mill/Mill.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Mill"
-            }
-          },
-          {
-            "id": "450e59b3f875ab9d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/GPU/GPU.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "GPU"
-            }
-          },
-          {
             "id": "71b8789775d9903b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/Verilog/Verilog.md",
+                "file": "HD/Chisel/chisel.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Verilog"
+              "title": "chisel"
             }
           },
           {
-            "id": "ed6541a952f423f2",
+            "id": "921f8fdcab0db9fd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/Algo.md",
+                "mode": "source",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Algo"
+            }
+          },
+          {
+            "id": "4c579f3a8e1cbefd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temp.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "temp"
+            }
+          },
+          {
+            "id": "9126a4e4b8313050",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Practice.md",
+                "file": "HD/FPGA/U280.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Practice"
+              "title": "U280"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/Verilog/Verilog.md",
+                "file": "Algorithm/Algo.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Verilog 的大纲"
+              "title": "Algo 的大纲"
             }
           },
           {
@@ -230,16 +232,19 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "HD/Chisel/chisel.md",
+    "Algorithm/Algo.md",
+    "HD/FPGA/U280.md",
+    "HD/FPGA",
     "temp.md",
+    "Algorithm/Algorithm_on_Python.md",
+    "Algorithm/Algorithm_on_Java.md",
+    "Algorithm/C++.md",
+    "Algorithm/Practice.md",
+    "HD/GPU/GPU.md",
     "HD/Verilog/Verilog.md",
     "HD/Verilog",
-    "Algorithm/Practice.md",
-    "Algorithm/Algorithm_on_Python.md",
-    "Algorithm/Algorithm_Note.md",
-    "Algorithm/Algorithm_on_Java.md",
-    "HD/GPU/GPU.md",
     "Algorithm/history.md",
-    "Algorithm/C++.md",
     "Middleware/Mill/Mill.md",
     "Toefl/writing/writing-practice.md",
     "Toefl/sentence.md",
@@ -260,7 +265,6 @@
     "HD/GPU/image/Pasted image 20260130164515.png",
     "HD/GPU/image/Pasted image 20260130151250.png",
     "HD/GPU/image",
-    "HD/Chisel/chisel.md",
     "Chisel/image",
     "HD/GPU",
     "IELTS/word/word.md",
@@ -272,10 +276,8 @@
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
     "Course_Note/毛概/Canvas.canvas",
-    "Course_Note/毛概/image",
     "未命名.md",
     "().md",
-    "Toefl/writing/writing-guide.md",
-    "Toefl/speaking/speaking-guide.md"
+    "Toefl/writing/writing-guide.md"
   ]
 }
