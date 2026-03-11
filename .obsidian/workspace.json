@@ -56,21 +56,34 @@
             }
           },
           {
-            "id": "9126a4e4b8313050",
+            "id": "11c13474548a041b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/FPGA/U280.md",
+                "file": "HD/FPGA/QDMA.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "U280"
+              "title": "QDMA"
+            }
+          },
+          {
+            "id": "71818673c5becf8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HD/Verilog/Verilog.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Verilog"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,13 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Algo.md",
+                "file": "HD/Chisel/chisel.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Algo 的大纲"
+              "title": "chisel 的大纲"
             }
           },
           {
@@ -232,17 +245,20 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "HD/Chisel/chisel.md",
     "Algorithm/Algo.md",
+    "temp.md",
+    "HD/Verilog/Verilog.md",
+    "HD/Verilog/image/Pasted image 20260310172937.png",
+    "HD/Verilog/image",
+    "HD/FPGA/QDMA.md",
+    "HD/Chisel/chisel.md",
     "HD/FPGA/U280.md",
     "HD/FPGA",
-    "temp.md",
     "Algorithm/Algorithm_on_Python.md",
     "Algorithm/Algorithm_on_Java.md",
     "Algorithm/C++.md",
     "Algorithm/Practice.md",
     "HD/GPU/GPU.md",
-    "HD/Verilog/Verilog.md",
     "HD/Verilog",
     "Algorithm/history.md",
     "Middleware/Mill/Mill.md",
@@ -263,7 +279,6 @@
     "HD/GPU/image/Pasted image 20260130210616.png",
     "HD/GPU/image/Pasted image 20260130175551.png",
     "HD/GPU/image/Pasted image 20260130164515.png",
-    "HD/GPU/image/Pasted image 20260130151250.png",
     "HD/GPU/image",
     "Chisel/image",
     "HD/GPU",
@@ -272,12 +287,9 @@
     "Middleware/Mill",
     "HD/Chisel",
     "Course_Note/马克思主义/马克思主义.md",
-    "Course_Note/马克思主义/image",
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
     "Course_Note/毛概/Canvas.canvas",
-    "未命名.md",
-    "().md",
-    "Toefl/writing/writing-guide.md"
+    "未命名.md"
   ]
 }

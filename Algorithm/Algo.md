@@ -28,29 +28,47 @@ void backtracking(参数) {
 ### 1.1.2. skill
 - 剪枝：若剩余元素不足目标个数，直接返回
 - 若有重复元素，防止产生重复 tmp 的方法
-	```cpp
-	private:
-		void dfs() {
-			...
-			for (...) {
-			/* visit == false 的时候说明现在处于树层，需要去重：
-			*    因为以 nums[i] 开头的情况已经在第一个 nums[i] 都考虑了
-			*  visit == true 的时候说明现在处于树枝，说明：
-			*	  当前正在处理第一个 nums[i] 的情况，可以加入重复元素
-			*/
-				if (i > 0 && nums[i] == nums[i - 1] && visit[i] == false) continue;
-				
-				visit[i] = true;
+	- 元素可以排序的情况：
+		```cpp
+		private:
+			void dfs() {
 				...
-				dfs();
-				visit[i] = false;
+				for (...) {
+				/* visit == false 的时候说明现在处于树层，需要去重：
+				*    因为以 nums[i] 开头的情况已经在第一个 nums[i] 都考虑了
+				*  visit == true 的时候说明现在处于树枝，说明：
+				*	  当前正在处理第一个 nums[i] 的情况，可以加入重复元素
+				*/
+					if (i > 0 && nums[i] == nums[i - 1] && visit[i] == false) continue;
+					
+					visit[i] = true;
+					...
+					dfs();
+					visit[i] = false;
+				}
 			}
-		}
-	public:
-		// 在主函数中对目标 vector 排序
-		// 向 dfs 函数中传入 visit 数组
-		vector<int> visit(nums.size(), false);
-	```
+		public:
+			// 在主函数中对目标 vector 排序
+			// 向 dfs 函数中传入 visit 数组
+			vector<int> visit(nums.size(), false);
+		```
+	- 元素不能排序：
+		```cpp
+		private:
+			void dfs() {
+			// 使用 set 对每一层(for)出现过的元素进行去重
+				unordered_set<int> set;
+				...
+				for (...) {
+					...
+					set.emplace(nums[i]);
+					dfs();
+				}
+			}
+		```
+## 1.2. 排列
+- 使用 `visit` 数组标记已经取过的数
+
 
 # 2. keys
 - 函数尽量使用按引用传递 `&`
@@ -63,5 +81,17 @@ void backtracking(参数) {
 - 重置 `vector` 大小：`<vector>.resize(num, in)`
 	- `num`：填充 `in` 的个数
 	- `in`：填充的内容（eg. `vector<bool>(s.size(), false)`）
-- 
+- set / map
+	```cpp
+	// 哈希表
+	unordered_map<K, V>
+	unordered_set<K>
+	
+	<set>.count(<item>)  // 判断元素是否存在，返回 0 / 1
+	<set>.emplace(<item>) //插入元素，或者用 insert 方法
+	
+	====
+	// 红黑树，元素有序排列
+	map<K, V>
+	```
 

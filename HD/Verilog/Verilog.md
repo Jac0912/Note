@@ -211,10 +211,35 @@ initial begin
     end  
 end
 ```
-# 4. 语句
-## 4.1. 过程结构
+## 3.3. 复位
+```verilog
+always @ (posedge clk or negedge reset)
+    begin
+       if (reset == 0) q <= 0;   // when reset，异步
+       else            q <= d;   // when clk
+    end
+```
+![|425](image/Pasted%20image%2020260310172937.png)
+# 4. 组合/时序逻辑
+## 4.1. 组合逻辑
+- 组合逻辑：输出仅取决于当前输入信号状态逻辑，无“记忆”，不依赖时钟边沿
+- 两种形式
+	- 使用 `assign`：必须作用于 wire
+	- `always @*` 过程块：必须作用于 `reg` 类型变量
+- 注意：
+	- 需要使用完整的 `if-else` / `case`（涵盖所有情况，否则会产生锁存器：尝试记住上一个值）
+	- 必须使用阻塞赋值
+
+## 4.2. 时序逻辑
+- 时序逻辑：输出不仅取决于当前的输入，还取决于电路原来的状态
+- 一种形式
+	- `always @(posedge clk)`
+- 注意：必须使用非阻塞赋值
+
+# 5. 语句
+## 5.1. 过程结构
 - 多个 initial 与 always 块并行执行
-- 但是块内允许执行
+- 但是块内顺序执行
 ```verilog
 // initial
 // 不可综合
@@ -230,7 +255,7 @@ always begin
 	...
 end
 ```
-## 4.2. 语句块
+## 5.2. 语句块
 - 顺序块：begin / end
 - 并行块：fork / join，即使阻塞赋值也是同时执行
 - 嵌套块：嵌套顺序块和并行块
@@ -243,7 +268,7 @@ else if (condition2)        true_statement2 ;
 else if (condition3)        true_statement3 ;
 else                      default_statement ;
 ```
-## 4.3. 多路分支语句
+## 5.3. 多路分支语句
 - case 语句
 	- `case_expr` 可以是 x / z（但是无法综合，不建议使用）
 	- 有多个选项执行相同的语句时，可以用 `,` 隔开，放在一个 `case_expr` 中
@@ -257,20 +282,20 @@ endcase
 ```
 - casex / casez 语句（不可综合，用来仿真）
 	- casex 用 "x" 来表示无关值，casez 用问号 "?" 来表示无关值
-## 4.4. 循环语句
+## 5.4. 循环语句
 - while
 - for（无 `i++` 或 `i--`，需写成 `i = i + 1`）
 - repeat：循环次数固定，如果循环次数是变量，选用进入循环时变量的值为循环次数，后续不改变
 - forever：永久循环，用 `$finish` 退出 forever
 
-# 5. 模块
+# 6. 模块
 - 端口
 - 变量（parameter / reg / wire）
 - 数据流（assign）
 - 底层模块例化
 - 行为级语句（initial / always）
 - 任务、函数
-## 5.1. 端口
+## 6.1. 端口
 - 输入（input）、输出（output）、双向端口（inout）
 - input / inout 不能声明为 reg（reg 是用来保存数值的，输入端口只能反映外部信号的变化）
 - 端口隐式声明为 wire，只有需要 reg 时需要声明
@@ -282,7 +307,7 @@ module pad(
     output reg   DOUT  
     );
 ```
-## 5.2. 模块例化
+## 6.2. 模块例化
 - 在一个模块中引用另一个模块，对其端口进行相关连接
 - 命名端口连接：需要例化的模块与外部信号按名字进行连接，output 端口可以悬空不连甚至删除
 ```verilog
@@ -343,7 +368,7 @@ module full_adder4(
 endmodule
 ```
 - 层次访问：用 `.` 操作来访问具体的标识符
-## 5.3. 带参数例化
+## 6.3. 带参数例化
 - defparam 语句
 ```verilog
 //instantiation
@@ -370,7 +395,7 @@ ram #(.AW(4), .DW(4))
         .Q      (q)
      );
 ```
-# 6. 函数
+# 7. 函数
 - 只能在模块中定义，作用范围局限于模块
 - 不含有任何延迟、时序或时序控制逻辑
 - 至少有一个输入变量
@@ -395,7 +420,7 @@ endfunction
 	- 用 automatic 来说明可以重新分配新的内存空间
 	- 局部变量不能通过层次名访问，函数本身可以通过层次名来调用
 
-# 7. 任务
+# 8. 任务
 - 在函数的基础上可以包含时序控制逻辑
 - 没有输入变量
 - 没有输出或输出端的数量大于 1
