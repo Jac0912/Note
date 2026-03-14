@@ -47,8 +47,8 @@
               "type": "markdown",
               "state": {
                 "file": "temp.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -56,31 +56,17 @@
             }
           },
           {
-            "id": "11c13474548a041b",
+            "id": "5f287d82a4c9e2cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/FPGA/QDMA.md",
-                "mode": "source",
+                "file": "HD/FPGA/烧录.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "QDMA"
-            }
-          },
-          {
-            "id": "71818673c5becf8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/Verilog/Verilog.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Verilog"
+              "title": "烧录"
             }
           }
         ]
@@ -115,13 +101,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/Chisel/chisel.md",
+                "file": "HD/FPGA/烧录.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "chisel 的大纲"
+              "title": "烧录 的大纲"
             }
           },
           {
@@ -245,13 +231,19 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "Algorithm/Algo.md",
     "temp.md",
-    "HD/Verilog/Verilog.md",
-    "HD/Verilog/image/Pasted image 20260310172937.png",
-    "HD/Verilog/image",
+    "HD/FPGA/烧录.md",
+    "Middleware/Mill/Mill.md",
     "HD/FPGA/QDMA.md",
     "HD/Chisel/chisel.md",
+    "HD/FPGA/image/Pasted image 20260312112934.png",
+    "HD/FPGA/image/Pasted image 20260312105529.png",
+    "HD/Verilog/Verilog.md",
+    "Algorithm/Algo.md",
+    "HD/FPGA/image/ubz1527199294937.png",
+    "HD/FPGA/image",
+    "HD/Verilog/image/Pasted image 20260310172937.png",
+    "HD/Verilog/image",
     "HD/FPGA/U280.md",
     "HD/FPGA",
     "Algorithm/Algorithm_on_Python.md",
@@ -261,7 +253,6 @@
     "HD/GPU/GPU.md",
     "HD/Verilog",
     "Algorithm/history.md",
-    "Middleware/Mill/Mill.md",
     "Toefl/writing/writing-practice.md",
     "Toefl/sentence.md",
     "HD/GPU/image/Pasted image 20260130112705.png",
@@ -276,20 +267,15 @@
     "HD/GPU/image/Pasted image 20260201171908.png",
     "HD/GPU/image/Pasted image 20260201171003.png",
     "HD/GPU/image/Pasted image 20260130213528.png",
-    "HD/GPU/image/Pasted image 20260130210616.png",
-    "HD/GPU/image/Pasted image 20260130175551.png",
-    "HD/GPU/image/Pasted image 20260130164515.png",
     "HD/GPU/image",
     "Chisel/image",
     "HD/GPU",
     "IELTS/word/word.md",
     "Course_Note/习思想/practice.md",
     "Middleware/Mill",
-    "HD/Chisel",
     "Course_Note/马克思主义/马克思主义.md",
     "Course_Note/习思想/习思想.md",
     "Course_Note/毛概/毛概.md",
-    "Course_Note/毛概/Canvas.canvas",
-    "未命名.md"
+    "Course_Note/毛概/Canvas.canvas"
   ]
 }

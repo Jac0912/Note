@@ -46,6 +46,7 @@
 	- 支持内嵌函数
 
 # 3. chisel
+## 3.1. General
 - `:=`：信号驱动，最后一次连接有效
 - 编写 module
 	```scala
@@ -90,28 +91,6 @@
 - 比较
 	- `==`：scala 的对象比较
 	- `===`：chisel 生成比较电路
-- test
-	```scala
-	poke(<signal>) // 注入信号
-	c.clock.step(n) // 时钟走 n 步
-	expect(<signal>) // 验证信号是否符合预期
-	
-	// 对于 Queue
-	val in = IO(Flipped(Decoupled(ioType)))
-	val out = IO(Decoupled(ioType))
-	out <> Queue(in, entries)
-	=== 复位
-	//对 in / out 时钟信号复位
-	c.in.initSource() 
-	c.in.setSourceClock(c.clock)
-	=== 单个元素测试
-	c.in.enqueueNow(<item>)  // 压入元素
-	c.out.expectDequeueNow(<item>)  // 测试出队列元素
-	=== 用 Seq 测试
-	val testVector = Seq.tabulate(100){ i => i.U }
-    c.in.enqueueSeq(testVector)  // 将所有 Seq 的内容压入
-    c.out.expectDequeueSeq(testVector)  // 挨个弹出 Queue 中的内容，并与 Seq 中的内容比较
-	```
 - Reg
 	```scala
 	//  普通寄存器
@@ -122,21 +101,47 @@
 	val myReg = RegInit(UInt(12.W), 0.U)
 	val myReg = RegInit(0.U(12.W))
 	```
-- 自定义 Clock
-	```scala
-	//  自定义复位
-	withReset(io.alternateReset) {
-		... // 内部所有的硬件的复位端均会连接到 alternateReset
-	}
-	
-	//  自定义时钟
-	withClock(io.alternateClock) {
-		... //  内部的硬件都由 alternateClock 驱动
-	}
-	
-	//  同时自定义复位和时钟
-	withClockAndReset(io.alternateClock, io.alternateReset) {
-		...
-	}
-	```
 
+## 3.2. Test
+```scala
+poke(<signal>) // 注入信号
+c.clock.step(n) // 时钟走 n 步
+expect(<signal>) // 验证信号是否符合预期
+
+// 对于 Queue
+val in = IO(Flipped(Decoupled(ioType)))
+val out = IO(Decoupled(ioType))
+out <> Queue(in, entries)
+=== 复位
+//对 in / out 时钟信号复位
+c.in.initSource() 
+c.in.setSourceClock(c.clock)
+=== 单个元素测试
+c.in.enqueueNow(<item>)  // 压入元素
+c.out.expectDequeueNow(<item>)  // 测试出队列元素
+=== 用 Seq 测试
+val testVector = Seq.tabulate(100){ i => i.U }
+c.in.enqueueSeq(testVector)  // 将所有 Seq 的内容压入
+c.out.expectDequeueSeq(testVector)  // 挨个弹出 Queue 中的内容，并与 Seq 中的内容比较
+```
+
+
+## 3.3. Clock
+```scala
+//  自定义复位
+withReset(io.alternateReset) {
+	... // 内部所有的硬件的复位端均会连接到 alternateReset
+}
+
+//  自定义时钟
+withClock(io.alternateClock) {
+	... //  内部的硬件都由 alternateClock 驱动
+}
+
+//  同时自定义复位和时钟
+withClockAndReset(io.alternateClock, io.alternateReset) {
+	...
+}
+```
+
+## 3.4. 参数化
