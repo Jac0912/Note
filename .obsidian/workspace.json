@@ -69,7 +69,8 @@
               "title": "烧录"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,13 +102,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/FPGA/烧录.md",
+                "file": "格式.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "烧录 的大纲"
+              "title": "格式 的大纲"
             }
           },
           {
@@ -231,11 +232,12 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "格式.md",
+    "HD/Chisel/chisel.md",
     "temp.md",
     "HD/FPGA/烧录.md",
     "Middleware/Mill/Mill.md",
     "HD/FPGA/QDMA.md",
-    "HD/Chisel/chisel.md",
     "HD/FPGA/image/Pasted image 20260312112934.png",
     "HD/FPGA/image/Pasted image 20260312105529.png",
     "HD/Verilog/Verilog.md",
