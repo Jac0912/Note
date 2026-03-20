@@ -2,7 +2,8 @@
   "promptDelete": false,
   "attachmentFolderPath": "./image",
   "pdfExportSettings": {
-    "pageSize": "A3",
+    "includeName": true,
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100

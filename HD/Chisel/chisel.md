@@ -40,6 +40,19 @@
 	for (value <- list) { } // 遍历 list
 	
 	```
+- Map / Option
+	```scala
+	// 字典
+	val map = Map("a" -> 1) 
+	val a = map.get("a")
+	
+	// Option 两个 subclass：Some / None
+	val some = Some(1)
+	val none = None
+	println(some.get)
+	println(none.getOrElse(2)) // Returns 2
+	
+	```
 - 函数
 	- 重载：重写参数列表
 	- 最后一行为返回值
@@ -145,3 +158,102 @@ withClockAndReset(io.alternateClock, io.alternateReset) {
 ```
 
 ## 3.4. 参数化
+- Arguments
+```scala
+// 通过 Option 参数化（以免用 -1 等判断）
+class DelayBy1(resetValue: Option[UInt] = None) extends Module {
+	val reg = if (resetValue.isDefined) { 
+        ...
+    } else {
+        ...
+    }
+}
+
+// Value Matching
+val y = 7
+val x = y match {
+  case 0 => "zero" 
+  case 1 =>    
+      "one"      
+  case 2 => {    
+      "two"
+  }
+  case _ => "many" 
+}
+
+// Multiple Value Matching
+def animalType(biggerThanBreadBox: Boolean, meanAsCanBe: Boolean): String = {
+  (biggerThanBreadBox, meanAsCanBe) match {
+    case (true, true) => "wolverine"
+    case (true, false) => "elephant"
+    case (false, true) => "shrew"
+    case (false, false) => "puppy"
+  }
+}
+
+// Type Matching
+val sequence = Seq("a", 1, 0.0)
+sequence.foreach { x =>
+  x match {
+    case s: String => println(s"$x is a String")
+    case s: Int    => println(s"$x is an Int")
+    case s: Double => println(s"$x is a Double")
+    case _ => println(s"$x is an unknown type!")
+  }
+}
+
+// Multiple Type Matching
+sequence.foreach { x =>
+  x match {
+    case _: Int | _: Double => println(s"$x is a number!")
+    case _ => println(s"$x is an unknown type!")
+  }
+}
+
+// Type Erasure
+// Scala 是跑在 JVM 上，在运行时会进行类型擦除
+// Seq[String] 与 Seq[Int]类型均会视作 Seq 类型，无其它区别
+val sequence = Seq(Seq("a"), Seq(1), Seq(0.0))
+sequence.foreach { x =>
+  x match {
+    case s: Seq[String] => println(s"$x is a String")
+    case s: Seq[Int]    => println(s"$x is an Int")
+    case s: Seq[Double] => println(s"$x is a Double")
+  }
+}
+
+```
+- IO
+```scala
+// 使用 getOrElse()
+val carryIn = if (hasCarry) Some(Input(UInt(1.W))) else None
+val sum = io.a +& io.b +& io.carryIn.getOrElse(0.U)
+
+// 使用 0 宽度 IO，会在生成 Verilog 时被消除
+// 可以避免信号值 0 有用的情况造成歧义
+val carryIn = Input(if (hasCarry) UInt(1.W) else UInt(0.W))
+
+```
+- Implicit: 在函数深处访问某个顶层变量
+	- 缺失的 implicit 型变量会在范围内寻找匹配的类型值
+	- 两种失败情况：
+		- 找不到匹配的值
+		- 有多个匹配的值
+```scala
+// Implicit Arguments
+object CatDog {
+  implicit val numberOfCats: Int = 3
+
+  def tooManyCats(nDogs: Int)(implicit nCats: Int): Boolean = nCats > nDogs
+    
+  val imp = tooManyCats(2)    // Argument passed implicitly!
+  val exp = tooManyCats(2)(1) // Argument passed explicitly!
+}
+
+// Implicit Conversions
+class Animal(val name: String, val species: String)
+class Human(val name: String)
+implicit def human2animal(h: Human): Animal = new Animal(h.name, "Homo sapiens")
+val me = new Human("Adam")
+println(me.species)
+```
