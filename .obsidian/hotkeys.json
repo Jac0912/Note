@@ -93,8 +93,7 @@
   "editor:insert-table": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "T"
     }
@@ -126,14 +125,6 @@
       "key": "6"
     }
   ],
-  "editor:table-row-after": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
   "editor:delete-paragraph": [],
   "editor:toggle-strikethrough": [
     {
@@ -160,5 +151,32 @@
     }
   ],
   "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": [],
-  "easy-typing-obsidian:easy-typing-toggle-comment": []
+  "easy-typing-obsidian:easy-typing-toggle-comment": [],
+  "editor:table-row-after": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:insert-link": [],
+  "editor:table-col-after": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "editor:table-col-before": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "workspace:new-tab": []
 }

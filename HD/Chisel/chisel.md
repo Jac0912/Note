@@ -159,101 +159,208 @@ withClockAndReset(io.alternateClock, io.alternateReset) {
 
 ## 3.4. 参数化
 - Arguments
-```scala
-// 通过 Option 参数化（以免用 -1 等判断）
-class DelayBy1(resetValue: Option[UInt] = None) extends Module {
-	val reg = if (resetValue.isDefined) { 
-        ...
-    } else {
-        ...
-    }
-}
-
-// Value Matching
-val y = 7
-val x = y match {
-  case 0 => "zero" 
-  case 1 =>    
-      "one"      
-  case 2 => {    
-      "two"
-  }
-  case _ => "many" 
-}
-
-// Multiple Value Matching
-def animalType(biggerThanBreadBox: Boolean, meanAsCanBe: Boolean): String = {
-  (biggerThanBreadBox, meanAsCanBe) match {
-    case (true, true) => "wolverine"
-    case (true, false) => "elephant"
-    case (false, true) => "shrew"
-    case (false, false) => "puppy"
-  }
-}
-
-// Type Matching
-val sequence = Seq("a", 1, 0.0)
-sequence.foreach { x =>
-  x match {
-    case s: String => println(s"$x is a String")
-    case s: Int    => println(s"$x is an Int")
-    case s: Double => println(s"$x is a Double")
-    case _ => println(s"$x is an unknown type!")
-  }
-}
-
-// Multiple Type Matching
-sequence.foreach { x =>
-  x match {
-    case _: Int | _: Double => println(s"$x is a number!")
-    case _ => println(s"$x is an unknown type!")
-  }
-}
-
-// Type Erasure
-// Scala 是跑在 JVM 上，在运行时会进行类型擦除
-// Seq[String] 与 Seq[Int]类型均会视作 Seq 类型，无其它区别
-val sequence = Seq(Seq("a"), Seq(1), Seq(0.0))
-sequence.foreach { x =>
-  x match {
-    case s: Seq[String] => println(s"$x is a String")
-    case s: Seq[Int]    => println(s"$x is an Int")
-    case s: Seq[Double] => println(s"$x is a Double")
-  }
-}
-
-```
+	```scala
+	// 通过 Option 参数化（以免用 -1 等判断）
+	class DelayBy1(resetValue: Option[UInt] = None) extends Module {
+		val reg = if (resetValue.isDefined) { 
+	        ...
+	    } else {
+	        ...
+	    }
+	}
+	
+	// Value Matching
+	val y = 7
+	val x = y match {
+	  case 0 => "zero" 
+	  case 1 =>    
+	      "one"      
+	  case 2 => {    
+	      "two"
+	  }
+	  case _ => "many" 
+	}
+	
+	// Multiple Value Matching
+	def animalType(biggerThanBreadBox: Boolean, meanAsCanBe: Boolean): String = {
+	  (biggerThanBreadBox, meanAsCanBe) match {
+	    case (true, true) => "wolverine"
+	    case (true, false) => "elephant"
+	    case (false, true) => "shrew"
+	    case (false, false) => "puppy"
+	  }
+	}
+	
+	// Type Matching
+	val sequence = Seq("a", 1, 0.0)
+	sequence.foreach { x =>
+	  x match {
+	    case s: String => println(s"$x is a String")
+	    case s: Int    => println(s"$x is an Int")
+	    case s: Double => println(s"$x is a Double")
+	    case _ => println(s"$x is an unknown type!")
+	  }
+	}
+	
+	// Multiple Type Matching
+	sequence.foreach { x =>
+	  x match {
+	    case _: Int | _: Double => println(s"$x is a number!")
+	    case _ => println(s"$x is an unknown type!")
+	  }
+	}
+	
+	// Type Erasure
+	// Scala 是跑在 JVM 上，在运行时会进行类型擦除
+	// Seq[String] 与 Seq[Int]类型均会视作 Seq 类型，无其它区别
+	val sequence = Seq(Seq("a"), Seq(1), Seq(0.0))
+	sequence.foreach { x =>
+	  x match {
+	    case s: Seq[String] => println(s"$x is a String")
+	    case s: Seq[Int]    => println(s"$x is an Int")
+	    case s: Seq[Double] => println(s"$x is a Double")
+	  }
+	}
+	
+	```
 - IO
-```scala
-// 使用 getOrElse()
-val carryIn = if (hasCarry) Some(Input(UInt(1.W))) else None
-val sum = io.a +& io.b +& io.carryIn.getOrElse(0.U)
-
-// 使用 0 宽度 IO，会在生成 Verilog 时被消除
-// 可以避免信号值 0 有用的情况造成歧义
-val carryIn = Input(if (hasCarry) UInt(1.W) else UInt(0.W))
-
-```
+	```scala
+	// 使用 getOrElse()
+	val carryIn = if (hasCarry) Some(Input(UInt(1.W))) else None
+	val sum = io.a +& io.b +& io.carryIn.getOrElse(0.U)
+	
+	// 使用 0 宽度 IO，会在生成 Verilog 时被消除
+	// 可以避免信号值 0 有用的情况造成歧义
+	val carryIn = Input(if (hasCarry) UInt(1.W) else UInt(0.W))
+	
+	```
 - Implicit: 在函数深处访问某个顶层变量
 	- 缺失的 implicit 型变量会在范围内寻找匹配的类型值
 	- 两种失败情况：
 		- 找不到匹配的值
 		- 有多个匹配的值
-```scala
-// Implicit Arguments
-object CatDog {
-  implicit val numberOfCats: Int = 3
-
-  def tooManyCats(nDogs: Int)(implicit nCats: Int): Boolean = nCats > nDogs
-    
-  val imp = tooManyCats(2)    // Argument passed implicitly!
-  val exp = tooManyCats(2)(1) // Argument passed explicitly!
-}
-
-// Implicit Conversions
-class Animal(val name: String, val species: String)
-class Human(val name: String)
-implicit def human2animal(h: Human): Animal = new Animal(h.name, "Homo sapiens")
-val me = new Human("Adam")
-println(me.species)
-```
+	```scala
+	// Implicit Arguments
+	object CatDog {
+	  implicit val numberOfCats: Int = 3
+	
+	  def tooManyCats(nDogs: Int)(implicit nCats: Int): Boolean = nCats > nDogs
+	    
+	  val imp = tooManyCats(2)    // Argument passed implicitly!
+	  val exp = tooManyCats(2)(1) // Argument passed explicitly!
+	}
+	
+	// Implicit Conversions
+	class Animal(val name: String, val species: String)
+	class Human(val name: String)
+	implicit def human2animal(h: Human): Animal = new Animal(h.name, "Homo sapiens")
+	val me = new Human("Adam")
+	println(me.species)
+	```
+## 3.5. Collections
+- ArrayBuffer / Seq
+	- `Seq`：传入可变长度的参数
+	- `ArrayBuffer` ：创建一个动态列表，可以使用 `+=` 来添加元素
+	```scala
+	class MyManyElementFir(consts: Seq[Int], bitWidth: Int) extends Module {
+	 val io = IO(new Bundle {
+	 val in = Input(UInt(bitWidth.W))
+	 val out = Output(UInt(bitWidth.W))
+	})
+	
+	val regs = mutable.ArrayBuffer[UInt]()
+	val regs = mutable.ArrayBuffer[UInt]()
+	for(i <- 0 until consts.length) {
+	 if(i == 0) regs += io.in
+	 else       regs += RegNext(regs(i - 1), 0.U)
+	}
+	```
+- Vec（在特定情况代替 ArrayBuffer 使用）
+	- 在 IO 中使用：ArrayBuffer 无法生成硬件 IO
+		- `val consts = Input(Vec(length, UInt(8.W)))`
+	- 作为寄存器组使用：Vec 可以被索引
+		- `Wire(Vec(...))` / `RegInit(VecInit(...))`
+## 3.6. API
+- Decoupled
+	- 任何 chisel 数据可以被 `Decoupled()` 包裹
+	- 三个信号（**想成三根线来理解**）：
+		- `valid`（output）：发送方是否准备好数据
+		-  `ready`（Input）：接收方是否可以接收数据
+		-  `bits`（output）：传输数据
+- Queue
+	- FIFO，背压
+	```scala
+	val io = IO(new Bundle {
+	val in = Flipped(Decoupled(UInt(8.W)))
+	val out = Decoupled(UInt(8.W))
+	})
+	val queue = Queue(io.in, 2)  // 2-element queue
+	io.out <> queue
+	```
+- Arbiters
+	- 多选一仲裁器
+	-  `Arbiter`: 索引最小优先
+	- `RRArbiter`: RR 优先级
+	```scala
+	val io = IO(new Bundle {
+	val in = Flipped(Vec(2, Decoupled(UInt(8.W))))
+	val out = Decoupled(UInt(8.W))
+	})
+	// Arbiter doesn't have a convenience constructor, so it's built like any Module
+	val arbiter = Module(new Arbiter(UInt(8.W), 2))  // 2 to 1 Priority Arbiter
+	arbiter.io.in <> io.in
+	io.out <> arbiter.io.out
+	```
+- PopCount
+	- 返回高 bit 的个数
+	```scala
+	val io = IO(new Bundle {
+	val in = Input(UInt(8.W))
+	val out = Output(UInt(8.W))
+	})
+	io.out := PopCount(io.in)
+	```
+- Reverse
+	- 反转 bit
+	```scala
+	val io = IO(new Bundle {
+	val in = Input(UInt(8.W))
+	val out = Output(UInt(8.W))
+	})
+	io.out := PopCount(io.in)
+	```
+- 独热编码
+	- UInt to OneHot: `UIntToOH`
+	- OneHot to UInt: `OHToUInt`
+- Muxes
+	- Priority Mux：如果有多个选择信号，匹配索引最低的信号
+		```scala
+		val io = IO(new Bundle {
+		val in_sels = Input(Vec(2, Bool()))
+		val in_bits = Input(Vec(2, UInt(8.W)))
+		val out = Output(UInt(8.W))
+		})
+		io.out := PriorityMux(io.in_sels, io.in_bits)
+		```
+	- OneHot Mux：保证只有一个选择信号
+		```scala
+		val io = IO(new Bundle {
+		val in_sels = Input(Vec(2, Bool()))
+		val in_bits = Input(Vec(2, UInt(8.W)))
+		val out = Output(UInt(8.W))
+		})
+		io.out := Mux1H(io.in_sels, io.in_bits)
+		```
+- Counter
+	- 计数器
+	```scala
+	val io = IO(new Bundle {
+	val count = Input(Bool())
+	val out = Output(UInt(2.W))
+	})
+	val counter = Counter(3)  // 3-count Counter (outputs range [0...2])
+	when(io.count) {
+	counter.inc()
+	}
+	io.out := counter.value
+	```
