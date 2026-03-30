@@ -16,7 +16,7 @@
 | ---- | ------------------- | --------------------------------------------- |
 | 虚拟化  | SR-IOV              | 无                                             |
 | 硬化程度 | 高，队列管理、上下文处理、终端聚合硬化 | 低，DMA 控制器的调度逻辑、描述符处理和数据搬运逻辑，由 FPGA LUT/RAM 搭建 |
-| 延迟   | 不一定              | 不一定                                  |
+| 延迟   | 不一定                 | 不一定                                           |
 
 >  延迟：
 > - 处理延迟：进行数据转换、封装、校验所需时间
@@ -24,7 +24,7 @@
 > - 传输延迟：推送到物理介质（eg. PCIe 总线）上所花费的时间
 > - 传播延迟：在电缆中的传输物理时间
 
-![](image/ubz1527199294937.png)
+![697](image/ubz1527199294937.png)
 # 1. DMA Engines
 ## 1.1. Descriptor Engine
 > 每个包的地址
@@ -178,8 +178,8 @@ C2H stream 使用 CMPT 队列将完成传输到主机
 |     100，101     | h2c.io.start_addr  |        h2c cmd 起始地址         |
 |       102       |   h2c.io.length    |         h2c cmd 长度          |
 |       103       |   h2c.io.offset    |    数据起始位置？地址还是 words 个数？    |
-|       104       |     h2c.io.sop     |           cmd 包开始           |
-|       105       |     h2c.io.eop     |           cmd 包结束           |
+|       104       |     h2c.io.sop     |          cmd 包开始 1          |
+|       105       |     h2c.io.eop     |          cmd 包结束 1          |
 |       106       |    h2c.io.start    |        起始信号，需拉高后再拉低         |
 |       107       | h2c.io.total_words | 总字长（total_cmds * length/64） |
 |       108       |  h2c.io.total_qs   |            总的队列数            |
@@ -214,6 +214,9 @@ C2H stream 使用 CMPT 队列将完成传输到主机
 - `h2c.io.count_word(i*32+31,i*32) <> status_reg(102+i)` ？
 
 - axib？
+
+
+
 
 
 [^1]: Max Read Request Size（最大读 Host 内存请求大小）

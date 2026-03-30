@@ -62,7 +62,7 @@
               "type": "markdown",
               "state": {
                 "file": "HD/FPGA/烧录.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Algo.md",
+                "file": "HD/FPGA/QDMA.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Algo 的大纲"
+              "title": "QDMA 的大纲"
             }
           },
           {
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "uv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,19 +258,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a10ee232e4604e",
+  "active": "0a19c777a785723e",
   "lastOpenFiles": [
+    "temp.md",
+    "HD/FPGA/烧录.md",
+    "Algorithm/Algo.md",
+    "HD/FPGA/QDMA.md",
+    "HD/Chisel/chisel.md",
+    "Middleware/Mill/Mill.md",
+    "Python_Note/UV.md",
     "Algorithm/image/Pasted image 20260323215818.png",
     "Algorithm/image/Pasted image 20260323215706.png",
     "Algorithm/image/Pasted image 20260323215542.png",
     "Algorithm/image",
-    "HD/Chisel/chisel.md",
-    "Algorithm/Algo.md",
-    "HD/FPGA/QDMA.md",
-    "temp.md",
-    "HD/FPGA/烧录.md",
     "HD/Verilog/Verilog.md",
-    "Middleware/Mill/Mill.md",
     "HD/Chisel/chisel_cheatsheet.pdf",
     "HD/FPGA/image/ubz1527199294937.png",
     "格式.md",
@@ -299,7 +300,6 @@
     "HD/GPU/DOCA GPUNetIO.md",
     "HD/GPU/image/Pasted image 20260201230945.png",
     "HD/GPU/image/Pasted image 20260201230842.png",
-    "HD/GPU/image/Pasted image 20260201171908.png",
     "HD/GPU/image",
     "Chisel/image",
     "IELTS/word/word.md",

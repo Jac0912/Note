@@ -1,6 +1,7 @@
 ```shell
-pip install uv  #安装uv
+curl -LsSf https://astral.sh/uv/install.sh | sh  #安装uv
 
+uv init # 初始化项目虚拟环境
 uv python list  #所有支持python版本
 uv python install <python版本>  #安装python版本
 

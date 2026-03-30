@@ -20,5 +20,6 @@
   "showLineNumber": false,
   "livePreview": true,
   "defaultViewMode": "preview",
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "showInlineTitle": true
 }
