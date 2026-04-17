@@ -9,11 +9,58 @@
 	- 执行每个线程中的指令：可以通过 mask 使不同线程执行不同指令，每个线程可分配不同内存
 	- 每个周期执行相同的算数运算：若一个 subpartition 中有一个 CUDA core 做浮点加法，这个 subpartition 都做浮点加法
 	- 操控 memory 中的数据更加灵活：shared register / thread state
+- Load / Store Units：加载存储单元
+- SFU（Special Funciton Unit）：特殊函数单元（执行余弦等）
+
+![655](image/Pasted%20image%2020260409114818.png)
+- 每个 SM 都可以支持数百个线程**并发**执行
+- 以线程块 block 为单位，向 SM 分配线程块，多个线程块可以分配到同一个 SM 上
+- 一个线程块分配好 SM 后，就不能向其它 SM 分配了
 ## 1.3. Memory
-- Registers: CUDA cores 使用
-- SMEM(L1 Cache): 256KB 缓存单元，存储矩阵的 input ，可作为“shared memory”编程，后续芯片增加 TMEM 作为补充
-- L2 Cache: 非编程掌控
-- HBM: GPU 主要存储，存储模型梯度、weight
+![|625](image/Pasted%20image%2020260409142831.png)
+
+|    类型    |   位置   | 访问  |       可见范围        |    生命周期    |
+| :------: | :----: | :-: | :---------------: | :--------: |
+| 全局内存（显存） |   片外   | wr  | all thread / host |    host    |
+|   常量内存   |   片外   |  r  | all thread / host |    host    |
+| 纹理和表面内存  |   片外   |  r  | all thread / host |    host    |
+|  寄存器内存   |   片内   | wr  |   single thread   | the thread |
+|   局部内存   | **片外** | wr  |   single thread   | the thread |
+|   共享内存   |   片内   | wr  |   single block    | the block  |
+- 全局内存
+	- 数据对所有线程 / host可见
+- 常量内存
+	- 有常量缓存的全局内存，64KB，访问速度比全局内存快
+	- 对所有线程可见
+- Registers（32 位，保存在 register file）
+	- 核函数中定义的不加限定符的变量存在寄存器中
+	- 内建变量存放于寄存器（eg. gridDim / blockDim / blockIdx）
+	- 不加限定符的数组可能存在寄存器，也可能存在本地
+	- 计算能力 5.0~9.0 的 GPU，每个 SM 64K 寄存器
+	- 寄存器溢出：
+		所需寄存器数量超出硬件支持，数据保存到局部内存（也可到缓存中）
+		- 一个 SM 运行多个 block / wrap，总需求大于 64KB
+		- 单个线程需要寄存器数量大于 255
+- 局部内存
+	- 寄存器不够用时，**全局内存**中划分出的区域，可以放在 L1(SM) / L2(device)
+	- 存放索引值不能在编译时确定的数组
+	- 可能占用大量寄存器的结构体 / 数组
+	- 计算能力 5.0~9.0 的 GPU：每个线程可以有 512KB 局部内存
+- 共享内存（L1 cache）: 
+	- 256KB 缓存单元，后续芯片增加 TMEM 作为补充，
+	- 整个线程块的线程都可访问，其它线程块的线程不可访问
+	- 如果单个线程块中分配过度共享内存，会**限制**活跃 wrap 的数量
+	- 访问共享内存需要加入同步机制（`__syncthreads()`）
+
+## 1.4. Cache
+- L1 Cache / L2 Cache:
+	- 非编程掌控
+	- 存储局部内存、全局内存数据，也包括寄存器溢出部分
+- L1 Cache
+	- 与共享内存用同一个硬件
+	- 如果共享内存设置大，L1 缓存剩余小
+	- 可以配置共享内存大小，但是不一定生效
+- GPU 加载数据可以缓存，存储不能缓存
 
 # 2. Networking
 ## 2.1. node

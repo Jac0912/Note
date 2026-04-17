@@ -172,49 +172,59 @@ C2H stream 使用 CMPT 队列将完成传输到主机
 # 5. User
 - `qdma.io.reg_control`
 	
-| control_reg idx |        data        |           explain           |
-| :-------------: | :----------------: | :-------------------------: |
-|        0        |   axib.w.fire()    |          写通道写入的次数           |
-|     100，101     | h2c.io.start_addr  |        h2c cmd 起始地址         |
-|       102       |   h2c.io.length    |         h2c cmd 长度          |
-|       103       |   h2c.io.offset    |    数据起始位置？地址还是 words 个数？    |
-|       104       |     h2c.io.sop     |          cmd 包开始 1          |
-|       105       |     h2c.io.eop     |          cmd 包结束 1          |
-|       106       |    h2c.io.start    |        起始信号，需拉高后再拉低         |
-|       107       | h2c.io.total_words | 总字长（total_cmds * length/64） |
-|       108       |  h2c.io.total_qs   |            总的队列数            |
-|       109       | h2c.io.total_cmds  |          总的 cmd 数           |
-|       110       |    h2c.io.range    |         每个队列地址的窗口大小         |
-|       111       | h2c.io.range_words |          每个队列字的个数？          |
-|       112       |   h2c.io.is_seq    |           是否顺序访问            |
-|                 |                    |                             |
-|     200，201     | c2h.io.start_addr  |        c2h cmd 起始地址         |
-|       202       |   c2h.io.length    |         c2h cmd 长度          |
-|       203       |   c2h.io.offset    |              ？              |
-|       204       |    c2h.io.start    |        起始信号，需拉高后再拉低         |
-|       205       | c2h.io.total_words | 总字长（total_cmds * length/64） |
-|       206       |  c2h.io.total_qs   |            总的队列数            |
-|       208       | c2h.io.total_cmds  |          总的 cmd 数           |
-|       209       |  c2h.io.pfch_tag   |              ？              |
-|       210       |  c2h.io.tag_index  |              ？              |
-
-- 数据基址？
-
+	| control_reg idx |        data        |           explain           |
+	| :-------------: | :----------------: | :-------------------------: |
+	|        0        |   axib.w.fire()    |          写通道写入的次数           |
+	|     100，101     | h2c.io.start_addr  |        h2c cmd 起始地址         |
+	|       102       |   h2c.io.length    |         h2c cmd 长度          |
+	|       103       |   h2c.io.offset    |    数据起始位置？地址还是 words 个数？    |
+	|       104       |     h2c.io.sop     |          cmd 包开始 1          |
+	|       105       |     h2c.io.eop     |          cmd 包结束 1          |
+	|       106       |    h2c.io.start    |        起始信号，需拉高后再拉低         |
+	|       107       | h2c.io.total_words | 总字长（total_cmds * length/64） |
+	|       108       |  h2c.io.total_qs   |            总的队列数            |
+	|       109       | h2c.io.total_cmds  |          总的 cmd 数           |
+	|       110       |    h2c.io.range    |         每个队列地址的窗口大小         |
+	|       111       | h2c.io.range_words |          每个队列字的个数？          |
+	|       112       |   h2c.io.is_seq    |           是否顺序访问            |
+	|                 |                    |                             |
+	|     200，201     | c2h.io.start_addr  |        c2h cmd 起始地址         |
+	|       202       |   c2h.io.length    |         c2h cmd 长度          |
+	|       203       |   c2h.io.offset    |              ？              |
+	|       204       |    c2h.io.start    |        起始信号，需拉高后再拉低         |
+	|       205       | c2h.io.total_words | 总字长（total_cmds * length/64） |
+	|       206       |  c2h.io.total_qs   |            总的队列数            |
+	|       208       | c2h.io.total_cmds  |          总的 cmd 数           |
+	|       209       |  c2h.io.pfch_tag   |              ？              |
+	|       210       |  c2h.io.tag_index  |              ？              |
 - `qdma.io.reg_status`
+	
+	| status_reg idx |       data        |   explain    |
+	| :------------: | :---------------: | :----------: |
+	|      100       | h2c.io.count_err  |     错误计数     |
+	|      101       | h2c.io.count_time |     周期计数     |
+	|    102~117     | h2c.io.count_word | 每个队列传输数据字的个数 |
+	|                |                   |              |
+	|      200       | c2h.io.count_cmd  | 已发送的 cmd 个数  |
+	|      201       | c2h.io.count_word |   已发送字的个数    |
+	|      202       | c2h.io.count_time |     周期计数     |
 
-| status_reg idx |       data        |   explain    |
-| :------------: | :---------------: | :----------: |
-|      100       | h2c.io.count_err  |     错误计数     |
-|      101       | h2c.io.count_time |     周期计数     |
-|    102~117     | h2c.io.count_word | 每个队列传输数据字的个数 |
-|                |                   |              |
-|      200       | c2h.io.count_cmd  | 已发送的 cmd 个数  |
-|      201       | c2h.io.count_word |   已发送字的个数    |
-|      202       | c2h.io.count_time |     周期计数     |
-- `h2c.io.count_word(i*32+31,i*32) <> status_reg(102+i)` ？
+# 6. bechmark
+## 6.1. 指标
 
-- axib？
+| 指标               | 含义              | 公式                                                    | 注                    |
+| ---------------- | --------------- | ----------------------------------------------------- | -------------------- |
+| Throughput(GB/s) | 每秒传送数据量         | $$\frac{length\times total\_cmds}{cycles\times gap}$$ | length(GB)<br>gap(s) |
+| Throughput(Mops) | 每秒执行的操作数（百万次/秒） | $$\frac{total\_cmds}{cycles\times gap \times 10^6}$$  | gap(s)               |
+| Latency (us)     | 单次命令的平均延迟       | $$\frac{cycles\times gap}{total\_cmds}$$              | gap(us)              |
+## 6.2. Throughput CPU
+### 6.2.1. H2C
 
+| Packet Size | Wait cycles | OPS limit | Throughput (Mops) | Throughput (GB/s) | Latency (us) |
+| ----------- | ----------- | --------- | ----------------- | ----------------- | ------------ |
+| 64B         | 0           | N/A       | 38.52             | 2.30              | 0.026        |
+|             |             |           |                   |                   |              |
+|             |             |           |                   |                   |              |
 
 
 
