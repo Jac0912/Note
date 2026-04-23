@@ -209,24 +209,6 @@ C2H stream 使用 CMPT 队列将完成传输到主机
 	|      201       | c2h.io.count_word |   已发送字的个数    |
 	|      202       | c2h.io.count_time |     周期计数     |
 
-# 6. bechmark
-## 6.1. 指标
-
-| 指标               | 含义              | 公式                                                    | 注                    |
-| ---------------- | --------------- | ----------------------------------------------------- | -------------------- |
-| Throughput(GB/s) | 每秒传送数据量         | $$\frac{length\times total\_cmds}{cycles\times gap}$$ | length(GB)<br>gap(s) |
-| Throughput(Mops) | 每秒执行的操作数（百万次/秒） | $$\frac{total\_cmds}{cycles\times gap \times 10^6}$$  | gap(s)               |
-| Latency (us)     | 单次命令的平均延迟       | $$\frac{cycles\times gap}{total\_cmds}$$              | gap(us)              |
-## 6.2. Throughput CPU
-### 6.2.1. H2C
-
-| Packet Size | Wait cycles | OPS limit | Throughput (Mops) | Throughput (GB/s) | Latency (us) |
-| ----------- | ----------- | --------- | ----------------- | ----------------- | ------------ |
-| 64B         | 0           | N/A       | 38.52             | 2.30              | 0.026        |
-|             |             |           |                   |                   |              |
-|             |             |           |                   |                   |              |
-
-
 
 
 [^1]: Max Read Request Size（最大读 Host 内存请求大小）
