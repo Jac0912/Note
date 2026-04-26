@@ -35,27 +35,25 @@
 
 | Bytes |   Speed    |     OPS     |
 | :---: | :--------: | :---------: |
-|  64   | 2.01 GB/s  | 33.732 MOPS |
-|  128  | 3.98 GB/s  | 33.417 MOPS |
-|  256  | 7.30 GB/s  | 30.629 MOPS |
-|  512  | 12.00 GB/s | 25.176 MOPS |
-| 1024  | 11.95 GB/s | 12.530 MOPS |
+|  64   | 2.01  | 33.732 |
+|  128  | 3.98  | 33.417 |
+|  256  | 7.30  | 30.629 |
+|  512  | 12.00 | 25.176 |
+| 1024  | 11.95 | 12.530 |
 
 ## 2.2. C2H
 
-| Bytes |   Speed    |     OPS     |
-| :---: | :--------: | :---------: |
-|  64   | 4.97 GB/s  | 83.333 MOPS |
-|  128  | 9.90 GB/s  | 83.035 MOPS |
-|  256  | 11.68 GB/s | 48.991 MOPS |
-|  512  | 11.76 GB/s | 24.660 MOPS |
-| 1024  | 11.75 GB/s | 12.324 MOPS |
-
+| Bytes | Speed |  OPS   |
+| :---: | :---: | :----: |
+|  64   | 4.97  | 83.333 |
+|  128  | 9.90  | 83.035 |
+|  256  | 11.68 | 48.991 |
+|  512  | 11.76 | 24.660 |
+| 1024  | 11.75 |  12.3  |
 # 3. latency
 - pool_size = 1GB
 - total_cmds = 256 * 1024
 - Wait cycles: minimum cycles between two cmds
-- Latency
 ## 3.1. H2C
 
 |  Bytes   | Wait cycles | OPS limit (Mops) | Throughput (Mops) | Throughput (GB/s) | Latency (us) |
