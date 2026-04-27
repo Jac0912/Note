@@ -148,9 +148,44 @@ dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
 // 3. 用 I 计算两次
 ```
 Ⅲ：房间为二叉树(树形 dp)
-
+```cpp
+// dp[0]: *max money* when rob curr
+// dp[1]: *max money* when not rob curr
+vector<int> tree(TreeNode* node) {
+    if (node == nullptr) return vector<int>{0, 0};
+    vector<int> dp(2, 0);
+    vector<int> l = tree(node->left);
+    vector<int> r = tree(node->right);
+    return vector<int> {
+        l[1] + node->val + r[1],
+        max(l[0], l[1]) + max(r[0], r[1])
+    };
+}
+```
 ## 3.4. 股票问题
 Ⅰ：一支股票买卖一次，不可在同一天出售
+- dp 内描述的是持有/不持有股票的**状态**
+```cpp
+int maxProfit(vector<int>& prices) {
+       int n = prices.size();
+       
+       // dp[i][0]: have stock (state)
+       // dp[i][1]: not have stock
+       vector<vector<int>> dp(n, vector<int> {0, 0});
+       
+       dp[0][0] = -prices[0];
+       dp[0][1] = 0;
+       
+       for (int i = 1; i < n; i++) {
+           // already buy, today buy
+           dp[i][0] = max(dp[i - 1][0], -prices[i]);
+           // already sell, today sell
+           dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+       }
+       
+       return dp[n - 1][1];
+   }
+```
 Ⅱ：一支股票，任何时候最多持有一股股票，可在同一天出售，可买卖多次
 Ⅲ：一支股票，最多可以完成两笔交易，不能同时参与多笔交易
 Ⅳ：一支股票，最多可以完成 k 笔交易，不能同时参与多笔交易

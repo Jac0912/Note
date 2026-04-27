@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/FPGA/Benchmark.md",
+                "file": "Algorithm/Algo.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Benchmark 的大纲"
+              "title": "Algo 的大纲"
             }
           },
           {
@@ -279,12 +279,12 @@
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
     "HD/FPGA/Benchmark.md",
-    "HD/FPGA/QDMA.md",
-    "temp.md",
     "HD/GPU/GPU.md",
     "HD/Chisel/chisel.md",
     "HD/GPU/CUDA.md",
     "Algorithm/Algo.md",
+    "HD/FPGA/QDMA.md",
+    "temp.md",
     "Algorithm/Algorithm_on_Python.md",
     "ad.md",
     "HD/GPU/image/Pasted image 20260409142831.png",
