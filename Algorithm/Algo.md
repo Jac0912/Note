@@ -187,18 +187,55 @@ int maxProfit(vector<int>& prices) {
    }
 ```
 Ⅱ：一支股票，任何时候最多持有一股股票，可在同一天出售，可买卖多次
+```cpp
+dp[i][0] = max(dp[i - 1][0], dp[i - 1][1] - prices[i]);
+dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+```
 Ⅲ：一支股票，最多可以完成两笔交易，不能同时参与多笔交易
+```cpp
+// dp[i][0]: first buy (state)
+// dp[i][1]: first sell (state)
+// dp[i][2]: second buy (state)
+// dp[i][3]: second sell (state)
+vector<vector<int>> dp(n, vector<int>(4, 0));
+
+dp[0][0] = -prices[0];
+dp[0][1] = 0;
+dp[0][2] = -prices[0];
+dp[0][3] = 0;
+```
 Ⅳ：一支股票，最多可以完成 k 笔交易，不能同时参与多笔交易
-Ⅴ：在Ⅱ的基础上，卖出股票后无发在第二天买入股票
+- `dp[i][0]` 作为辅助列
+```cpp
+// dp[i][0]: aux
+// dp[i][odd]: buy stock
+// dp[i][even]: sell stock
+vector<vector<int>> dp(n, vector<int>(2 * k + 1, 0));
+```
+Ⅴ：在Ⅱ的基础上，卖出股票后无法在第二天买入股票
+```cpp
+// dp[i][0]: have stock (state)
+// dp[i][1]: sell stock (state)
+// dp[i][2]: sell stock (action)
+// dp[i][3]: freeze
+vector<vector<int>> dp(n, vector<int>(4, 0));
+```
 Ⅵ：在Ⅱ的基础上，每笔交易需要付手续费
+- 在 II 的基础上减去手续费即可
 
 ## 3.5. 子序列问题
 - 最长递增子序列
+	- dp 定义：以 `num[i]` 结尾的最长递增子序列的长度
 - 最长连续递增子序列
+	- 在上一个基础上只比较相邻元素即可
 - 最长重复子数组
+	```cpp
+	// dp[i][j]: max common len end by i - 1 nums1 and j - 1 nums2
+	// init 0: 0 is illegal
+	vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+	```
 - 最长公共子序列
 - 最大子数组的和
-- 
 
 
 # 4. keys
@@ -209,6 +246,9 @@ int maxProfit(vector<int>& prices) {
 
 
 # 5. STL
+- 找最大元素：`max_element(nums.begin(), nums.end());`
+	- 返回的是一个指针类型
+	- 需要用 `*` 来获得值
 - 提取 `<str>` 的子字符串：`<str>.substr(pos, len)`
 	- `pos`：提取的起始下标
 	- `len`：提取的长度
