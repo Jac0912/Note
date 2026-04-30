@@ -228,15 +228,75 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 	- dp 定义：以 `num[i]` 结尾的最长递增子序列的长度
 - 最长连续递增子序列
 	- 在上一个基础上只比较相邻元素即可
-- 最长重复子数组
+- 最长重复子数组（子数组：元素之间连续）
 	```cpp
 	// dp[i][j]: max common len end by i - 1 nums1 and j - 1 nums2
 	// init 0: 0 is illegal
 	vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+	
+	if (nums1[i - 1] == nums2[j - 1]) {
+		dp[i][j] = dp[i - 1][j - 1] + 1;
+	}
 	```
-- 最长公共子序列
+- 最长公共子序列 / 不相交的线（子序列：元素之间不一定连续）
+	- 如果当前字符不相等，就取一个不考虑当前元素最长的子序列
+	```cpp
+	if (text1[i - 1] == text2[j - 1]) {
+		dp[i][j] = dp[i - 1][j - 1] + 1;
+	} else {
+		dp[i][j] = max(dp[i][j - 1], dp[i - 1][j]);
+	}
+	```
 - 最大子数组的和
-
+	```cpp
+	dp[i] = max(dp[i - 1] + nums[i], nums[i]);
+	```
+- 不同的子序列（s 在 t 中出现个数）
+	```cpp
+	// dp[i][j]: the num of s[0 : i) in t[0 : j)
+	vector<vector<unsigned long long>> dp(n + 1, vector<unsigned long long>(m + 1, 0));
+	
+	// the num of ""(t) in ""(s) is 1
+	 for (int i = 0; i <= n; i++) {
+		 dp[i][0] = 1;
+	 }
+	 
+	 for (int i = 1; i <= n; i++) {
+	 	for (int j = 1; j <=m; j++) {
+	 		if (s[i - 1] == t[j - 1]) {
+	 			// two situation: curr / delete a letter
+	 			dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j];
+	 		} else {
+	 			dp[i][j] = dp[i - 1][j];
+	 		}
+	 	}
+	 }
+	```
+- 两个字符串删除操作（删除使得两个字符串相同）
+	```cpp
+	// dp[i][j]: the min step to let word1[0 : i) and word2[0 : j) same
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+         
+	 // the step to let word1[0 : i) and "" be same is i
+	 for (int i = 0; i <= n; i++) {
+		 dp[i][0] = i;
+	 }
+	 
+	 for (int j = 0; j <= m; j++) {
+		 dp[0][j] = j;
+	 }
+	 
+	 for (int i = 1; i <= n; i++) {
+		 for (int j = 1; j <= m; j++) {
+			 if (word1[i - 1] == word2[j - 1]) {
+				 dp[i][j] = dp[i - 1][j - 1];
+			 } else {
+				 // three situation: delete word1 / delete word2 / both delete
+				 dp[i][j] = min({dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + 2});
+			 }
+		 }
+	 }
+	```
 
 # 4. keys
 - 函数尽量使用按引用传递 `&`
@@ -247,7 +307,7 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 
 # 5. STL
 - 找最大元素：`max_element(nums.begin(), nums.end());`
-	- 返回的是一个指针类型
+	- 返回的是一个**指针类型**
 	- 需要用 `*` 来获得值
 - 提取 `<str>` 的子字符串：`<str>.substr(pos, len)`
 	- `pos`：提取的起始下标
