@@ -1,3 +1,19 @@
+# 1. background
+QDMA: 同 XDMA 一样是赛灵思公司对于 QDMA 技术的具体实现
+
+它具有以下优势：
+- 引入生产者、消费者
+	- 软件（生产者）：CPU 维护描述符队列（任务列表），CPU 可以不断往里面扔任务
+	- 硬件（消费者）：QDMA 引擎去内存中抓取任务执行
+- 支持多个队列数量：每个虚拟机或者应用程序都可以有自己的传输通道
+- 描述符预取：把任务清单放到硬件内部缓存
+- 支持虚拟化（SR-IOV）
+
+说明：
+1. 硬件侧代码：https://github.com/RC4ML/rc4ml_static
+2. 软件侧代码：https://github.com/RC4ML/rc4ml_qdma
+3. 测试 GPU to FPGA 时需要让 GPU 跑一些核函数，拉高 GPU power 防止出现 throughput 过低
+4. 下面分别对 throughput / random / latency / mmio 几个方面进行测试，包含 gpu / cpu 与 fpga 之前 h2c / c2h 两个方向的测试
 
 | target           | mean            | func                                                  | note                 |
 | ---------------- | --------------- | ----------------------------------------------------- | -------------------- |
@@ -6,10 +22,10 @@
 | Latency (us)     | 单次命令的平均延迟       | $$\frac{cycles\times gap}{total\_cmds}$$              | gap(us)              |
 | OPS limit        | OPS 的理论限制       | $$\frac{f}{wait \; cycle}$$                           |                      |
 
-# 1. throughput
+# 2. throughput
 - pool_size = 1GB
 - total_cmds = 256 * 1024
-## 1.1. H2C
+## 2.1. H2C
 
 | CPU | Bytes | Speed |     | GPU | Bytes | Speed |
 | --- | :---: | :---: | --- | --- | :---: | :---: |
@@ -19,7 +35,7 @@
 |     |  512  | 12.09 |     |     |  512  | 10.68 |
 |     | 1024  | 12.14 |     |     | 1024  | 10.61 |
 
-## 1.2. C2H
+## 2.2. C2H
 
 | CPU | Bytes | Speed |     | GPU | Bytes | Speed |
 | --- | :---: | :---: | --- | --- | :---: | :---: |
@@ -28,10 +44,10 @@
 |     |  256  | 11.91 |     |     |  256  | 11.92 |
 |     |  512  | 12.19 |     |     |  512  | 13.00 |
 |     | 1024  | 12.18 |     |     | 1024  | 13.00 |
-# 2. random
+# 3. random
 - pool_size = 1GB
 - total_cmds = 256 * 1024
-## 2.1. H2C
+## 3.1. H2C
 
 | CPU | Bytes | Speed |  OPS   |     | GPU | Bytes | Speed |  OPS   |
 | :-: | :---: | :---: | :----: | --- | --- | :---: | :---: | :----: |
@@ -41,7 +57,7 @@
 |     |  512  | 12.00 | 25.176 |     |     |  512  | 10.48 | 21.971 |
 |     | 1024  | 11.95 | 12.530 |     |     | 1024  | 10.63 | 11.151 |
 
-## 2.2. C2H
+## 3.2. C2H
 
 | CPU | Bytes | Speed |  OPS   |     | GPU | Bytes | Speed |  OPS   |
 | :-: | :---: | :---: | :----: | --- | --- | :---: | :---: | :----: |
@@ -50,11 +66,11 @@
 |     |  256  | 11.68 | 48.991 |     |     |  256  | 11.92 | 50.000 |
 |     |  512  | 11.76 | 24.660 |     |     |  512  | 13.00 | 27.269 |
 |     | 1024  | 11.75 |  12.3  |     |     | 1024  | 13.00 | 13.633 |
-# 3. latency
+# 4. latency
 - pool_size = 1GB
 - total_cmds = 256 * 1024
 - Wait cycles: minimum cycles between two cmds
-## 3.1. H2C
+## 4.1. H2C
 
 |   CPU   |   Bytes   |   Wait cycles   |   OPS limit (Mops)   |   Throughput (Mops)   |   Throughput (GB/s)   |   Latency (us)   |
 | :-----: | :-------: | :-------------: | :------------------: | :-------------------: | :-------------------: | :--------------: |
@@ -88,7 +104,7 @@
 |         |           |       50        |         5.0          |          2.6          |         10.6          |      16.65       |
 
 
-## 3.2. C2H
+## 4.2. C2H
 - Latency CMD: duration between cmd issues and axibridge return
 - Latency DATA: duration between last data issues and axibridge return
 - * : this latency can be thousands us sometimes, because write latency use bridge channel to reply, single thread can issue around 8M bridge write, when ops exceeds this, the latency increase a lot.
@@ -118,7 +134,7 @@
 |         |           |       70        |         3.6          |          0.7          |         2.73          |          *           |           *           |
 |         |           |       50        |         5.0          |          0.7          |         2.73          |          *           |           *           |
 
-# 4. MMIO
+# 5. MMIO
 - repeat_times = 16
 - size = 1 * 1024 * 1024 (size of data a thread should write)
 

@@ -297,6 +297,56 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 		 }
 	 }
 	```
+- 编辑距离
+	```cpp
+	if (word1[i - 1] == word2[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1];
+    } else {
+    	// delete / add is same; replace need special handling
+    	dp[i][j] = min({dp[i][j - 1] + 1, dp[i - 1][j] + 1, dp[i - 1][j - 1] + 1});
+    }
+	```
+- 回文子串
+	- 动态规划：由中间向两端扩散，记录中间是否为回文子串（bool）
+	- 双指针：以一个元素 / 两个元素为中心，向两端扩散，计算有几个回文子串
+	```cpp
+	// dp[i][j]: if the substr between i and j is palindrome string
+    vector<vector<bool>> dp(n, vector<bool>(n, false));
+    
+	for (int i = n - 1; i >= 0; i--) {
+		for (int j = i; j < n; j++) {
+			if (s[i] == s[j]) {
+				if (j - i <= 1) {
+					// exp: "a" / "aa"
+					dp[i][j] = true;
+					res++;
+				} else if (dp[i + 1][j - 1]) {
+					dp[i][j] = true;
+					res++;
+				}
+			}
+		}
+	}
+	```
+- 最长回文子序列
+	```cpp
+	// dp[i][j]: the max palindromic subsequence len between s[i, j]
+    vector<vector<int>> dp(n, vector<int>(n, 0));
+         
+    for (int i = 0; i < n; i++) {
+        dp[i][i] = 1;
+    }
+    
+    for (int i = n - 1; i >= 0; i--) {
+		for (int j = i + 1; j < n; j++) {
+			 if (s[i] == s[j]) {
+				 dp[i][j] = dp[i + 1][j - 1] + 2;
+			 } else {
+				 dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]);
+			 }
+		 }
+	 }
+	```
 
 # 4. keys
 - 函数尽量使用按引用传递 `&`
