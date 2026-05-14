@@ -356,6 +356,16 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 
 
 # 5. STL
+- 排序
+	```cpp
+	sort(t.begin(), t.end()) // 从小到大
+	sort(t.begin(), t.end(), [](int a, int b) {
+		return a > b;
+	})
+	```
+- 累加：`accumulate(t.begin(), t.end(), 0)`
+	- 不是 **sum**！
+	- 需要在最后一个参数指定起加值
 - 找最大元素：`max_element(nums.begin(), nums.end());`
 	- 返回的是一个**指针类型**
 	- 需要用 `*` 来获得值

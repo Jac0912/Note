@@ -22,6 +22,21 @@ QDMA: 同 XDMA 一样是赛灵思公司对于 QDMA 技术的具体实现
 | Latency (us)     | 单次命令的平均延迟       | $$\frac{cycles\times gap}{total\_cmds}$$              | gap(us)              |
 | OPS limit        | OPS 的理论限制       | $$\frac{f}{wait \; cycle}$$                           |                      |
 
+Testbed: amax2, U280 board.
+
+---
+This benchmark the axi-lite read latency when dma channel is busy.
+## 1.1. AXILite latency
+
+| AXIL Latency           |              | QDMA Bandwidth  |                |
+| ---------------------- | ------------ | --------------- | -------------- |
+| axi lite read(yes/no)  | latency(us)  | read(GBps)      | write(GBps)    |
+| no                     | /            | 12.79           | 12.99          |
+| yes                    | 0.88         | 0               | 0              |
+| yes                    | 0.95         | 12.79           | 0              |
+| yes                    | 1.47         | 0               | 12.98          |
+| yes                    | 2.95         | 4.8             | 12.9           |
+| (512 * 4's average)    |              |                 |                |
 # 2. throughput
 - pool_size = 1GB
 - total_cmds = 256 * 1024

@@ -1,0 +1,5 @@
+- Nsigh system
+	- CPU / GPU 事件和、交互
+	- CPU / GPU 等待、不必要同步
+	- 负载平衡多 CPU / GPU
+	- 
