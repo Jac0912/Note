@@ -40,22 +40,6 @@
             }
           },
           {
-            "id": "4c579f3a8e1cbefd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temp.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "temp"
-            }
-          },
-          {
             "id": "ad9aba06c7d1f419",
             "type": "leaf",
             "pinned": true,
@@ -88,36 +72,9 @@
             }
           },
           {
-            "id": "60e4a54d17435ee0",
+            "id": "4c579f3a8e1cbefd",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/FPGA/QDMA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QDMA"
-            }
-          },
-          {
-            "id": "ca32a43b5fd753b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/FPGA/Benchmark.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Benchmark"
-            }
-          },
-          {
-            "id": "37090a034dc7380b",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -125,36 +82,23 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "temp"
             }
           },
           {
-            "id": "257f44db66c53747",
+            "id": "6cd7b974360a9900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/GPU/GPU.md",
+                "file": "Private/比赛/时间.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GPU"
-            }
-          },
-          {
-            "id": "a75345df98c81cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/Chisel/chisel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "chisel"
+              "title": "时间"
             }
           }
         ],
@@ -320,52 +264,51 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "HD/FPGA/Benchmark.md",
-    "HD/Chisel/chisel.md",
-    "HD/GPU/Nsight.md",
     "HD/GPU/CUDA.md",
-    "HD/GPU/DOCA GPUNetIO.md",
-    "Algorithm/Algo.md",
-    "HD/FPGA/QDMA.md",
     "HD/GPU/GPU.md",
+    "Private/比赛/时间.md",
+    "Private/比赛/答辩.md",
+    "Private/research/EPS pool/paper/iwqos2026-final380.pdf",
+    "Private/research/组会/report/5.QDMA/ppt518D.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4DD0.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4D04.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4001.tmp",
+    "Private/research/组会/report/5.QDMA/ppt3DDD.tmp",
+    "Private/research/组会/report/5.QDMA/ppt1EBB.tmp",
+    "Private/research/组会/report/5.QDMA/ppt1C57.tmp",
+    "Private/research/组会/report/5.QDMA/ppt19E4.tmp",
+    "Private/research/组会/report/5.QDMA/~$QDMAv2.pptx",
     "temp.md",
-    "Middleware/Container_Note/Container.md",
-    "Algorithm/Algorithm_on_Python.md",
-    "ad.md",
-    "HD/GPU/image/Pasted image 20260409142831.png",
-    "HD/GPU/image/Pasted image 20260409114818.png",
-    "HD/GPU/image/Pasted image 20260408203130.png",
-    "格式.md",
-    "HD/FPGA/烧录.md",
-    "Middleware/Mill/Mill.md",
-    "Python_Note/UV.md",
-    "Algorithm/image/Pasted image 20260323215818.png",
-    "Algorithm/image/Pasted image 20260323215706.png",
-    "Algorithm/image/Pasted image 20260323215542.png",
-    "Algorithm/image",
-    "HD/Verilog/Verilog.md",
-    "HD/Chisel/chisel_cheatsheet.pdf",
-    "HD/FPGA/image/ubz1527199294937.png",
-    "HD/FPGA/image/Pasted image 20260312112934.png",
-    "HD/FPGA/image/Pasted image 20260312105529.png",
-    "HD/FPGA/image",
-    "HD/Verilog/image/Pasted image 20260310172937.png",
-    "HD/Verilog/image",
-    "HD/FPGA/U280.md",
-    "HD/FPGA",
-    "Algorithm/Algorithm_on_Java.md",
-    "Algorithm/C++.md",
-    "Algorithm/Practice.md",
-    "HD/Verilog",
-    "Algorithm/history.md",
-    "Toefl/writing/writing-practice.md",
-    "Toefl/sentence.md",
-    "Linux_Note/Linux.md",
-    "HD/Vivado/TCL.md",
-    "HD/Vivado",
-    "HD",
-    "HD/GPU/image",
-    "Chisel/image",
+    "Private/temp.md",
+    "Private/research/hardware/tmp.md",
+    "Private/research/Learn/math/np.md",
+    "Private/比赛/软著.md",
+    "Private/比赛/服创.md",
+    "Private/比赛/info.md",
+    "Private/比赛/十六届.md",
+    "Private/Movie/Movie.md",
+    "Private/服创/文档.md",
+    "Private/服创/video.md",
+    "Flow_Note/Flow_Note.md",
+    "Private/setup.md",
+    "HD/FPGA/Benchmark.md",
+    "Private/poem.md",
+    "Private/保研/note.md",
+    "Private/image/Pasted image 20250407114057.png",
+    "School/temp/c4.md",
+    "HD/FPGA/QDMA.md",
+    "Algorithm/Algo.md",
+    "Private/research/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/image/Pasted image 20250902105743.png",
+    "Private/research/hardware/paper/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs/image/Pasted image 20260203203447.png",
+    "Private/research/量子线路编译/review/image/Pasted image 20250727225316.png",
+    "Private/research/量子线路编译/review/image/Pasted image 20250727000122.png",
+    "Private/research/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
+    "Private/research/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
+    "Private/research/量子线路编译/review/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
+    "Private/research/量子线路编译/learn/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
+    "Private/research/EPS pool/image/Pasted image 20250526093819.png",
+    "Private/research/EPS pool/image/Pasted image 20250409212117.png",
+    "Private/research/EPS pool/image/Pasted image 20250628163158.png",
     "Course_Note/毛概/Canvas.canvas"
   ]
 }

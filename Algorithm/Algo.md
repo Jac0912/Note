@@ -353,9 +353,15 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 - dfs 返回类型：
 	- bool：搜索一个解（单个树枝），解数独
 	- void：需要搜索多个解（多个树枝）
-
+- `return res++` 返回的结果是 `res` 而不是 `res + 1`（先用值，再自增）
 
 # 5. STL
+- 字符串与数字转换
+	```cpp
+	int num = 123;
+	string str = to_string(num); // 123 -> "123"
+	int num = stoi(str);         // "123" -> 123
+	```
 - 排序
 	```cpp
 	sort(t.begin(), t.end()) // 从小到大
