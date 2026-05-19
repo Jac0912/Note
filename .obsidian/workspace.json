@@ -88,21 +88,21 @@
             }
           },
           {
-            "id": "6cd7b974360a9900",
+            "id": "7a256ca115596bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/比赛/时间.md",
-                "mode": "preview",
+                "file": "HD/FPGA/Benchmark.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "时间"
+              "title": "Benchmark"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/GPU/Nsight.md",
+                "file": "HD/GPU/GPU.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Nsight 的大纲"
+              "title": "GPU 的大纲"
             }
           },
           {
@@ -262,22 +262,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a10ee232e4604e",
+  "active": "7a256ca115596bd4",
   "lastOpenFiles": [
     "HD/GPU/CUDA.md",
     "HD/GPU/GPU.md",
+    "HD/FPGA/Benchmark.md",
+    "Private/research/组会/report/5.QDMA/pptF066.tmp",
+    "Private/research/组会/report/5.QDMA/pptEF9A.tmp",
+    "Private/research/组会/report/5.QDMA/pptEECE.tmp",
+    "Private/research/组会/report/5.QDMA/pptEDC4.tmp",
+    "Private/research/组会/report/5.QDMA/pptC466.tmp",
+    "Private/research/组会/report/5.QDMA/pptC36B.tmp",
+    "Private/research/组会/report/5.QDMA/pptC2AE.tmp",
+    "Private/research/组会/report/5.QDMA/pptC1D2.tmp",
+    "Private/research/组会/report/5.QDMA/ppt7E12.tmp",
+    "Private/research/组会/report/5.QDMA/ppt7D45.tmp",
     "Private/比赛/时间.md",
+    "Algorithm/Algo.md",
+    "HD/FPGA/QDMA.md",
     "Private/比赛/答辩.md",
-    "Private/research/EPS pool/paper/iwqos2026-final380.pdf",
-    "Private/research/组会/report/5.QDMA/ppt518D.tmp",
-    "Private/research/组会/report/5.QDMA/ppt4DD0.tmp",
-    "Private/research/组会/report/5.QDMA/ppt4D04.tmp",
-    "Private/research/组会/report/5.QDMA/ppt4001.tmp",
-    "Private/research/组会/report/5.QDMA/ppt3DDD.tmp",
-    "Private/research/组会/report/5.QDMA/ppt1EBB.tmp",
-    "Private/research/组会/report/5.QDMA/ppt1C57.tmp",
-    "Private/research/组会/report/5.QDMA/ppt19E4.tmp",
-    "Private/research/组会/report/5.QDMA/~$QDMAv2.pptx",
     "temp.md",
     "Private/temp.md",
     "Private/research/hardware/tmp.md",
@@ -291,13 +294,10 @@
     "Private/服创/video.md",
     "Flow_Note/Flow_Note.md",
     "Private/setup.md",
-    "HD/FPGA/Benchmark.md",
     "Private/poem.md",
     "Private/保研/note.md",
     "Private/image/Pasted image 20250407114057.png",
     "School/temp/c4.md",
-    "HD/FPGA/QDMA.md",
-    "Algorithm/Algo.md",
     "Private/research/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/image/Pasted image 20250902105743.png",
     "Private/research/hardware/paper/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs/image/Pasted image 20260203203447.png",
     "Private/research/量子线路编译/review/image/Pasted image 20250727225316.png",

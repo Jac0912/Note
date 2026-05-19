@@ -122,7 +122,7 @@ This benchmark the axi-lite read latency when dma channel is busy.
 ## 4.2. C2H
 - Latency CMD: duration between cmd issues and axibridge return
 - Latency DATA: duration between last data issues and axibridge return
-- * : this latency can be thousands us sometimes, because write latency use bridge channel to reply, single thread can issue around 8M bridge write, when ops exceeds this, the latency increase a lot.
+- \* : this latency can be thousands us sometimes, because write latency use bridge channel to reply, single thread can issue around 8M bridge write, when ops exceeds this, the latency increase a lot.
 
 |   CPU   |   Bytes   |   Wait cycles   |   OPS limit (Mops)   |   Throughput (Mops)   |   Throughput (GB/s)   |   Latency CMD (us)   |   Latency DATA (us)   |
 | :-----: | :-------: | :-------------: | :------------------: | :-------------------: | :-------------------: | :------------------: | :-------------------: |
@@ -152,6 +152,7 @@ This benchmark the axi-lite read latency when dma channel is busy.
 # 5. MMIO
 - repeat_times = 16
 - size = 1 * 1024 * 1024 (size of data a thread should write)
+## 5.1. cpu
 
 | theads num | speed    |
 | ---------- | -------- |
@@ -161,3 +162,17 @@ This benchmark the axi-lite read latency when dma channel is busy.
 | 8          | 2.051150 |
 | 16         | 3.851957 |
 
+## 5.2. gpu
+
+| Bytes                    | speed     |
+| ------------------------ | --------- |
+| 1 \* 256 \* 1024 \* 1024 | 9.04 GB/s |
+| 1 \* 128 \* 1024 \* 1024 | 9.03 GB/s |
+| 1 \* 64 \* 1024 \* 1024  | 9.03 GB/s |
+| 1 \* 32 \* 1024 \* 1024  | 9.02 GB/s |
+| 1 \* 16 \* 1024 \* 1024  | 9.00 GB/s |
+| 1 \* 4 \* 1024 \* 1024   | 8.89 GB/s |
+| 1 \* 2 \* 1024 \* 1024   | 8.72 GB/s |
+| 1 \* 1 \* 1024 \* 1024   | 4.55 GB/s |
+| 1 \* 1 \* 512 \* 1024    | 2.42 GB/s |
+| 1 \* 1 \* 256 \* 1024    | 1.21 GB/s |

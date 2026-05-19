@@ -369,6 +369,7 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 		return a > b;
 	})
 	```
+- 交换数组元素：`swap(arr[i], arr[j])`
 - 累加：`accumulate(t.begin(), t.end(), 0)`
 	- 不是 **sum**！
 	- 需要在最后一个参数指定起加值
@@ -378,6 +379,7 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 - 提取 `<str>` 的子字符串：`<str>.substr(pos, len)`
 	- `pos`：提取的起始下标
 	- `len`：提取的长度
+- 反转字符串：`reverse(str.begin(), str.end())`
 - 重置 `vector` 大小：`<vector>.resize(num, in)`
 	- `num`：填充 `in` 的个数
 	- `in`：填充的内容（eg. `vector<bool>(s.size(), false)`）
