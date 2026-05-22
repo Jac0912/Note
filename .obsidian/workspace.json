@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Algo.md",
+                "file": "HD/FPGA/Benchmark.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Algo 的大纲"
+              "title": "Benchmark 的大纲"
             }
           },
           {
@@ -264,22 +264,23 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "Private/research/组会/report/5.QDMA/pptC18F.tmp",
+    "Private/research/组会/report/5.QDMA/pptBFB8.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4D7A.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4C7F.tmp",
+    "Private/research/组会/report/5.QDMA/ppt47D3.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4726.tmp",
+    "Private/research/组会/report/5.QDMA/ppt465A.tmp",
+    "Private/research/组会/report/5.QDMA/ppt459D.tmp",
+    "Private/research/组会/report/5.QDMA/ppt4329.tmp",
+    "Private/research/组会/report/5.QDMA/pptB34C.tmp",
+    "Private/research/组会/report/5.QDMA/pptB261.tmp",
     "HD/GPU/CUDA.md",
+    "Algorithm/Algo.md",
     "HD/GPU/GPU.md",
     "HD/FPGA/Benchmark.md",
     "HD/Chisel/chisel.md",
     "temp.md",
-    "Algorithm/Algo.md",
-    "Private/research/组会/report/5.QDMA/ppt3320.tmp",
-    "Private/research/组会/report/5.QDMA/ppt7BBB.tmp",
-    "Private/research/组会/report/5.QDMA/pptCA0B.tmp",
-    "Private/research/组会/report/5.QDMA/~$QDMAv2.pptx",
-    "Private/research/组会/report/5.QDMA/pptF066.tmp",
-    "Private/research/组会/report/5.QDMA/pptEF9A.tmp",
-    "Private/research/组会/report/5.QDMA/pptEECE.tmp",
-    "Private/research/组会/report/5.QDMA/pptEDC4.tmp",
-    "Private/research/组会/report/5.QDMA/pptC466.tmp",
-    "Private/research/组会/report/5.QDMA/pptC36B.tmp",
     "Private/比赛/时间.md",
     "HD/FPGA/QDMA.md",
     "Private/比赛/答辩.md",
@@ -304,7 +305,6 @@
     "Private/research/量子线路编译/review/image/Pasted image 20250727225316.png",
     "Private/research/量子线路编译/review/image/Pasted image 20250727000122.png",
     "Private/research/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
-    "Private/research/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
     "Private/research/量子线路编译/review/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
     "Private/research/量子线路编译/learn/image/8d8ff01e37d0618a04b81e3dd38bad06.png",
     "Private/research/EPS pool/image/Pasted image 20250526093819.png",
