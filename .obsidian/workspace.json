@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HD/GPU/GPU.md",
+                "file": "Algorithm/Algo.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GPU 的大纲"
+              "title": "Algo 的大纲"
             }
           },
           {
@@ -262,26 +262,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a256ca115596bd4",
+  "active": "83a10ee232e4604e",
   "lastOpenFiles": [
     "HD/GPU/CUDA.md",
     "HD/GPU/GPU.md",
     "HD/FPGA/Benchmark.md",
+    "HD/Chisel/chisel.md",
+    "temp.md",
+    "Algorithm/Algo.md",
+    "Private/research/组会/report/5.QDMA/ppt3320.tmp",
+    "Private/research/组会/report/5.QDMA/ppt7BBB.tmp",
+    "Private/research/组会/report/5.QDMA/pptCA0B.tmp",
+    "Private/research/组会/report/5.QDMA/~$QDMAv2.pptx",
     "Private/research/组会/report/5.QDMA/pptF066.tmp",
     "Private/research/组会/report/5.QDMA/pptEF9A.tmp",
     "Private/research/组会/report/5.QDMA/pptEECE.tmp",
     "Private/research/组会/report/5.QDMA/pptEDC4.tmp",
     "Private/research/组会/report/5.QDMA/pptC466.tmp",
     "Private/research/组会/report/5.QDMA/pptC36B.tmp",
-    "Private/research/组会/report/5.QDMA/pptC2AE.tmp",
-    "Private/research/组会/report/5.QDMA/pptC1D2.tmp",
-    "Private/research/组会/report/5.QDMA/ppt7E12.tmp",
-    "Private/research/组会/report/5.QDMA/ppt7D45.tmp",
     "Private/比赛/时间.md",
-    "Algorithm/Algo.md",
     "HD/FPGA/QDMA.md",
     "Private/比赛/答辩.md",
-    "temp.md",
     "Private/temp.md",
     "Private/research/hardware/tmp.md",
     "Private/research/Learn/math/np.md",

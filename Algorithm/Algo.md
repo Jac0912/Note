@@ -354,13 +354,32 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 	- bool：搜索一个解（单个树枝），解数独
 	- void：需要搜索多个解（多个树枝）
 - `return res++` 返回的结果是 `res` 而不是 `res + 1`（先用值，再自增）
-
+- 类型转换
+	```cpp
+	long tmp = (long)nums[i] + nums[j] + nums[l] + nums[r];
+	```
+	- 需要对第一个 nums 转换，不然会用默认的 int 先相加
 # 5. STL
 - 字符串与数字转换
 	```cpp
 	int num = 123;
 	string str = to_string(num); // 123 -> "123"
 	int num = stoi(str);         // "123" -> 123
+	```
+- 使用构造函数
+	```cpp
+	/**
+	 * Definition for singly-linked list.
+	 * struct ListNode {
+	 *     int val;
+	 *     ListNode *next;
+	 *     ListNode() : val(0), next(nullptr) {}
+	 *     ListNode(int x) : val(x), next(nullptr) {}
+	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+	 * };
+	 */
+	 
+	 ListNode* dummy = new ListNode(0, head);
 	```
 - 排序
 	```cpp
@@ -397,5 +416,24 @@ vector<vector<int>> dp(n, vector<int>(4, 0));
 	====
 	// 红黑树，元素有序排列
 	map<K, V>
+	```
+- stack
+	```cpp
+	stack<int> st;
+	st.push(num);
+	st.pop;
+	st.top();
+	st.empty();
+	st.size();
+	```
+- queue
+	```cpp
+	queue<int> q;
+	q.push(num);
+	q.pop();
+	q.front();
+	q.back();
+	q.empty();
+	q.size();
 	```
 
