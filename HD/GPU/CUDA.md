@@ -29,6 +29,7 @@ export PATH=/usr/local/cuda/bin:$PATH
 	gridDim.z  //max: 2^16 -1
 	
 	// 线程块总大小最大为 1024 !!
+	// 一个 block 最多有32 个 warp (32 * 32 = 1024)
 	blockDim.x  //max: 1024
 	blockDim.y  //max: 1024
 	blockDim.z  //max: 64
