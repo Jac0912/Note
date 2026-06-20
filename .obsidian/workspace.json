@@ -8,51 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "921f8fdcab0db9fd",
+            "id": "e4e7860073ba061e",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Algorithm/Algo.md",
-                "mode": "source",
-                "source": false
+                "file": "Private/research/hardware/HDbase.base",
+                "viewName": "表格"
               },
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Algo"
-            }
-          },
-          {
-            "id": "ad9aba06c7d1f419",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/GPU/CUDA.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "CUDA"
-            }
-          },
-          {
-            "id": "0a19c777a785723e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HD/GPU/GPU.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "GPU"
+              "icon": "lucide-table",
+              "title": "HDbase"
             }
           },
           {
@@ -72,63 +39,34 @@
             }
           },
           {
-            "id": "980135130a537cf2",
+            "id": "4e3412c733783150",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/research/hardware/paper/CLITCHES/CLITCHES.md",
+                "file": "Private/research/hardware/paper/portable_expert_parallel_communication/portable_expert_parallel_communication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLITCHES"
+              "title": "portable_expert_parallel_communication"
             }
           },
           {
-            "id": "a43dd57766f8e2c7",
+            "id": "015fe145aa0f8b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/比赛/服创.md",
+                "file": "HD/CXL/CXL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "服创"
-            }
-          },
-          {
-            "id": "6726a5395f4786d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Middleware/Markdown/Markdown.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markdown"
-            }
-          },
-          {
-            "id": "47f57ecad721b8bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/setup.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "setup"
+              "title": "CXL"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +86,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -160,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "格式.md",
+                "file": "Private/research/hardware/HDbase.base",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "格式 的大纲"
+              "title": "HDbase 的大纲"
             }
           },
           {
@@ -175,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:服创",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.50694274902344
+    "width": 329.501522064209
   },
   "right": {
     "id": "4522295b1b24b93d",
@@ -285,57 +223,58 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "iconic:打开规则书": false
     }
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "Middleware/Markdown/Markdown.md",
-    "Private/比赛/服创.md",
-    "Private/比赛/答辩.md",
-    "格式.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/portable_expert_parallel_communication.md",
+    "Private/research/hardware/paper/to_limit_bandwidth/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication",
+    "Private/research/hardware/paper/to_limit_bandwidth - Copy/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/to_limit_bandwidth - Copy",
+    "Private/research/hardware/paper/NIC_us_rdma/NIC_us_rdma.md",
     "Private/research/hardware/paper/CLITCHES/CLITCHES.md",
-    "HD/GPU/GPU.md",
-    "HD/GPU/CUDA.md",
-    "Private/setup.md",
+    "HD/FPGA/Benchmark-Vu9p.md",
+    "HD/CXL/CXL.md",
+    "HD/CXL/image/Pasted image 20260620221514.png",
+    "HD/CXL/image/Pasted image 20260620215751.png",
+    "HD/CXL/image/Pasted image 20260620210524.png",
+    "HD/CXL/image/Pasted image 20260620204814.png",
+    "HD/CXL/image/Pasted image 20260620204723.png",
+    "HD/CXL/image/Pasted image 20260620203517.png",
+    "Private/research/组会/~$科研入坑指南20251215.pptx",
+    "HD/CXL/image/Pasted image 20260620174953.png",
+    "HD/CXL/image/Pasted image 20260620174617.png",
+    "HD/CXL/image/Pasted image 20260620172031.png",
+    "Private/research/EPS pool/conference/report/pptE7C5.tmp",
+    "Private/research/EPS pool/conference/report/pptE66C.tmp",
+    "Private/research/EPS pool/conference/report/pptE504.tmp",
+    "Private/research/EPS pool/conference/report/ppt7489.tmp",
+    "Private/research/EPS pool/conference/report/ppt46B6.tmp",
+    "Private/research/EPS pool/conference/report/iwqos2026-final380.pdf",
+    "Private/research/EPS pool/conference/report/pptFB62.tmp",
+    "HD/CXL/image/Pasted image 20260617222419.png",
     "temp.md",
-    "Private/research/组会/report/5.QDMA/~$QDMAv2.pptx",
-    "Private/research/组会/report/~$CLITCHES.pptx",
-    "Private/比赛/时间.md",
-    "Private/research/组会/讲故事.pptx",
-    "Private/research/组会/讲故事(1).pptx",
-    "Private/research/组会/report/7.CLITCHES/ppt96F4.tmp",
-    "Private/research/组会/report/7.CLITCHES/ppt9294.tmp",
-    "Private/research/组会/report/7.CLITCHES/pptBBF4.tmp",
-    "Private/research/组会/report/7.CLITCHES/pptBA2D.tmp",
-    "Private/research/组会/report/7.CLITCHES/pptB43.tmp",
-    "Private/research/组会/report/7.CLITCHES/pptA48.tmp",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528162343.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528161951.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528161109.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528155804.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528154518.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528113742.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528112715.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528112034.png",
-    "Private/research/hardware/paper/CLITCHES/image/Pasted image 20260528105650.png",
-    "Private/research/量子线路编译/paper/Scalable_Optimal_Layout_Synthesis_for_NISQ_Quantum_Processors/Scalable Optimal Layout Synthesis for NISQ Quantum Processors.md",
-    "Private/research/量子线路编译/paper/Exploiting_the_Regular_Structure_of Modern_Quantum_Architectures_for_Compiling_and_Optimizing_Programs_with_Permutable_Operators/Exploiting the Regular Structure of Modern Quantum Architectures for Compiling and Optimizing Programs with Permutable Operators.md",
-    "Private/research/EPS pool/Experiment.md",
-    "Private/research/量子线路编译/paper/Qubit_Mapping_and_Routing_via_MaxSAT/Qubit Mapping and Routing via MaxSAT.md",
-    "Private/research/量子线路编译/paper/CaQR_A_Compiler_Assisted_Approach_for_Qubit_Reuse_through_Dynamic_Circuit/CaQR A Compiler Assisted Approach for Qubit Reuse through Dynamic Circuit.md",
-    "Private/research/量子线路编译/work/Formulation.md",
-    "Private/research/量子线路编译/learn/learn.md",
-    "Private/poem.md",
-    "Private/temp.md",
-    "Private/research/hardware/paper/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs.md",
-    "Private/research/hardware/paper/未命名.md",
-    "Private/比赛/info.md",
-    "HD/FPGA/Benchmark.md",
-    "Algorithm/Algo.md",
-    "HD/Chisel/chisel.md",
+    "HD/FPGA/Benchmark-U280.md",
+    "Private/research/hardware/paper/NIC_us_rdma/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/multi_FPGA_text_generation/multi_FPGA_text_generation.md",
     "HD/FPGA/QDMA.md",
-    "Private/image/Pasted image 20250407114057.png",
+    "Private/setup.md",
+    "Middleware/Mill/Mill.md",
+    "HD/Chisel/chisel.md",
+    "Private/Life/disk.md",
+    "Private/research/hardware/paper/multi_FPGA_text_generation/to_limit_bandwidth.md",
+    "Private/比赛/答辩.md",
+    "Private/temp.md",
+    "Private/比赛/服创.md",
+    "Private/research/hardware/paper/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs.md",
+    "Private/research/hardware/tmp.md",
+    "Private/research/hardware/未命名.md",
+    "Private/research/EPS pool/learn.md",
+    "Private/research/Learn/math/np.md",
     "Course_Note/毛概/Canvas.canvas"
   ]
 }
