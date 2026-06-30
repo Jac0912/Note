@@ -39,34 +39,35 @@
             }
           },
           {
-            "id": "4e3412c733783150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/research/hardware/paper/portable_expert_parallel_communication/portable_expert_parallel_communication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "portable_expert_parallel_communication"
-            }
-          },
-          {
             "id": "015fe145aa0f8b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/CXL/CXL.md",
+                "file": "HD/FHE/FHE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CXL"
+              "title": "FHE"
+            }
+          },
+          {
+            "id": "b314e13e9277c78e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "setup"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +87,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -98,13 +99,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/research/hardware/HDbase.base",
+                "file": "Private/setup.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HDbase 的大纲"
+              "title": "setup 的大纲"
             }
           },
           {
@@ -113,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file: gpu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,52 +230,52 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
-    "Private/research/hardware/paper/portable_expert_parallel_communication/portable_expert_parallel_communication.md",
-    "Private/research/hardware/paper/to_limit_bandwidth/to_limit_bandwidth.md",
-    "Private/research/hardware/paper/portable_expert_parallel_communication/to_limit_bandwidth.md",
-    "Private/research/hardware/paper/portable_expert_parallel_communication",
-    "Private/research/hardware/paper/to_limit_bandwidth - Copy/to_limit_bandwidth.md",
-    "Private/research/hardware/paper/to_limit_bandwidth - Copy",
-    "Private/research/hardware/paper/NIC_us_rdma/NIC_us_rdma.md",
-    "Private/research/hardware/paper/CLITCHES/CLITCHES.md",
-    "HD/FPGA/Benchmark-Vu9p.md",
+    "Private/research/组会/report/9.FHE/ppt5194.tmp",
+    "Private/research/组会/report/9.FHE/ppt4ACD.tmp",
+    "Private/research/组会/report/9.FHE/ppt483B.tmp",
+    "Private/research/组会/report/9.FHE/ppt45AA.tmp",
+    "Private/research/组会/report/9.FHE/ppt688F.tmp",
+    "Private/research/组会/report/9.FHE/ppt667B.tmp",
+    "Private/research/组会/report/9.FHE/ppt6551.tmp",
+    "Private/research/组会/report/9.FHE/pptE57A.tmp",
+    "Private/research/组会/report/9.FHE/pptE48F.tmp",
+    "Private/research/组会/report/9.FHE/pptE384.tmp",
+    "Private/research/组会/report/9.FHE/ppt52D3.tmp",
+    "Private/setup.md",
+    "Private/research/hardware/tmp.md",
+    "HD/FHE/FHE.md",
+    "temp.md",
+    "Private/temp.md",
     "HD/CXL/CXL.md",
+    "HD/FPGA/Benchmark-U280.md",
+    "HD/FPGA/Benchmark-Vu9p - Copy.md",
+    "HD/GPU/GPU.md",
+    "HD/FPGA/Benchmark-Vu9p.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/portable_expert_parallel_communication.md",
+    "Private/research/hardware/paper/NIC_us_rdma/NIC_us_rdma.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/image/Pasted image 20260622160347.png",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/image/Pasted image 20260622155443.png",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/image/Pasted image 20260622145000.png",
+    "Private/research/hardware/paper/to_limit_bandwidth/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/image/Pasted image 20260622114248.png",
+    "Private/research/hardware/paper/portable_expert_parallel_communication/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/to_limit_bandwidth - Copy/to_limit_bandwidth.md",
+    "Private/research/hardware/paper/CLITCHES/CLITCHES.md",
     "HD/CXL/image/Pasted image 20260620221514.png",
     "HD/CXL/image/Pasted image 20260620215751.png",
     "HD/CXL/image/Pasted image 20260620210524.png",
     "HD/CXL/image/Pasted image 20260620204814.png",
     "HD/CXL/image/Pasted image 20260620204723.png",
     "HD/CXL/image/Pasted image 20260620203517.png",
-    "Private/research/组会/~$科研入坑指南20251215.pptx",
-    "HD/CXL/image/Pasted image 20260620174953.png",
-    "HD/CXL/image/Pasted image 20260620174617.png",
-    "HD/CXL/image/Pasted image 20260620172031.png",
-    "Private/research/EPS pool/conference/report/pptE7C5.tmp",
-    "Private/research/EPS pool/conference/report/pptE66C.tmp",
-    "Private/research/EPS pool/conference/report/pptE504.tmp",
-    "Private/research/EPS pool/conference/report/ppt7489.tmp",
-    "Private/research/EPS pool/conference/report/ppt46B6.tmp",
-    "Private/research/EPS pool/conference/report/iwqos2026-final380.pdf",
-    "Private/research/EPS pool/conference/report/pptFB62.tmp",
-    "HD/CXL/image/Pasted image 20260617222419.png",
-    "temp.md",
-    "HD/FPGA/Benchmark-U280.md",
     "Private/research/hardware/paper/NIC_us_rdma/to_limit_bandwidth.md",
     "Private/research/hardware/paper/multi_FPGA_text_generation/multi_FPGA_text_generation.md",
     "HD/FPGA/QDMA.md",
-    "Private/setup.md",
     "Middleware/Mill/Mill.md",
     "HD/Chisel/chisel.md",
     "Private/Life/disk.md",
     "Private/research/hardware/paper/multi_FPGA_text_generation/to_limit_bandwidth.md",
     "Private/比赛/答辩.md",
-    "Private/temp.md",
     "Private/比赛/服创.md",
-    "Private/research/hardware/paper/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs/FpgaNIC_An_FPGA-based_Versatile_100Gb_SmartNIC_for_GPUs.md",
-    "Private/research/hardware/tmp.md",
-    "Private/research/hardware/未命名.md",
-    "Private/research/EPS pool/learn.md",
-    "Private/research/Learn/math/np.md",
     "Course_Note/毛概/Canvas.canvas"
   ]
 }

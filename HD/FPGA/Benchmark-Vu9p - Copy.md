@@ -1,15 +1,3 @@
-```
-PCIE4C_X1Y0
-//old
-create_ip -name qdma -vendor xilinx.com -library ip -version 4.0 -module_name QDMABlackBox
-set_property -dict [list CONFIG.Component_Name {QDMABlackBox} CONFIG.mode_selection {Advanced} CONFIG.axist_bypass_en {true} CONFIG.pcie_extended_tag {false} CONFIG.pcie_blk_locn {X1Y2} CONFIG.dsc_byp_mode {Descriptor_bypass_and_internal} CONFIG.pl_link_cap_max_link_speed {8.0_GT/s} CONFIG.pl_link_cap_max_link_width {X16} CONFIG.cfg_mgmt_if {false} CONFIG.testname {st} CONFIG.pf0_bar4_enabled_qdma {true} CONFIG.pf0_bar4_64bit_qdma {true} CONFIG.pf0_bar4_scale_qdma {Megabytes} CONFIG.pf0_bar4_size_qdma {256} CONFIG.dma_intf_sel_qdma {AXI_MM_and_AXI_Stream_with_Completion} CONFIG.en_axi_mm_qdma {false}] [get_ips QDMABlackBox]
-
-set_property -dict [list CONFIG.Component_Name {QDMABlackBox} CONFIG.mode_selection {Advanced} CONFIG.axist_bypass_en {true} CONFIG.pcie_extended_tag {false} CONFIG.pcie_blk_locn {PCIE4C_X1Y0} CONFIG.dsc_byp_mode {Descriptor_bypass_and_internal} CONFIG.pl_link_cap_max_link_speed {8.0_GT/s} CONFIG.pl_link_cap_max_link_width {X16} CONFIG.en_bridge_slv {true} CONFIG.csr_axilite_slave {false} CONFIG.axibar_notranslate {true} CONFIG.cfg_mgmt_if {false} CONFIG.testname {st} CONFIG.pf0_bar4_enabled_qdma {true} CONFIG.pf0_bar4_64bit_qdma {true} CONFIG.pf0_bar4_scale_qdma {Megabytes} CONFIG.pf0_bar4_size_qdma {256} CONFIG.dma_intf_sel_qdma {AXI_MM_and_AXI_Stream_with_Completion} CONFIG.en_axi_mm_qdma {false}] [get_ips QDMABlackBox]
-
-//slave-old
-set_property -dict [list CONFIG.Component_Name {QDMABlackBox} CONFIG.mode_selection {Advanced} CONFIG.axist_bypass_en {true} CONFIG.pcie_extended_tag {false} CONFIG.pcie_blk_locn {X1Y2} CONFIG.dsc_byp_mode {Descriptor_bypass_and_internal} CONFIG.pl_link_cap_max_link_speed {8.0_GT/s} CONFIG.pl_link_cap_max_link_width {X16} CONFIG.en_bridge_slv {true} CONFIG.csr_axilite_slave {false} CONFIG.axibar_notranslate {true} CONFIG.cfg_mgmt_if {false} CONFIG.testname {st} CONFIG.pf0_bar4_enabled_qdma {true} CONFIG.pf0_bar4_64bit_qdma {true} CONFIG.pf0_bar4_scale_qdma {Megabytes} CONFIG.pf0_bar4_size_qdma {256} CONFIG.dma_intf_sel_qdma {AXI_MM_and_AXI_Stream_with_Completion} CONFIG.en_axi_mm_qdma {false}] [get_ips QDMABlackBox]
-```
-
 # 1. throughput
 - pool_size = 1GB
 - total_cmds = 256 * 1024
