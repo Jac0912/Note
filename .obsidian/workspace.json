@@ -39,17 +39,17 @@
             }
           },
           {
-            "id": "015fe145aa0f8b26",
+            "id": "f213ba32f8002c9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HD/FHE/FHE.md",
+                "file": "HD/FHE/FHEMath.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FHE"
+              "title": "FHEMath"
             }
           },
           {
@@ -99,13 +99,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/setup.md",
+                "file": "HD/FHE/FHEMath.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "setup 的大纲"
+              "title": "FHEMath 的大纲"
             }
           },
           {
@@ -230,20 +230,22 @@
   },
   "active": "83a10ee232e4604e",
   "lastOpenFiles": [
+    "HD/FHE/image/Pasted image 20260701205857.png",
+    "HD/FHE/image/Pasted image 20260701194058.png",
+    "HD/FHE/image",
+    "Private/setup.md",
+    "HD/FHE/FHEMath.md",
+    "HD/FHE/FHE.md",
+    "Private/research/组会/report/9.FHE/ppt27ED.tmp",
+    "Private/research/组会/report/9.FHE/ppt25AA.tmp",
+    "Private/research/组会/report/9.FHE/ppt2348.tmp",
+    "Private/research/组会/report/9.FHE/~$FHE.pptx",
     "Private/research/组会/report/9.FHE/ppt5194.tmp",
     "Private/research/组会/report/9.FHE/ppt4ACD.tmp",
     "Private/research/组会/report/9.FHE/ppt483B.tmp",
     "Private/research/组会/report/9.FHE/ppt45AA.tmp",
     "Private/research/组会/report/9.FHE/ppt688F.tmp",
-    "Private/research/组会/report/9.FHE/ppt667B.tmp",
-    "Private/research/组会/report/9.FHE/ppt6551.tmp",
-    "Private/research/组会/report/9.FHE/pptE57A.tmp",
-    "Private/research/组会/report/9.FHE/pptE48F.tmp",
-    "Private/research/组会/report/9.FHE/pptE384.tmp",
-    "Private/research/组会/report/9.FHE/ppt52D3.tmp",
-    "Private/setup.md",
     "Private/research/hardware/tmp.md",
-    "HD/FHE/FHE.md",
     "temp.md",
     "Private/temp.md",
     "HD/CXL/CXL.md",
@@ -266,7 +268,6 @@
     "HD/CXL/image/Pasted image 20260620210524.png",
     "HD/CXL/image/Pasted image 20260620204814.png",
     "HD/CXL/image/Pasted image 20260620204723.png",
-    "HD/CXL/image/Pasted image 20260620203517.png",
     "Private/research/hardware/paper/NIC_us_rdma/to_limit_bandwidth.md",
     "Private/research/hardware/paper/multi_FPGA_text_generation/multi_FPGA_text_generation.md",
     "HD/FPGA/QDMA.md",
@@ -275,7 +276,6 @@
     "Private/Life/disk.md",
     "Private/research/hardware/paper/multi_FPGA_text_generation/to_limit_bandwidth.md",
     "Private/比赛/答辩.md",
-    "Private/比赛/服创.md",
     "Course_Note/毛概/Canvas.canvas"
   ]
 }
